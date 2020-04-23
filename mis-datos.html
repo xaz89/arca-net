@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <!-- Compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/iconos.css">
+    <link rel="stylesheet" href="./css/arca-net.css">
+    <!-- Datepicker jQuery -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="css/date-picker.css">
+    <script src="./js/datepicker.js"></script>
+    <title>Mis Datos</title>
+</head>
+
+<body>
+
+
+    <nav class="red-">
+        <ul id="slide-out" class="sidenav sidenav-fixed">
+            <div class="perfil">
+                <p class="nombre">¡Hola, Ramón!</p>
+                <p class="nivel">Nivel Activo</p>
+                <p class="puntos">172,536 pts.</p>
+                <p class="saldo">Saldo actual</p>
+            </div>
+            <div class="divider"></div>
+            <div class="descripcion">
+                <p>Usuario de prueba Nivel Activo</p>
+                <p>Chihuahua</p>
+                <p>No. Cliente Arca Continental</p>
+                <p>99999999999</p>
+            </div>
+            <div class="divider"></div>
+            <li>
+                <ul class="collapsible collapsible-accordion">
+                    <li>
+                        <a class="collapsible-header"><i class="demo-icon icon-mis_objetivos"></i>Mis
+                            metas<i class="material-icons right drop">chevron_right</i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="metas-mes.html">Metas del mes</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="collapsible collapsible-accordion">
+                    <li>
+                        <a class="collapsible-header"><i class="demo-icon icon-mismov"></i>Estado de cuenta<i
+                                class="material-icons right drop">chevron_right</i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="puntos-ganados.html">Puntos Ganados</a></li>
+                                <li><a href="mis-canjes.html">Mis Canjes</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a class="no-collapsible" href="beneficios.html"><i class="demo-icon icon-beneficios"></i>Beneficios</a>
+            </li>
+            <li>
+                <ul class="collapsible collapsible-accordion">
+                    <li>
+                        <a class="collapsible-header"><i class="demo-icon icon-tienda"></i>Tienda<i
+                                class="material-icons right drop">chevron_right</i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li class="active-"><a href="premios.html"><i
+                                            class="demo-icon icon-premios"></i>Premios</a></li>
+                                <li><a href="lista-deseos.html"><i class="demo-icon icon-listadeseos"></i>Lista de
+                                        deseos</a></li>
+                                <li><a href="compra-puntos.html"><i class="demo-icon icon-comprapuntos"></i>Compra de
+                                        puntos</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a class="no-collapsible"><i class="demo-icon icon-salir"></i>Salir</a>
+            </li>
+        </ul>
+        <ul class="right controls hide-on-med-and-down">
+            <li><a href="#!" class="notificaciones dropdown-trigger " data-target="favorite"><i
+                        class="small material-icons">favorite_border</i></a></li>
+            <ul id='favorite' class='dropdown-content white notiFav scrollspy'>
+                <li class="no-hover">
+                    <div class="card no-margin">
+                        <span class="card-title ">FAVORITOS</span>
+                        <div class="card-content">
+                            <div class="row valign-wrapper">
+                                <div class="col s3">
+                                    <img src="./img/profile.jpg" alt="" class="circle responsive-img">
+                                </div>
+                                <div class="col s9">
+                                    <div class="black-text">
+                                        Set de herramientas
+                                    </div>
+                                    <div class="agregar-carrito-text ">
+                                        Agregar al carrito <i class="material-icons right">delete_forever</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row valign-wrapper">
+                                <div class="col s3">
+                                    <img src="./img/profile.jpg" alt="" class="circle responsive-img">
+                                </div>
+                                <div class="col s9">
+                                    <div class="black-text">
+                                        Set de herramientas
+                                    </div>
+                                    <div class="agregar-carrito-text ">
+                                        Agregar al carrito <i class="material-icons right">delete_forever</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </li>
+            </ul>
+            <li><a href="#!" class="notificaciones dropdown-trigger" data-target="shopping"><i
+                        class="small material-icons">shopping_cart</i>
+                    <div class="pulse numero btn-floating"><span>10</span></div>
+                </a></li>
+            <ul id='shopping' class='dropdown-content white'>
+                <li class="no-hover">
+                    <div class="card no-margin">
+                        <span class="card-title">CARRITO DE CANJE</span>
+                        <div class="card-content">
+                            <div class="row valign-wrapper">
+                                <div class="col s3">
+                                    <img src="./img/profile.jpg" alt="" class="circle responsive-img">
+                                </div>
+                                <div class="col s9">
+                                    <div class="carrito-canje">
+                                        Set de herramientas<i class="material-icons right">delete_forever</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="divider" style="margin-bottom: 20px;"></div>
+                            <div class="row valign-wrapper">
+                                <div class="col s3">
+                                    <img src="./img/profile.jpg" alt="" class="circle responsive-img">
+                                </div>
+                                <div class="col s9">
+                                    <div class="carrito-canje">
+                                        Set de herramientas<i class="material-icons right">delete_forever</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-action">
+                            <div>
+                                <h5>97,784 pts.</h5><small>Se restan de tu saldo</small>
+                            </div>
+                            <div class="waves-effect waves-light btn">CANJEAR</div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <li><a href="#!" class="notificaciones dropdown-trigger" data-target="notifications"><i
+                        class="small material-icons">notifications_none</i>
+                    <div class="pulse numero btn-floating"><span>10</span></div>
+                </a></li>
+            <ul id='notifications' class='dropdown-content white'>
+                <li class="no-hover">
+                    <div class="card no-margin">
+                        <span class="card-title notifica">Notificaciones</span>
+                        <div class="card-content">
+                            <p>No existen notificaciones por el momento.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <li class="border-control"></li>
+            <li class="drop-img-perfil"><a class="dropdown-trigger menu-perfil" href="#!" data-target="perfil">Ramón<i
+                        class="material-icons right">arrow_drop_down</i><img class="circle profile"
+                        src="./img/profile.jpg" /></a>
+            </li>
+            <ul id='perfil' class='dropdown-content dropdown-perfil'>
+                <li><a href="./mis-datos.html"><i class="demo-icon icon-misdatos"></i>Mis Datos</a></li>
+                <li><a href="./cambiar-clave.html"><i class="demo-icon icon-cambiarcontra"></i>Cambiar clave</a></li>
+                <li><a href="./agregar-dest.html"><i class="demo-icon icon-agregardest"></i>Agregar destinatarios</a></li>
+                <li><a href="./centro-pref.html"><i class="demo-icon icon-preferencias"></i>Centro de preferencias</a></li>
+                <li><a href="#bienvenida"  class="modal-trigger"><i class="demo-icon icon-regalo"></i>Regalo de bienvenida</a></li>
+                <li><a href="#!"><i class="small material-icons">power_settings_new</i>Salir</li>
+            </ul>
+        </ul>
+        <ul>
+            <li class="logo"><a href="#!" class="logo-img"></a></li>
+        </ul>
+        <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large-"><i
+                class="material-icons hamburguer">menu</i></a>
+    </nav>
+
+    <main>
+        <section>
+            <div class="row">
+                <div class="container- center-flex ">
+                    <div class="col m4 flex-title ">
+                        <div class="title">Mis Datos</div>
+                    </div>
+                    <div class="col m8 ">
+                        <div class="flex-title align-items-baseline">
+                            <p class="p-0 m-0">PERFIL COMPLETADO</p>
+                            <h5 class="p-0 m-0">100%</h5>
+                        </div>
+                        <div class="progress">
+                            <div class="determinate" style="width: 100%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="compraPuntosPago">
+
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col m12 ">
+                            <h5>Datos Personales</h5>
+                            <div class="row">
+                                <form class="col m12">
+                                    <div class="row">
+                                        <div class="input-field col m6 s12">
+                                            <input id="last_name" type="text" class="validate">
+                                            <label for="last_name">Número de cliente arca continental</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col m6 s12">
+                                            <input id="last_name" type="text" class="validate">
+                                            <label for="last_name">nivel</label>
+                                        </div>
+                                        <div class="input-field col m6 s12 w-100">
+                                            <label for="fecha" style="top: 0;">fecha de inscripción</label>
+                                            <input id="fecha" class="validate datepicker2 w-100">
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <input type="text" class="validate">
+                                            <label>*Nombre</label>
+                                            <i class="material-icons tiny prefix">edit</i>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <input type="text" class="validate">
+                                            <label>segundo nombre</label>
+                                            <i class="material-icons tiny prefix">edit</i>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <input type="text" class="validate">
+                                            <label>*APELLIDO PATERNO</label>
+                                            <i class="material-icons tiny prefix">edit</i>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <input type="text" class="validate">
+                                            <label>APELLIDO MATERNO</label>
+                                            <i class="material-icons tiny prefix">edit</i>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <input type="text" class="validate">
+                                            <label>CORREO ELECTRÓNICO</label>
+                                            <i class="material-icons tiny prefix">edit</i>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <input type="text" class="validate">
+                                            <label>TELÉFONO FIJO</label>
+                                            <i class="material-icons tiny prefix">edit</i>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <input type="text" class="validate">
+                                            <label>TELÉFONO CELULAR</label>
+                                            <i class="material-icons tiny prefix">edit</i>
+                                        </div>
+                                        <div class="input-field col m6 s12 w-100">
+                                            <label for="fechaNac" style="top: 0;">fecha de NACIMIENTO</label>
+                                            <input id="fechaNac" class="validate datepicker2 w-100">
+                                        </div>
+
+                                        <div class="input-field col m6 s12">
+                                            <select>
+                                                <option value="" disabled selected>*ESTADO CIVIL</option>
+                                                <option value="1">Casado(a)</option>
+                                                <option value="2">Divorciado(a)</option>
+                                                <option value="3">Soltero(a)</option>
+                                                <option value="4">Unión Libre</option>
+                                                <option value="5">Viudo(a)</option>
+                                            </select>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <select>
+                                                <option value="" disabled selected>*género</option>
+                                                <option value="1">Masculino</option>
+                                                <option value="2">Femenino</option>
+                                            </select>
+                                        </div>
+                                        <div class="col s12">
+                                            <div class="btn primary right">guardar</div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 ">
+                            <h5>Dirección</h5>
+                            <div class="row">
+                                <form class="col s12">
+                                    
+                                    <div class="row">
+                                        <div class="input-field col m6 s12">
+                                            <input id="last_name" type="text" class="validate">
+                                            <label for="last_name">*CALLE</label>
+                                            <i class="material-icons tiny prefix">edit</i>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <input id="last_name" type="text" class="validate">
+                                            <label for="last_name">número exterior</label>
+                                            <i class="material-icons tiny prefix">edit</i>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <input id="last_name" type="text" class="validate">
+                                            <label for="last_name">número interior</label>
+                                            <i class="material-icons tiny prefix">edit</i>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <select>
+                                                <option value="" disabled selected>*ESTADO</option>
+                                                <option value="1">ESTADO</option>
+                                            </select>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <select>
+                                                <option value="" disabled selected>*MUNICIPIO</option>
+                                                <option value="1">MUNICIPIO</option>
+                                            </select>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <select>
+                                                <option value="" disabled selected>*COLONIA</option>
+                                                <option value="1">COLONIA</option>
+                                            </select>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <input id="last_name" type="text" class="validate">
+                                            <label for="last_name">CÓDIGO POSTAL</label>
+                                            <i class="material-icons tiny prefix">edit</i>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <input id="last_name" type="text" class="validate">
+                                            <label for="last_name">*ciudad</label>
+                                            <i class="material-icons tiny prefix">edit</i>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <input id="last_name" type="text" class="validate">
+                                            <label for="last_name">REFERENCIAS (ENTRE CALLES)</label>
+                                            <i class="material-icons tiny prefix">edit</i>
+                                        </div>
+                                        
+                                        <div class="col s12">
+                                            <!-- <p>¿Desea agregar una nueva dirección?  <a href="#!">Clic aquí.</a></p> -->
+                                            <div class="btn primary right">guardar</div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col s12 ">
+                            <h5>Dirección</h5>
+                            <div class="row">
+                                <form class="col s12">
+                                    
+                                    <div class="row">
+                                        <div class="input-field col m6 s12">
+                                            <input id="last_name" type="text" class="validate">
+                                            <label for="last_name">*CALLE</label>
+                                            <i class="material-icons tiny prefix">edit</i>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <input id="last_name" type="text" class="validate">
+                                            <label for="last_name">número exterior</label>
+                                            <i class="material-icons tiny prefix">edit</i>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <input id="last_name" type="text" class="validate">
+                                            <label for="last_name">número interior</label>
+                                            <i class="material-icons tiny prefix">edit</i>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <select>
+                                                <option value="" disabled selected>*ESTADO</option>
+                                                <option value="1">ESTADO</option>
+                                            </select>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <select>
+                                                <option value="" disabled selected>*MUNICIPIO</option>
+                                                <option value="1">MUNICIPIO</option>
+                                            </select>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <select>
+                                                <option value="" disabled selected>*COLONIA</option>
+                                                <option value="1">COLONIA</option>
+                                            </select>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <input id="last_name" type="text" class="validate">
+                                            <label for="last_name">CÓDIGO POSTAL</label>
+                                            <i class="material-icons tiny prefix">edit</i>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <input id="last_name" type="text" class="validate">
+                                            <label for="last_name">*ciudad</label>
+                                            <i class="material-icons tiny prefix">edit</i>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <input id="last_name" type="text" class="validate">
+                                            <label for="last_name">REFERENCIAS (ENTRE CALLES)</label>
+                                            <i class="material-icons tiny prefix">edit</i>
+                                        </div>
+                                        
+                                        <div class="col s12 center-flex justify-content-between">
+                                            <p>¿Desea agregar una nueva dirección?  <a href="#!">Clic aquí.</a></p>
+                                            <div class="btn primary right">guardar</div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col s12 ">
+                            <h5>Datos del negocio</h5>
+                            <div class="row">
+                                <form class="col s12">
+                                    
+                                    <div class="row">
+                                        <div class="input-field col m6 s12">
+                                            <input id="last_name" type="text" class="validate">
+                                            <label for="last_name">NÚMERO DE CLIENTE ARCA CONTINENTAL</label>
+                                            <i class="material-icons tiny prefix">edit</i>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <input id="last_name" type="text" class="validate">
+                                            <label for="last_name">RAZÓN SOCIAL</label>
+                                            <i class="material-icons tiny prefix">edit</i>
+                                        </div>
+                                        <div class="input-field col m6 s12">
+                                            <input id="last_name" type="text" class="validate">
+                                            <label for="last_name">¿CUÁNTAS PERSONAS ATIENDEN TU NEGOCIO?</label>
+                                            <i class="material-icons tiny prefix">edit</i>
+                                        </div>
+
+                                        <div class="col m6 s12">
+                                            <p>EL ESTADO DE CUENTA, ¿TE LO ENVIAMOS A TI O A OTRA PERSONA?</p>
+                                            <div class="row">
+                                                <p class="col m6 s12">
+                                                    <label>
+                                                      <input class="with-gap" name="group3" type="radio" checked />
+                                                      <span>A mí</span>
+                                                    </label>
+                                                  </p>
+                                                  <p class="col m6 s12">
+                                                    <label>
+                                                      <input class="with-gap" name="group3" type="radio" checked />
+                                                      <span>Otra</span>
+                                                    </label>
+                                                  </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col m6 s12">
+                                            <p>¿POR QUÉ MEDIO TE GUSTARÍA RECIBIR EL ESTADO DE CUENTA?</p>
+                                            <form action="" class="row">
+                                                <p class="col m6 s12">
+                                                    <label>
+                                                      <input type="checkbox" class="filled-in" checked="checked" />
+                                                      <span style="font-size: 13px;color:black">Correo electrónico</span >
+                                                    </label>
+                                                  </p>
+                                                <p class="col m6 s12">
+                                                    <label>
+                                                      <input type="checkbox" class="filled-in" checked="checked" />
+                                                      <span style="font-size: 13px;color:black">Sitio web</span>
+                                                    </label>
+                                                  </p>
+                                                <p class="col m6 s12">
+                                                    <label>
+                                                      <input type="checkbox" class="filled-in" checked="checked" />
+                                                      <span style="font-size: 13px;color:black">Impreso</span>
+                                                    </label>
+                                                  </p>
+                                            </form>
+                                        </div>
+                                        
+                                        <div class="col s12 center-flex justify-content-between">
+                                            <p>¿Desea agregar una nueva dirección?  <a href="#!">Clic aquí.</a></p>
+                                            <div class="btn primary right">guardar</div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+    </main>
+    <footer>
+        <a href="#!">Términos y condiciones</a>
+        <a href="#!">Aviso de privacidad</a>
+        <a href="#!">preguntas frecuentes</a>
+        <a href="#!">garantía de premios</a>
+        <a href="#!">contacto</a>
+    </footer>
+    <script src="js/dropdown.js"></script>
+    <script src="js/grafica.js"></script>
+
+    <script>
+        M.AutoInit();
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, options);
+        });
+    </script>
+</body>
+
+</html>

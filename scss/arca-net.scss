@@ -1,0 +1,117 @@
+// @import "../node_modules/materialize-css/sass/materialize.scss";
+// @import "../node_modules/materialize-css/sass/components/variables";
+
+@charset "UTF-8";
+
+// Color
+@import "../node_modules/materialize-css/sass/components/color-variables";
+@import "../node_modules/materialize-css/sass/components/color-classes";
+// Variables;
+@import "../node_modules/materialize-css/sass/components/variables";
+// Reset
+@import "../node_modules/materialize-css/sass/components/normalize";
+// components
+@import "../node_modules/materialize-css/sass/components/global";
+@import "../node_modules/materialize-css/sass/components/badges";
+@import "../node_modules/materialize-css/sass/components/icons-material-design";
+@import "../node_modules/materialize-css/sass/components/grid";
+@import "../node_modules/materialize-css/sass/components/navbar";
+@import "../node_modules/materialize-css/sass/components/typography";
+@import "../node_modules/materialize-css/sass/components/transitions";
+@import "../node_modules/materialize-css/sass/components/cards";
+@import "../node_modules/materialize-css/sass/components/toast";
+@import "../node_modules/materialize-css/sass/components/tabs";
+@import "../node_modules/materialize-css/sass/components/tooltip";
+@import "../node_modules/materialize-css/sass/components/buttons";
+@import "../node_modules/materialize-css/sass/components/dropdown";
+@import "../node_modules/materialize-css/sass/components/waves";
+@import "../node_modules/materialize-css/sass/components/modal";
+@import "../node_modules/materialize-css/sass/components/collapsible";
+@import "../node_modules/materialize-css/sass/components/chips";
+@import "../node_modules/materialize-css/sass/components/materialbox";
+@import "../node_modules/materialize-css/sass/components/forms/forms";
+@import "../node_modules/materialize-css/sass/components/table_of_contents";
+@import "../node_modules/materialize-css/sass/components/sidenav";
+@import "../node_modules/materialize-css/sass/components/preloader";
+@import "../node_modules/materialize-css/sass/components/slider";
+@import "../node_modules/materialize-css/sass/components/carousel";
+@import "../node_modules/materialize-css/sass/components/tapTarget";
+@import "../node_modules/materialize-css/sass/components/pulse";
+@import "../node_modules/materialize-css/sass/components/datepicker";
+@import "../node_modules/materialize-css/sass/components/timepicker";
+
+
+
+/* 
+
+
+nav {
+    background-color: $materialize-red;
+}
+header, main, footer {
+padding-left: 229px;
+}
+
+.perfil {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.sidenav {
+    top: 64px;
+    width: 229px;
+ background-color: #252525;
+ box-shadow: 3px 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 3px 0 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 0 6px rgba(0, 0, 0, 0.3);
+    -moz-transition: margin-left 0.3s;
+    -o-transition: margin-left 0.3s;
+    -webkit-transition: margin-left 0.3s;
+}
+
+.sidenav p, h5{
+    line-height: 2;
+    text-align: center;
+    background-color: blue;
+    margin: 0;
+}
+
+.sidenav li>a{
+ color: white;
+    padding: 0 10px;
+
+}
+.sidenav li:hover{
+    background-color: #F40000;
+}
+.sidenav li>a>i, .sidenav li>a>[class^="mdi-"], .sidenav li>a li>a>[class*="mdi-"], .sidenav li>a>i.material-icons{
+    color: white;
+    margin: 0 10px 0 0;
+}
+
+.sidenav .collapsible-body, .sidenav.fixed .collapsible-body {
+    background-color: black;
+}
+
+.sidenav-overlay{
+    top: 57px;
+}
+
+.logo {
+    width: 229px;
+    background-color: #db0000;
+    box-shadow: 3px 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 3px 0 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 0 6px rgba(0, 0, 0, 0.3);
+}
+
+
+@media only screen and (max-width : 992px) {
+header, main, footer {
+padding-left: 0;
+}
+
+.sidenav{
+    top: 57px;
+}
+} */

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Compiled and minified CSS -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <link rel="stylesheet" href="css/iconos.css">
+  <link rel="stylesheet" href="css/arca-net.css">
+  <title>Login</title>
+</head>
+
+<body class="login-body">
+
+<div class="login-panel">
+   <div class="row">
+       <div class="col s12">
+           <img src="./img/logo-lideres-login.svg" alt="" class="w-100">
+       </div>
+    <form class="col s12">
+        <div class="input-field col s12">
+            <i class="material-icons prefix">person</i>
+            <input id="cliente" type="number" class="validate">
+            <label for="cliente">Cliente Arca Continental</label>
+          </div>
+        <div class="input-field col s12">
+            <i class="material-icons prefix">lock</i>
+            <input id="clave" type="password" class="validate">
+            <label for="clave">Clave</label>
+          </div>
+          <div class="col s12">
+            <a class="text-dark modal-trigger" href="#restablecerCuenta">¿Olvidaste tu clave?</a>
+          </div>
+          <div class="col s12">
+            <a class="text-dark" href="inscribete.html">Inscríbete</a>
+          </div>
+         
+          <button class="btn" formaction="mis-metas.html">INGRESAR</button>
+          
+      
+    </form>
+  </div>
+</div>
+    
+ 
+
+ <!-- Modal restablecerCuenta -->
+ <div id="restablecerCuenta" class="modal">
+  <button class="modal-close">x</button>
+  <div class="modal-content">
+      <!-- <div class="modal-title">
+      </div> -->
+      <div class="modal-body text-center">
+        <img src="./img/candado.svg" alt="">
+        <h5>Restablecer el acceso a tu cuenta</h5>
+          <p>Para rstablecer el acceso a tu cuenta, ingresa el correo electrónico o teléfono celular con el que te registraste</p>
+          <div class="input-field col s12">
+            <!-- <i class="material-icons prefix">lock</i> -->
+            <input type="email" class="validate">
+            <label >correo electrónico o teléfono celular</label>
+          </div>
+          <button class="btn">Enviar</button>
+      </div>
+  </div>
+</div>
+
+
+
+  <script src="js/dropdown.js"></script>
+
+  <!-- <script src="js/grafica.js"></script> -->
+  <script src="js/apexchart.js"></script>
+
+  <script>
+    M.AutoInit();
+    
+  </script>
+
+  
+
+
+</body>
+
+</html>
+
+<!-- 
+<li>
+  <ul class="collapsible collapsible-accordion">
+    
+    
+    <li class="drop-img-perfil"><a class="dropdown-trigger menu-perfil" href="#!" data-target="perfil">Ramón<i
+      class="material-icons right">arrow_drop_down</i><img class="circle profile left"
+      src="./img/profile.jpg" /></a>
+</li>
+      <li class="drop-img-perfil">
+          <a class="collapsible-header">
+            <img src="./img/profile.jpg" alt="" class="circle profile left">
+            Ramón<i
+                  class="material-icons right drop">chevron_right</i></a>
+          <div class="collapsible-body">
+              <ul>
+                  <li class="active-"><a href="premios.html"><i class="demo-icon icon-premios"></i>Mis datos</a></li>
+                  <li class="active-"><a href="premios.html"><i class="demo-icon icon-cambiarcontra"></i>Cambiar clave</a></li>
+                  <li class="active-"><a href="premios.html"><i class="demo-icon icon-agregardest"></i>Agregar destinatarios</a></li>
+                  <li class="active-"><a href="premios.html"><i class="demo-icon icon-preferencias"></i>Centro de preferencias</a></li>
+                  <li class="active-"><a href="premios.html"><i class="demo-icon icon-regalo"></i>Regalo de bienvenida</a></li>
+                  <li class="active-"><a href="premios.html"><i class="demo-icon icon-agregardest"></i>Agregar destinatarios</a></li>
+                  <li class="active-"><a href="premios.html"><i class="material-icons">power_settings_new</i>Salir</a></li>
+
+              </ul>
+          </div>
+          
+      </li>
+  </ul>
+</li> -->
