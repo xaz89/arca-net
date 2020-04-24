@@ -10258,6 +10258,8 @@ thead th:only-child {
 
 .dropdown-trigger.menu-perfil {
   padding: 0 0;
+  font-size: 13px;
+  font-family: "Gotham-Medium";
 }
 
 .modal-close {
