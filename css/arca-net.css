@@ -8201,7 +8201,7 @@ input[type=range]::-ms-thumb {
 @font-face {
   font-family: "Gotham-Book";
   src: url("../fonts/Gotham-Book/fonts/Gotham-Book.eot");
-  src: local("☺"), url("../../fonts/Gotham-Book/fonts/Gotham-Book.woff") format("woff"), url("../fonts/Gotham-Book/fonts/Gotham-Book.ttf") format("truetype"), url("../fonts/Gotham-Book/fonts/Gotham-Book.svg") format("svg");
+  src: local("☺"), url("../fonts/Gotham-Book/fonts/Gotham-Book.woff") format("woff"), url("../fonts/Gotham-Book/fonts/Gotham-Book.ttf") format("truetype"), url("../fonts/Gotham-Book/fonts/Gotham-Book.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
