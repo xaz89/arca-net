@@ -8205,6 +8205,13 @@ input[type=range]::-ms-thumb {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Gotham-Medium";
+  src: url("../../../fonts/Gotham-Medium/fonts/Gotham-Medium.eot");
+  src: local("☺"), url("../../../fonts/Gotham-Medium/fonts/Gotham-Medium.woff") format("woff"), url("../../../fonts/Gotham-Book/fonts/Gotham-Medium.ttf") format("truetype"), url("../../../fonts/Gotham-Book/fonts/Gotham-Medium.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 .d__block {
   display: block;
 }
@@ -8739,7 +8746,7 @@ input[type=range]::-ms-thumb {
   background-color: #7e623e;
 }
 .theme-rojo .logo {
-  background-color: #cb0000;
+  background-color: #d50000;
 }
 .theme-negro .logo {
   background-color: #1a1a1a;
@@ -8912,13 +8919,14 @@ input[type=range]::-ms-thumb {
 }
 
 * {
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 html,
 body {
   font-family: "Gotham-Book", sans-serif;
-  font-weight: 400;
   color: #373a3c;
 }
 
@@ -8963,6 +8971,7 @@ footer {
 main {
   padding-top: 64px;
   padding-bottom: 64px;
+  background: #F4F7FB;
 }
 
 footer {
@@ -8972,7 +8981,7 @@ footer {
   -webkit-box-shadow: 0 0 10px 4px #cccccc;
   -moz-box-shadow: 0 0 10px 4px #cccccc;
   box-shadow: 0 0 10px 4px #cccccc;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: calc(100% - 229px);
   top: auto;
@@ -8993,8 +9002,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-weight: 700;
+  font-family: "Gotham-Bold";
 }
 
 .flex-title {
@@ -9008,8 +9016,7 @@ h6 {
 
 .title {
   font-size: 24px;
-  font-family: "Montserrat", sans-serif !important;
-  font-weight: 800;
+  font-family: "Gotham-Bold", sans-serif !important;
   margin-left: 5px;
 }
 
@@ -9119,6 +9126,7 @@ nav i.material-icons {
   box-shadow: -2px 1px 14px 0px rgba(0, 0, 0, 0.15);
 }
 .card small {
+  font-size: 13px;
   text-align: center;
   display: block;
 }
@@ -9134,7 +9142,9 @@ nav i.material-icons {
   line-height: 0.8;
 }
 .miMeta .card-content small {
-  margin-top: -3rem;
+  margin-top: -110px;
+  z-index: 999;
+  position: relative;
 }
 
 #chart div:first-of-type {
@@ -9147,9 +9157,10 @@ nav i.material-icons {
   display: block;
   border-radius: 10px 10px 0 0;
   text-align: center;
-  font-size: 0.9em !important;
+  font-size: 15px !important;
   padding-top: 7px;
   padding-bottom: 7px;
+  font-family: "Gotham-Medium";
 }
 .card-title.notifica {
   background-color: #F40000;
@@ -9175,8 +9186,8 @@ nav i.material-icons {
   height: 15px;
   position: absolute;
   color: white;
-  top: 18%;
-  left: 5%;
+  top: 0%;
+  right: 0%;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -9184,10 +9195,9 @@ nav i.material-icons {
   font-weight: 700;
 }
 .numero span {
-  font-size: 7px;
+  font-size: 9px;
   height: auto;
-  margin-top: -11px;
-  font-weight: 700;
+  margin-top: -12px;
 }
 
 .btn-floating {
@@ -9390,17 +9400,16 @@ main .dropdown-content li span {
   padding: 0 0 0 10px;
 }
 .sidenav .divider {
-  width: 90%;
+  width: 85%;
   margin: 10px auto;
 }
 
 .profile {
   width: 36px;
   height: 36px;
-  border: 3px solid #ffffff;
+  border: 0px solid #ffffff;
   vertical-align: middle;
   margin-left: 10px;
-  margin-right: -15px;
 }
 
 nav ul.controls i.material-icons {
@@ -9413,12 +9422,15 @@ nav ul.controls i.material-icons {
   justify-content: flex-end;
   justify-self: flex-end;
   text-align: right;
-  margin-right: -20px;
+}
+.controls > li {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .controls li a {
-  padding: 0 5px;
+  padding: 0 0;
 }
-.controls li a .material-icons {
+.controls li a .material-icons, .controls li a img {
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -ms-transition: all 0.2s;
@@ -9436,11 +9448,26 @@ nav ul.controls i.material-icons {
   transition: all 0.2s;
   color: rgba(255, 255, 255, 0.5);
 }
+.controls li a:hover img {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  opacity: 0.7;
+}
 .controls li a:hover .btn-floating {
   background-color: rgba(0, 0, 0, 0.7);
 }
 .controls .drop-img-perfil {
   height: 64px;
+}
+.controls .drop-img-perfil li {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.controls .drop-img-perfil li a {
+  padding: 10px 5px;
 }
 .controls .dropdown-content {
   width: 400px !important;
@@ -9451,8 +9478,7 @@ nav ul.controls i.material-icons {
   overflow: visible;
 }
 .controls .dropdown-content .card-title {
-  font-weight: 600;
-  font-family: "Montserrat";
+  font-family: "Gotham-Bold";
 }
 .controls .dropdown-content .card-action {
   display: flex;
@@ -9502,9 +9528,9 @@ nav ul.controls i.material-icons {
 
 .border-control {
   width: 1px;
-  height: 44px;
-  margin-left: 10px;
-  margin-right: 10px;
+  height: 28px;
+  margin-left: 20px;
+  margin-right: 20px;
   background-color: #ffffff;
 }
 
@@ -9522,7 +9548,7 @@ nav ul.controls i.material-icons {
   min-height: auto;
 }
 .dropdown-content li a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Gotham-Book", sans-serif;
   font-size: 0.8em;
   background-color: black;
   color: #ffffff;
@@ -9544,6 +9570,10 @@ nav ul.controls i.material-icons {
   width: 230px !important;
 }
 
+.dropdown-content.menu-perfil li {
+  margin-left: 0 !important;
+}
+
 .no-hover:hover {
   background-color: transparent !important;
 }
@@ -9555,9 +9585,8 @@ nav ul.controls i.material-icons {
 .sidenav .collapsible-body li a,
 .sidenav.fixed .collapsible-body li a {
   padding: 0 23.5px 0 31px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Gotham-Book", sans-serif;
   font-size: 0.8em;
-  font-weight: 400;
 }
 
 .sidenav .sidenav li:hover {
@@ -9597,9 +9626,9 @@ nav ul.controls i.material-icons {
 
 .logo {
   width: 229px;
-  -webkit-box-shadow: 3px 0 6px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 3px 0 6px rgba(0, 0, 0, 0.3);
-  box-shadow: 3px 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 3px 0 6px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 3px 0 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 0 6px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   height: 64px;
   width: 229px;
@@ -9671,7 +9700,8 @@ nav ul.controls i.material-icons {
 }
 
 .botella-indicadores p {
-  font-size: 80%;
+  font-size: 12px;
+  font-family: "Gotham-Medium";
   hyphens: auto;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
@@ -9694,6 +9724,7 @@ nav ul.controls i.material-icons {
   width: 100%;
   display: flex;
   flex: 1;
+  margin-right: 5px;
 }
 .horizontal .uno {
   -webkit-transition: all 0.5s;
@@ -9706,6 +9737,8 @@ nav ul.controls i.material-icons {
 }
 .horizontal .uno .botella svg {
   background-color: #cccccc;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .horizontal .uno .botella .relleno {
   fill: #F40000;
@@ -9716,7 +9749,7 @@ nav ul.controls i.material-icons {
 .horizontal .dos {
   width: 100%;
   hyphens: auto;
-  background-color: #504e4e;
+  background-color: #252525;
   color: #ffffff;
   margin-left: 50%;
   -webkit-transition: all 0.2s;
@@ -9763,15 +9796,17 @@ nav ul.controls i.material-icons {
 }
 .horizontal .dos .botella svg {
   background-color: #cccccc;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .horizontal .dos .botella .relleno {
   fill: #F40000;
 }
 .horizontal .dos .botella .marco {
-  fill: #504e4e;
+  fill: #252525;
 }
 .horizontal .dos:hover {
-  background-color: #1c1c1c;
+  background-color: black;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -9793,7 +9828,7 @@ nav ul.controls i.material-icons {
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
-  fill: #1c1c1c;
+  fill: black;
 }
 .horizontal .dos:hover .botella-indicadores {
   margin-left: 20px;
@@ -9881,8 +9916,7 @@ nav ul.controls i.material-icons {
 .metasMes .tabs a {
   color: rgba(55, 58, 60, 0.4);
   border: 0.1px solid rgba(55, 58, 60, 0.4);
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
+  font-family: "Gotham-Bold", sans-serif;
   text-transform: capitalize;
   font-size: 14px;
 }
@@ -10218,7 +10252,12 @@ thead th:only-child {
 }
 
 .menu-perfil {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-trigger.menu-perfil {
+  padding: 0 0;
 }
 
 .modal-close {
@@ -10377,8 +10416,7 @@ thead th:only-child {
 }
 .teFalta h5 {
   font-size: 15px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-family: "Gotham-Bold", sans-serif;
   padding: 0.5rem 0;
 }
 .teFalta h5 span {

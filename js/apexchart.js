@@ -7,9 +7,9 @@
 
 var options1 = {
     chart: {
-        fontFamily: "Montserrat-Bold",
+        fontFamily: "Gotham-Bold",
         height: "auto",
-        width: "80%",
+        width: "95%",
         type: "radialBar",
         margin: "auto",
         animations: {
@@ -26,14 +26,14 @@ var options1 = {
             // }
         }
     },
-    series: [35],
+    series: [75],
     colors: ["#F40000"],
 
     plotOptions: {
         radialBar: {
             hollow: {
                 margin: 0,
-                size: "70%",
+                size: "75%",
                 // background: "#fff"
             },
             startAngle: -90,
@@ -48,7 +48,7 @@ var options1 = {
                     show: true,
                     offsetY: 0,
                     color: "#000",
-                    fontSize: "1em"
+                    fontSize: "14px"
                 },
                 value: {
                     fontSize: "2em",
@@ -65,13 +65,216 @@ var options1 = {
     stroke: {
         show: false,
         width: 0,
-        lineCap: "round", 
+        lineCap: "round",
 
     },
-    labels: ["$0"]
+    labels: ["$16,125.00"]
 };
 
 new ApexCharts(document.querySelector("#chart"), options1).render();
+
+
+
+
+
+
+
+var options2 = {
+    series: [
+        {
+            data: [80]
+        }
+    ],
+    chart: {
+        type: "bar",
+         toolbar: {
+             show: false,
+         },
+        height: 85,
+        fontFamily: "Gotham-Book",
+    },
+
+    /* grid: {
+        show: true,
+        position: "back",
+        borderColor: "#e0e0e0",
+
+        xaxis: {
+            lines: {
+                show: true,
+            }
+        },
+        yaxis: {
+            lines: {
+                show: true,
+            }
+        }
+    }, */
+
+    grid: {
+        show: true,
+        borderColor: "#e0e0e0",
+        opacity: 0.5,
+        strokeDashArray: 0,
+        position: 'back',
+        xaxis: {
+            lines: {
+                show: true
+            }
+        },   
+        yaxis: {
+            lines: {
+                show: true
+            }
+        },  
+        row: {
+            colors: undefined,
+            opacity: 0
+        },  
+        column: {
+            colors: undefined,
+            opacity: 0.5
+        },  
+        padding: {
+            top: 5,
+            right: 5,
+            bottom: 5,
+            left: 5
+        },  
+    },
+
+    plotOptions: {
+        bar: {
+            horizontal: true,
+            endingShape: "rounded",
+            columnWidth: "100%",
+            barHeight: "30%",
+            dataLabels: {
+                position: "center",
+
+            }
+        }
+    },
+    fill: {
+        colors: '#f40000',
+        opacity: 0.9,
+        type: "solid",
+    },
+    xaxis: {
+        categories: [''],
+        tickAmount: 4,
+        min: 0,
+        max: 100,
+        floating: true,
+        
+        labels: {
+            show: true,
+            minHeight: 0,
+            maxHeight: 100,
+            offsetX: 0,
+            offsetY: -40,
+            format: undefined,
+            formatter: function (value) {
+                return value + "%";
+            },
+            style: {
+                fontFamily: 'Gotham-Bold',
+                fontSize: '14px',
+            },
+
+        },
+        axisBorder: {
+            show: true,
+            color: '#e0e0e0',
+            height: 1,
+            width: '100%',
+            offsetX: 0,
+            offsetY: -25
+        },
+        axisTicks: {
+            show: true,
+            borderType: 'solid',
+            color: '#e0e0e0',
+            height: 150,
+            offsetX: 0,
+            offsetY: -25
+        },
+    },
+    /* xaxis: {
+        type: 'category',
+        position: 'top',
+        categories: [""],
+        tickAmount: 4,
+        min: 0,
+        max: 100,
+        floating: true,
+        labels: {
+            show: true,
+            minHeight: 0,
+            maxHeight: 100,
+            offsetX: 0,
+            offsetY: -20,
+            format: undefined,
+            formatter: function (value) {
+                return value + "%";
+            },
+            style: {
+                fontFamily: 'Gotham-Bold',
+                fontSize: '14px',
+            },
+
+        },
+        axisBorder: {
+            show: true,
+            color: '#e0e0e0',
+            height: 1,
+            width: '100%',
+            offsetX: 0,
+            offsetY: -5
+        },
+        axisTicks: {
+            show: true,
+            borderType: 'solid',
+            color: '#e0e0e0',
+            height: 75,
+            offsetX: 0,
+            offsetY: -5
+        },
+
+
+
+
+    }, */
+    dataLabels: {
+        enabled: true,
+        formatter: function (value) {
+            return value + "%";
+        },
+        textAnchor: 'middle',
+        style: {
+            fontSize: '12px',
+            fontFamily: "Gotham-Book",
+            color: "#000"
+        },
+
+    },
+
+
+    tooltip: {
+        enabled: false,
+
+    },
+
+
+
+
+
+
+};
+
+
+var chart2 = new ApexCharts(document.querySelector("#chart2"), options2);
+chart2.render();
 
 
 
@@ -295,131 +498,60 @@ new ApexCharts(document.querySelector("#chart2"), options2).render(); */
 
 
 
-
-
-
-
-
-var options2 = {
-    
-  chart: {
-    type: "bar",
-    toolbar: {
-        show: false,
-      },
-    height: 75,
-    fontFamily: 'Montserrat-Medium',
-  },
-
-  grid: {
-    show: true,
-    position: "back",
-    borderColor: "#e0e0e0",
-
+var options3 = {
+    series: [{
+        data: [400]
+    }],
+    chart: {
+        type: 'bar',
+        height: 350
+    },
+    annotations: {
+        xaxis: [{
+            x: 500,
+            borderColor: '#00E396',
+            label: {
+                borderColor: '#00E396',
+                style: {
+                    color: '#fff',
+                    background: '#00E396',
+                },
+                text: 'X annotation',
+            }
+        }],
+        yaxis: [{
+            y: 'July',
+            y2: 'September',
+            label: {
+                text: 'Y annotation'
+            }
+        }]
+    },
+    plotOptions: {
+        bar: {
+            horizontal: true,
+        }
+    },
+    dataLabels: {
+        enabled: true
+    },
     xaxis: {
-      lines: {
-        show: true,
-      }
+        categories: ['June'],
+    },
+    grid: {
+        xaxis: {
+            lines: {
+                show: true
+            }
+        }
     },
     yaxis: {
-      lines: {
-        show: true,
-      }
+        reversed: true,
+        axisTicks: {
+            show: true
+        }
     }
-  },
-
-  plotOptions: {
-    bar: {
-      horizontal: true,
-      endingShape: "rounded",
-      columnWidth: "100%",
-      barHeight: "30%",
-      dataLabels: {
-        position: "center",
-        
-      }
-    }
-  },
-  fill: {
-    colors: '#f40000',
-    opacity: 0.9,
-    type: "solid",
-  },
-  xaxis: {
-    type: 'category',
-    position: 'top',
-    categories: [""],
-    tickAmount: 4,
-    min: 0,
-    max: 100,
-    floating: true,
-    labels: {
-        show: true,
-        minHeight: 0,
-        maxHeight: 100,
-        offsetX: 0,
-        offsetY: -20,
-        format: undefined,
-        formatter: function (value) {
-            return value + "%";
-          },
-          style: {
-            fontFamily: 'Montserrat-Bold',
-            fontSize: '14px',
-        },
-        
-    },
-    axisBorder: {
-        show: true,
-        color: '#e0e0e0',
-        height: 1,
-        width: '100%',
-        offsetX: 0,
-        offsetY: -5
-    },
-    axisTicks: {
-        show: true,
-        borderType: 'solid',
-        color: '#e0e0e0',
-        height: 75,
-        offsetX: 0,
-        offsetY: -5
-    },
-    
-    
-  
-    
-},
-dataLabels: {
-    enabled: true,
-    formatter: function (value) {
-        return value + "%";
-    },
-    textAnchor: 'middle',
-    style: {
-        fontSize: '12px',
-        fontFamily: "Montserrat-Medium",
-        color: "#000"
-    },
-    
-},
-
-series: [
-    {
-      data: [80]
-    }
-  ],
-  tooltip: {
-    enabled: false,
-    
-},
-
-
-
-
-
-
 };
 
-
-new ApexCharts(document.querySelector("#chart2"), options2).render();
+var chart = new ApexCharts(document.querySelector("#chart3"), options3);
+chart.render();
