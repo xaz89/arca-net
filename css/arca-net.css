@@ -8896,6 +8896,23 @@ input[type=range]::-ms-thumb {
   padding-bottom: 5em;
 }
 
+.d-md-flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@media (max-width: 575.98px) {
+  .d-none {
+    display: none;
+  }
+
+  .d-block {
+    display: block;
+  }
+}
 /*
    * Implementation of themes
    */
