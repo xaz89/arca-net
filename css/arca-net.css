@@ -208,11 +208,11 @@
 }
 
 .red.darken-1 {
-  background-color: #E53935 !important;
+  background-color: #ED441B !important;
 }
 
 .red-text.text-darken-1 {
-  color: #E53935 !important;
+  color: #ED441B !important;
 }
 
 .red.darken-2 {
@@ -1168,11 +1168,11 @@
 }
 
 .green {
-  background-color: #4CAF50 !important;
+  background-color: #1BB744 !important;
 }
 
 .green-text {
-  color: #4CAF50 !important;
+  color: #1BB744 !important;
 }
 
 .green.lighten-5 {
@@ -1504,11 +1504,11 @@
 }
 
 .yellow {
-  background-color: #ffeb3b !important;
+  background-color: #F7C700 !important;
 }
 
 .yellow-text {
-  color: #ffeb3b !important;
+  color: #F7C700 !important;
 }
 
 .yellow.lighten-5 {
@@ -3089,7 +3089,7 @@ table.responsive-table td {
   }
 }
 .collection {
-  margin: 0.3333333333rem 0 0.6666666667rem 0;
+  margin: 0.4333333333rem 0 0.8666666667rem 0;
   border: 1px solid #e0e0e0;
   border-radius: 2px;
   overflow: hidden;
@@ -3196,7 +3196,7 @@ table.responsive-table td {
   width: 100%;
   background-color: #ffc1c1;
   border-radius: 2px;
-  margin: 0.3333333333rem 0 0.6666666667rem 0;
+  margin: 0.4333333333rem 0 0.8666666667rem 0;
   overflow: hidden;
 }
 .progress .determinate {
@@ -3389,8 +3389,8 @@ table span.badge {
   }
 }
 .col .row {
-  margin-left: -0.5rem;
-  margin-right: -0.5rem;
+  margin-left: -0.65rem;
+  margin-right: -0.65rem;
 }
 
 .section {
@@ -3420,7 +3420,7 @@ table span.badge {
 .row .col {
   float: left;
   box-sizing: border-box;
-  padding: 0 0.5rem;
+  padding: 0 0.65rem;
   min-height: 1px;
 }
 .row .col[class*=push-], .row .col[class*=pull-] {
@@ -4727,14 +4727,14 @@ small {
 .card-panel {
   transition: box-shadow 0.25s;
   padding: 24px;
-  margin: 0.3333333333rem 0 0.6666666667rem 0;
+  margin: 0.4333333333rem 0 0.8666666667rem 0;
   border-radius: 2px;
   background-color: #fff;
 }
 
 .card {
   position: relative;
-  margin: 0.3333333333rem 0 0.6666666667rem 0;
+  margin: 0.4333333333rem 0 0.8666666667rem 0;
   background-color: #fff;
   transition: box-shadow 0.25s;
   border-radius: 2px;
@@ -5629,7 +5629,7 @@ body.keyboard-focused .dropdown-content li:focus {
   border-top: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-left: 1px solid #ddd;
-  margin: 0.3333333333rem 0 0.6666666667rem 0;
+  margin: 0.4333333333rem 0 0.8666666667rem 0;
 }
 
 .collapsible-header {
@@ -5982,7 +5982,7 @@ input[type=tel]:not(.browser-default):focus.valid ~ label,
 input[type=number]:not(.browser-default):focus.valid ~ label,
 input[type=search]:not(.browser-default):focus.valid ~ label,
 textarea.materialize-textarea:focus.valid ~ label {
-  color: #4CAF50;
+  color: #1BB744;
 }
 input:not([type]):focus.invalid ~ label,
 input[type=text]:not(.browser-default):focus.invalid ~ label,
@@ -6040,8 +6040,8 @@ input[type=search]:not(.browser-default).valid,
 input[type=search]:not(.browser-default):focus.valid,
 textarea.materialize-textarea.valid,
 textarea.materialize-textarea:focus.valid {
-  border-bottom: 1px solid #4CAF50;
-  box-shadow: 0 1px 0 0 #4CAF50;
+  border-bottom: 1px solid #1BB744;
+  box-shadow: 0 1px 0 0 #1BB744;
 }
 
 .select-wrapper.invalid > input.select-dropdown, .select-wrapper.invalid > input.select-dropdown:focus, input:not([type]).invalid, input:not([type]):focus.invalid,
@@ -6120,7 +6120,7 @@ input[type=search]:not(.browser-default).valid ~ .helper-text:after,
 textarea.materialize-textarea.valid ~ .helper-text:after,
 textarea.materialize-textarea:focus.valid ~ .helper-text:after {
   content: attr(data-success);
-  color: #4CAF50;
+  color: #1BB744;
 }
 
 .select-wrapper.invalid ~ .helper-text:after, input:not([type]).invalid ~ .helper-text:after, input:not([type]):focus.invalid ~ .helper-text:after,
@@ -6178,11 +6178,11 @@ textarea.materialize-textarea + label:after {
   margin-bottom: 1rem;
 }
 .input-field.col label {
-  left: 0.5rem;
+  left: 0.65rem;
 }
 .input-field.col .prefix ~ label,
 .input-field.col .prefix ~ .validate ~ label {
-  width: calc(100% - 3rem - 1rem);
+  width: calc(100% - 3rem - 1.3rem);
 }
 .input-field > label {
   color: #9e9e9e;
@@ -7778,7 +7778,7 @@ input[type=range]::-ms-thumb {
   border-radius: 50%;
 }
 .slider .indicators .indicator-item.active {
-  background-color: #4CAF50;
+  background-color: #1BB744;
 }
 
 .carousel {
@@ -8931,6 +8931,10 @@ input[type=range]::-ms-thumb {
   background-color: #000000;
 }
 
+nav {
+  box-shadow: none;
+}
+
 .theme-gris .logo {
   background-color: #5b5b5b;
 }
@@ -8938,7 +8942,7 @@ input[type=range]::-ms-thumb {
   background-color: #7e623e;
 }
 .theme-rojo .logo {
-  background-color: #d50000;
+  background-color: #e00000;
 }
 .theme-negro .logo {
   background-color: #1a1a1a;
@@ -9314,9 +9318,9 @@ nav i.material-icons {
   -ms-border-radius: 10px 10px;
   -o-border-radius: 10px 10px;
   border-radius: 10px 10px;
-  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.15);
-  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);
 }
 .card small {
   font-size: 13px;
@@ -9336,8 +9340,12 @@ nav i.material-icons {
   font-size: 36px;
 }
 .miMeta .card-content small {
-  margin-top: -170px;
-  position: relative;
+  position: absolute;
+  top: 50%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 10px;
 }
 
 #chart svg {
@@ -9354,8 +9362,8 @@ nav i.material-icons {
   border-radius: 10px 10px 0 0;
   text-align: center;
   font-size: 15px !important;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding-top: 4px;
+  padding-bottom: 4px;
   font-family: "Gotham-Medium";
 }
 .card-title.notifica {
@@ -9363,7 +9371,66 @@ nav i.material-icons {
   color: #ffffff;
 }
 
+.noti {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.noti .card {
+  overflow: scroll;
+}
+.noti .card-title {
+  position: sticky;
+  top: 0;
+}
+.noti .card-content {
+  overflow: scroll;
+  box-sizing: border-box;
+}
+.noti ul {
+  margin-top: 0;
+}
+.noti li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #D3D3D3;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.noti li:first-child {
+  padding-top: 0;
+}
+.noti li img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.noti li p {
+  width: 70%;
+  width: -webkit-calc(100% - 40px);
+  width: -moz-calc(100% - 40px);
+  width: calc(100% - 40px);
+  font-size: 11px;
+  line-height: 13px;
+  hyphens: none !important;
+  font-family: "Gotham-Bold";
+}
+
 .notificaciones {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   position: relative;
 }
@@ -9549,9 +9616,6 @@ main .dropdown-content li span {
   height: calc(100% - 60px);
   height: -moz-calc(100%);
   background-color: #252525;
-  -webkit-box-shadow: 3px 0 6px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 3px 0 6px rgba(0, 0, 0, 0.3);
-  box-shadow: 3px 0 6px rgba(0, 0, 0, 0.3);
   -webkit-transition: margin-left 0.3s;
   -moz-transition: margin-left 0.3s;
   -ms-transition: margin-left 0.3s;
@@ -9586,6 +9650,8 @@ main .dropdown-content li span {
 .sidenav .collapsible-header img,
 .sidenav .no-collapsible img {
   vertical-align: middle;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 .sidenav .collapsible-header:hover, .sidenav .collapsible-header.active,
 .sidenav .no-collapsible:hover,
@@ -9620,8 +9686,8 @@ nav ul.controls i.material-icons {
   text-align: right;
 }
 .controls > li {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 11px;
+  margin-right: 11px;
 }
 .controls li a {
   padding: 0 0;
@@ -9822,9 +9888,6 @@ nav ul.controls i.material-icons {
 
 .logo {
   width: 229px;
-  -webkit-box-shadow: 3px 0 6px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 3px 0 6px rgba(0, 0, 0, 0.1);
-  box-shadow: 3px 0 6px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   height: 64px;
   width: 229px;
@@ -9869,6 +9932,9 @@ nav ul.controls i.material-icons {
 .puntos {
   font: normal 30px/34px "Gotham-Bold";
 }
+.puntos span {
+  font: normal 20px/34px "Gotham-Bold";
+}
 
 .saldo {
   font: 14px/18px "Gotham-Book";
@@ -9880,9 +9946,7 @@ nav ul.controls i.material-icons {
   font: Medium 12px/18px "Gotham-Book";
 }
 .descripcion p {
-  margin-top: 7px;
-  margin-bottom: 7px;
-  font: normal 12px/18px "Gotham-Book";
+  font: normal 12px/18px "Gotham-Medium";
 }
 
 /*==================================ÍCONOS==================================*/
@@ -10452,8 +10516,8 @@ thead th:only-child {
   align-items: center;
 }
 .menu-perfil .drop {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .dropdown-trigger.menu-perfil {
@@ -10617,9 +10681,10 @@ thead th:only-child {
   width: 100%;
 }
 .teFalta h5 {
-  font-size: 15px;
-  font-family: "Gotham-Bold", sans-serif;
+  font-size: 16px;
+  font-family: "Gotham-Medium", sans-serif;
   padding: 0.5rem 0;
+  margin: 0;
 }
 .teFalta h5 span {
   background: #f40000;
@@ -10629,15 +10694,17 @@ thead th:only-child {
   border-radius: 0.2rem;
   font-size: 16px;
   font-family: "Gotham-Bold", sans-serif;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 4px;
+  margin-right: 10px;
 }
 .teFalta .cantidad {
   font-size: 24px;
   padding-top: 0;
   padding-bottom: 0;
+  font-family: "Gotham-Bold", sans-serif;
 }
 .teFalta .cantidad2 {
   font-size: 18px;
@@ -10738,6 +10805,8 @@ thead th:only-child {
   justify-content: center;
   flex-flow: wrap;
   text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .cajaMeses {
@@ -10753,8 +10822,8 @@ thead th:only-child {
 }
 
 .mes {
-  height: 3rem;
-  width: 3rem;
+  height: 45px;
+  width: 45px;
   display: flex !important;
   flex-direction: column;
   align-items: center;
@@ -10776,6 +10845,8 @@ thead th:only-child {
 }
 .mes i {
   color: #ffffff;
+  font-size: 26px !important;
+  margin-left: -2px;
 }
 
 figcaption {

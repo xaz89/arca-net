@@ -7,9 +7,9 @@
 
 var options1 = {
     chart: {
-        fontFamily: "Gotham-Bold",
+        fontFamily: "Gotham-Medium",
        
-        height: 290,
+        height: 310,
         // width: "95%",
         type: "radialBar",
         margin: "auto",
@@ -50,10 +50,12 @@ var options1 = {
                     offsetY: 0,
                     color: "#000",
                     fontSize: "14px",
+                    fontFamily: "Gotham-Medium",
                     offsetY: -20
                 },
                 value: {
                     fontSize: "36px",
+                    fontFamily: "Gotham-Bold",
                     show: true,
                     offsetY: -65,
                     formatter: function (val) {
@@ -87,7 +89,7 @@ new ApexCharts(document.querySelector("#chart"), options1).render();
 var options2 = {
     series: [
         {
-            data: [80]
+            data: [45]
         }
     ],
     chart: {
@@ -96,6 +98,9 @@ var options2 = {
              show: false,
          },
         height: 85,
+        margin: {
+            
+        },
         fontFamily: "Gotham-Book",
         animations: {
             enabled: true,
