@@ -8,8 +8,9 @@
 var options1 = {
     chart: {
         fontFamily: "Gotham-Bold",
-        height: "auto",
-        width: "95%",
+       
+        height: 290,
+        // width: "95%",
         type: "radialBar",
         margin: "auto",
         animations: {
@@ -48,12 +49,13 @@ var options1 = {
                     show: true,
                     offsetY: 0,
                     color: "#000",
-                    fontSize: "14px"
+                    fontSize: "14px",
+                    offsetY: -20
                 },
                 value: {
-                    fontSize: "2em",
+                    fontSize: "36px",
                     show: true,
-                    offsetY: -45,
+                    offsetY: -65,
                     formatter: function (val) {
                         return val + '%'
                     }
@@ -68,7 +70,10 @@ var options1 = {
         lineCap: "round",
 
     },
-    labels: ["$16,125.00"]
+    labels: ["$16,125.00"],
+    legend: {
+        fontSize: '24px',
+    }
 };
 
 new ApexCharts(document.querySelector("#chart"), options1).render();
@@ -92,6 +97,19 @@ var options2 = {
          },
         height: 85,
         fontFamily: "Gotham-Book",
+        animations: {
+            enabled: true,
+            easing: 'easeinout',
+            speed: 1500,
+            // animateGradually: {
+            //     enabled: true,
+            //     delay: 0
+            // },
+            // dynamicAnimation: {
+            //     enabled: true,
+            //     speed: 3000
+            // }
+        }
     },
 
     /* grid: {
@@ -148,7 +166,7 @@ var options2 = {
             horizontal: true,
             endingShape: "rounded",
             columnWidth: "100%",
-            barHeight: "30%",
+            barHeight: "25%",
             dataLabels: {
                 position: "center",
 
@@ -246,7 +264,7 @@ var options2 = {
 
     }, */
     dataLabels: {
-        enabled: true,
+        enabled: false,
         formatter: function (value) {
             return value + "%";
         },
@@ -265,7 +283,7 @@ var options2 = {
 
     },
 
-
+   
 
 
 
