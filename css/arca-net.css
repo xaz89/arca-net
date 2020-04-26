@@ -8782,7 +8782,7 @@ nav {
   background-color: #e00000;
 }
 .theme-negro .logo {
-  background-color: #1a1a1a;
+  background-color: #f40000;
 }
 
 .theme-gris .sidenav li > a:hover,
@@ -8799,7 +8799,7 @@ nav {
 }
 .theme-negro .sidenav li > a:hover,
 .theme-negro .sidenav li > a.active {
-  background-color: #6f6f6f;
+  background-color: #f40000;
 }
 
 .theme-gris .sidenav .collapsible-header:hover {
@@ -8812,7 +8812,7 @@ nav {
   background-color: #f40000;
 }
 .theme-negro .sidenav .collapsible-header:hover {
-  background-color: #6f6f6f;
+  background-color: #f40000;
 }
 
 .theme-gris .pulse {
@@ -8962,6 +8962,7 @@ body {
   font-family: "Gotham-Book", sans-serif;
   background: #F4F7FB;
   color: #252525;
+  height: 100%;
 }
 
 .d-md-none {
@@ -9007,6 +9008,10 @@ footer {
 main {
   padding-top: 64px;
   background: #F4F7FB;
+  height: 100%;
+  height: -webkit-calc(100% - 55px);
+  height: -moz-calc(100% - 55px);
+  height: calc(100% - 55px);
 }
 
 footer {
@@ -9195,6 +9200,19 @@ nav i.material-icons {
 .card .card-content {
   padding: 15px;
 }
+.card hr {
+  width: 90%;
+  width: -webkit-calc(100% - 40px);
+  width: -moz-calc(100% - 40px);
+  width: calc(100% - 40px);
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1px;
+  background-color: #e0e0e0;
+  border: none;
+}
 
 .miMeta .card-content.grafica {
   text-align: center;
@@ -9221,7 +9239,6 @@ nav i.material-icons {
 }
 
 .card-title {
-  border-bottom: 1px solid #e6e6e6;
   width: 100%;
   display: block;
   border-radius: 10px 10px 0 0;
@@ -9234,25 +9251,27 @@ nav i.material-icons {
 .card-title.notifica {
   background-color: #F40000;
   color: #ffffff;
+  width: 100%;
 }
 
 .noti {
+  width: 100%;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
 }
-.noti .card {
-  overflow: scroll;
-}
 .noti .card-title {
   position: sticky;
   top: 0;
+  width: 100%;
 }
 .noti .card-content {
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   box-sizing: border-box;
+  height: 220px;
 }
 .noti ul {
   margin-top: 0;
