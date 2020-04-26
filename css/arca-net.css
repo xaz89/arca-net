@@ -9556,7 +9556,7 @@ main .dropdown-content li span {
   height: 36px;
   border: 0px solid #ffffff;
   vertical-align: middle;
-  margin-right: -5px;
+  margin-right: 23px;
 }
 
 nav ul.controls i.material-icons {
@@ -9578,6 +9578,7 @@ nav ul.controls i.material-icons {
   padding: 0 0;
 }
 .controls li a .material-icons, .controls li a img {
+  vertical-align: middle;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -ms-transition: all 0.2s;
@@ -9619,6 +9620,23 @@ nav ul.controls i.material-icons {
 .controls .dropdown-content {
   width: 400px !important;
   height: auto;
+}
+.controls .dropdown-content::before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-left: 20px solid transparent;
+  /* izquierda flecha */
+  border-right: 20px solid transparent;
+  /* derecha flecha */
+  border-bottom: 20px solid #000000;
+  /* base flecha y color*/
+  font-size: 0px;
+  line-height: 0px;
+  top: -20px;
+  position: absolute;
+  right: 50%;
+  left: 50%;
 }
 .controls .dropdown-content .card {
   width: 400px;
@@ -9684,22 +9702,22 @@ nav ul.controls i.material-icons {
 .dropdown-content {
   top: 64px !important;
   background-color: #000000;
-  -webkit-border-radius: 5px 5px;
-  -moz-border-radius: 5px 5px;
-  -ms-border-radius: 5px 5px;
-  -o-border-radius: 5px 5px;
-  border-radius: 5px 5px;
-  margin-top: 5px;
+  -webkit-border-radius: 0px 0px;
+  -moz-border-radius: 0px 0px;
+  -ms-border-radius: 0px 0px;
+  -o-border-radius: 0px 0px;
+  border-radius: 0px 0px;
+  margin-top: 0px;
 }
 .dropdown-content li {
   min-height: auto;
 }
 .dropdown-content li a {
   font-family: "Gotham-Book", sans-serif;
-  font-size: 0.8em;
+  font-size: 13px;
   background-color: black;
   color: #ffffff;
-  padding: 10px 10px;
+  padding: 5px 10px;
 }
 .dropdown-content li a .demo-icon {
   margin: 0 5px 0 0 !important;
@@ -9715,8 +9733,21 @@ nav ul.controls i.material-icons {
 
 .dropdown-content.dropdown-perfil {
   width: 230px !important;
+  padding: 0 0;
+  height: 0 !important;
+  overflow: visible;
+}
+.dropdown-content.dropdown-perfil li a img {
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
+.dropdown-content.menu-perfil {
+  padding: 0 0;
+}
 .dropdown-content.menu-perfil li {
   margin-left: 0 !important;
 }
@@ -9788,8 +9819,8 @@ nav ul.controls i.material-icons {
   height: 38px;
   background: url("../img/logo2x.svg") top left no-repeat;
   background-size: 100%;
-  margin-left: -16px;
-  margin-right: 12px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0 0;
 }
 
