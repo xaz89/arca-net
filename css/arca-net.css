@@ -9635,8 +9635,10 @@ nav ul.controls i.material-icons {
   line-height: 0px;
   top: -20px;
   position: absolute;
-  right: 50%;
-  left: 50%;
+  /* right: 50%;
+  left: 50%; */
+  right: 32%;
+  left: 51%;
 }
 .controls .dropdown-content .card {
   width: 400px;
