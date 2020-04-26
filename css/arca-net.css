@@ -10062,6 +10062,32 @@ nav ul.controls i.material-icons {
   -ms-border-radius: 0 10px 10px 0;
   -o-border-radius: 0 10px 10px 0;
   border-radius: 0 10px 10px 0;
+  /* &:hover {
+    background-color: darken($color: #252525, $amount: 20%);
+    @include border-radius(10px);
+    @include transition(all 0.5s);
+    margin-left: 0;
+
+    .botella {
+      margin-left: calc(100% - 75% - 15px);
+
+      .marco {
+        @include transition(all 0.5s);
+        fill: darken($color: #252525, $amount: 20%);
+      }
+    }
+    .botella-indicadores {
+      margin-left: 20px;
+    }
+    ul{
+      margin-top: 0;
+      // width: 50%;
+      text-align: center;
+    }
+    .item{
+      justify-content: center;
+    }
+  } */
 }
 .horizontal .dos ul {
   margin-top: 0;
@@ -10104,41 +10130,6 @@ nav ul.controls i.material-icons {
 }
 .horizontal .dos .botella .marco {
   fill: #252525;
-}
-.horizontal .dos:hover {
-  background-color: black;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  border-radius: 10px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-  margin-left: 0;
-}
-.horizontal .dos:hover .botella {
-  margin-left: calc(100% - 75% - 15px);
-}
-.horizontal .dos:hover .botella .marco {
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-  fill: black;
-}
-.horizontal .dos:hover .botella-indicadores {
-  margin-left: 20px;
-}
-.horizontal .dos:hover ul {
-  margin-top: 0;
-  text-align: center;
-}
-.horizontal .dos:hover .item {
-  justify-content: center;
 }
 
 .botella1 {
@@ -11134,6 +11125,23 @@ footer {
 
   .miMeta {
     height: 250px;
+  }
+
+  .card.horizontal {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .card.horizontal .uno, .card.horizontal .dos {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative !important;
+    width: 100%;
+    margin: 0;
+  }
+  .card.horizontal .dos {
+    border-radius: 0 0 10px 10px;
   }
 }
 
