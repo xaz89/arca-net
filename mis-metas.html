@@ -16,6 +16,7 @@
   <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
   <link rel="stylesheet" href="css/iconos.css">
   <link rel="stylesheet" href="css/arca-net.css">
+  <link rel="stylesheet" href="css/cols15.css">
   <title>Mis Metas</title>
 </head>
 <body class="theme-rojo">
@@ -292,10 +293,12 @@
         <li><a href="#!"><i class="small material-icons">power_settings_new</i>Salir</li>
       </ul>
     </ul>
+    <!-- SEGUNDO MENU LATERAL MOBILE <ul id="slide-out2" class="sidenav2  hide-on-med-and-down"></ul> -->
     <ul>
       <li class="logo"><a href="#!" class="logo-img"></a></li>
     </ul>
     <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons hamburguer">menu</i></a>
+    <!-- SEGUNDO MENU LATERAL MOBILE <a href="#" data-target="slide-out2" class="sidenav-trigger show-on-large">2</a> -->
   </nav>
   
   <main>
@@ -345,7 +348,7 @@
                   <div class="botella-indicadores">
                     <h4>91%</h4>
                     <img src="./img/mismetas-activo/Comunicacion precios-43 Bco.svg" alt="">
-                    <p>Portafolio Imperdonables</p>
+                    <p>Portafolio<br>Imperdonables</p>
                   </div>
                 </div>
               </div>
@@ -384,7 +387,7 @@
                   <div class="botella-indicadores">
                     <h4>100%</h4>
                     <img src="./img/mismetas-activo/Comunicacion precios-43 Bco.svg" alt="">
-                    <p>Portafolio Imperdonables</p>
+                    <p>Portafolio<br>Imperdonables</p>
                   </div>
                 </div>
               </div>
@@ -555,6 +558,7 @@
                     </div>
                   </div>
                 </div>
+                <s></s>
               </div>
 
             </div>
@@ -568,7 +572,7 @@
                 <!-- <p>No existe premio sugerido por el momento.</p> -->
                 <img src="./img/mismetas-activo/Sugerido 125px.png" alt="" style="max-width:100%">
                 <p>Audífonos Studio 3</p>
-                <h5>8,639 pts.
+                <h5>8,639&nbsp;<span class="ptos">pts.</span>
                   <!-- <i class="small material-icons">favorite_border</i> -->
                   <img src="./img/mismetas-activo/carrito_icon 30 Red.svg" alt="" srcset=""> </h5>
               </div>
@@ -583,7 +587,9 @@
         
       </div>
     </section>
-
+<div class="chat">
+  <img src="./img/mismetas-activo/Boton chat.svg" alt="" srcset="">
+</div>
 
   </main>
   <footer>
@@ -708,7 +714,9 @@
 
   <script>
        var elem = document.querySelector('.sidenav');
-  var instance = new M.Sidenav(elem);
+  var instance = new M.Sidenav(elem, {edge: 'left'});
+       var elem = document.querySelector('.sidenav2');
+  var instance = new M.Sidenav(elem, {edge: 'right'});
     // instance.show();
   </script>
 

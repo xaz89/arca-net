@@ -9,7 +9,7 @@ var options1 = {
     chart: {
         fontFamily: "Gotham-Medium",
        
-        height: 310,
+        height: 300,
         // width: "95%",
         type: "radialBar",
         margin: "auto",
