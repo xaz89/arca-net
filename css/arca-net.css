@@ -9032,19 +9032,19 @@ nav {
   justify-content: center;
 }
 .theme-gris .app-container {
-  color: #373a3c;
+  color: #252525;
   background-color: #6f6f6f;
 }
 .theme-dorado .app-container {
-  color: #373a3c;
+  color: #252525;
   background-color: #99774c;
 }
 .theme-rojo .app-container {
-  color: #373a3c;
+  color: #252525;
   background-color: #f40000;
 }
 .theme-negro .app-container {
-  color: #373a3c;
+  color: #252525;
   background-color: #000000;
 }
 .app-container .btn- {
@@ -9056,51 +9056,51 @@ nav {
   transition: color 0.1s, border-color 0.1s, background-color 0.1s;
 }
 .theme-gris .app-container .btn- {
-  border: 2px solid #81878b;
-  color: #373a3c;
-  border-color: 2px solid #81878b;
+  border: 2px solid #727272;
+  color: #252525;
+  border-color: 2px solid #727272;
   background-color: #6f6f6f;
   text-transform: none;
 }
 .theme-gris .app-container .btn-:hover {
-  color: #373a3c;
-  border-color: #373a3c;
+  color: #252525;
+  border-color: #252525;
   background-color: #6c6c6c;
 }
 .theme-dorado .app-container .btn- {
-  border: 2px solid #81878b;
-  color: #373a3c;
-  border-color: 2px solid #81878b;
+  border: 2px solid #727272;
+  color: #252525;
+  border-color: 2px solid #727272;
   background-color: #99774c;
   text-transform: none;
 }
 .theme-dorado .app-container .btn-:hover {
-  color: #373a3c;
-  border-color: #373a3c;
+  color: #252525;
+  border-color: #252525;
   background-color: #96744a;
 }
 .theme-rojo .app-container .btn- {
-  border: 2px solid #81878b;
-  color: #373a3c;
-  border-color: 2px solid #81878b;
+  border: 2px solid #727272;
+  color: #252525;
+  border-color: 2px solid #727272;
   background-color: #f40000;
   text-transform: none;
 }
 .theme-rojo .app-container .btn-:hover {
-  color: #373a3c;
-  border-color: #373a3c;
+  color: #252525;
+  border-color: #252525;
   background-color: #ef0000;
 }
 .theme-negro .app-container .btn- {
-  border: 2px solid #81878b;
+  border: 2px solid #727272;
   color: #000000;
-  border-color: 2px solid #81878b;
+  border-color: 2px solid #727272;
   background-color: #000000;
   text-transform: none;
 }
 .theme-negro .app-container .btn-:hover {
-  color: #373a3c;
-  border-color: #373a3c;
+  color: #252525;
+  border-color: #252525;
   background-color: black;
 }
 
@@ -9118,7 +9118,7 @@ nav {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(55, 58, 60, 0.2);
+  background: rgba(37, 37, 37, 0.2);
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -9128,7 +9128,7 @@ nav {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(55, 58, 60, 0.8);
+  background: rgba(37, 37, 37, 0.8);
 }
 
 * {
@@ -9140,7 +9140,7 @@ nav {
 html,
 body {
   font-family: "Gotham-Book", sans-serif;
-  color: #373a3c;
+  color: #252525;
 }
 
 .d-md-none {
@@ -9183,7 +9183,7 @@ footer {
 
 main {
   padding-top: 64px;
-  padding-bottom: 64px;
+  height: 100%;
   background: #F4F7FB;
 }
 
@@ -9191,10 +9191,6 @@ footer {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  -webkit-box-shadow: 0 0 10px 4px #cccccc;
-  -moz-box-shadow: 0 0 10px 4px #cccccc;
-  box-shadow: 0 0 10px 4px #cccccc;
-  position: relative;
   bottom: 0;
   width: calc(100% - 229px);
   top: auto;
@@ -9242,8 +9238,18 @@ h6 {
 }
 
 .login-panel {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
   align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   flex-direction: column;
   width: 50%;
@@ -9304,7 +9310,7 @@ nav i.material-icons {
   margin-bottom: 10px;
 }
 .bread a {
-  color: #373a3c;
+  color: #252525;
 }
 .bread a:after {
   content: " >";
@@ -9314,14 +9320,24 @@ nav i.material-icons {
 }
 
 .amount-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
   align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 .amount-container i {
   margin-right: 15px;
   margin-left: 15px;
-  color: #9ba0a4;
+  color: #8b8b8b;
   font-size: 1.4em;
 }
 
@@ -9621,7 +9637,7 @@ main .dropdown-content {
   color: gray;
 }
 main .dropdown-content li span {
-  color: #373a3c;
+  color: #252525;
   font-size: 90%;
 }
 
@@ -9643,7 +9659,7 @@ main .dropdown-content li span {
   background: rgba(255, 255, 255, 0.1);
 }
 .sidenav::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px #373a3c;
+  box-shadow: inset 0 0 5px #252525;
   border-radius: 10px;
 }
 .sidenav p,
@@ -9965,6 +9981,9 @@ nav ul.controls i.material-icons {
 .descripcion p {
   font: normal 12px/18px "Gotham-Medium";
 }
+.descripcion p b {
+  font: normal 14px/18px "Gotham-Bold";
+}
 
 /*==================================ÍCONOS==================================*/
 .drop {
@@ -9976,8 +9995,12 @@ nav ul.controls i.material-icons {
   font-size: 1.2em !important;
 }
 
+.botella-indicadores img {
+  margin-bottom: 10px;
+}
 .botella-indicadores p {
   font-size: 12px;
+  line-height: 14px;
   font-family: "Gotham-Medium";
   hyphens: auto;
   -webkit-hyphens: auto;
@@ -10050,7 +10073,7 @@ nav ul.controls i.material-icons {
   padding-top: 0.4em;
   padding-bottom: 0.4em;
   align-items: center;
-  border-bottom: 1px solid #373a3c;
+  border-bottom: 1px solid #252525;
 }
 .horizontal .dos .item:last-child {
   border-bottom: none;
@@ -10138,7 +10161,7 @@ nav ul.controls i.material-icons {
   background-color: #db0000;
 }
 .inscribeteTabs .tabs .tab a {
-  background-color: #d1d3d4;
+  background-color: #bebebe;
   color: #ffffff;
   font-weight: 600;
   text-transform: none !important;
@@ -10191,32 +10214,32 @@ nav ul.controls i.material-icons {
   margin-top: 15px;
 }
 .metasMes .tabs a {
-  color: rgba(55, 58, 60, 0.4);
-  border: 0.1px solid rgba(55, 58, 60, 0.4);
+  color: rgba(37, 37, 37, 0.4);
+  border: 0.1px solid rgba(37, 37, 37, 0.4);
   font-family: "Gotham-Bold", sans-serif;
   text-transform: capitalize;
   font-size: 14px;
 }
 .metasMes .tabs a:focus {
-  background-color: rgba(55, 58, 60, 0.1);
+  background-color: rgba(37, 37, 37, 0.1);
   outline: none;
-  border: 0.1px solid #373a3c;
+  border: 0.1px solid #252525;
 }
 .metasMes .tabs a:focus.active {
-  background-color: rgba(55, 58, 60, 0.1);
+  background-color: rgba(37, 37, 37, 0.1);
   outline: none;
 }
 .metasMes .tabs a.active {
-  color: #373a3c;
-  border: 1px solid #373a3c;
+  color: #252525;
+  border: 1px solid #252525;
   border-bottom: none;
 }
 .metasMes .tabs a:hover {
-  color: #373a3c;
-  background-color: rgba(55, 58, 60, 0.1);
+  color: #252525;
+  background-color: rgba(37, 37, 37, 0.1);
 }
 .metasMes .tabs .indicator {
-  background-color: #373a3c;
+  background-color: #252525;
   height: 1px;
 }
 
@@ -10269,6 +10292,11 @@ thead th:only-child {
   border-radius: 5px 5px 0 0;
 }
 
+.nota p {
+  text-align: center;
+  font: normal 12px/14px "Gotham-Book";
+}
+
 .metaMensual .bloqueDetalle {
   padding-left: 15px;
   padding-right: 15px;
@@ -10308,21 +10336,21 @@ thead th:only-child {
 .cardsGanados .hoverable:nth-of-type(2) {
   background-color: #e6e6e6;
   margin-left: 10px;
-  color: #373a3c;
+  color: #252525;
 }
 .cardsGanados .hoverable:nth-of-type(2) i {
   color: red;
 }
 .cardsGanados .hoverable:nth-of-type(3) {
   background-color: white;
-  color: #373a3c;
+  color: #252525;
   margin-right: 10px;
 }
 .cardsGanados .hoverable:nth-of-type(3) i {
   color: red;
 }
 .cardsGanados .hoverable:nth-of-type(4) {
-  background-color: #373a3c;
+  background-color: #252525;
   margin-left: 10px;
 }
 .cardsGanados i {
@@ -10334,7 +10362,7 @@ thead th:only-child {
   height: 80px;
 }
 .compraPuntos a * {
-  color: #373a3c;
+  color: #252525;
 }
 
 .pagoBtns {
@@ -10389,14 +10417,34 @@ thead th:only-child {
 
 .beneficiosCardsCont {
   margin-top: 3em;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
   align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .beneficiosCard {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
   align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   background: #fff;
   border: 1px solid #afafaf;
@@ -10524,7 +10572,7 @@ thead th:only-child {
   padding-bottom: 5px;
 }
 .itemsPremios:hover, .itemsPremios.active {
-  background-color: #373a3c;
+  background-color: #252525;
   color: #ffffff;
 }
 
@@ -10617,8 +10665,18 @@ thead th:only-child {
 }
 
 .center-flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
   align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -10655,15 +10713,32 @@ thead th:only-child {
 }
 
 .text-dark {
-  color: #373a3c;
+  color: #252525;
 }
 
 .premioSugerido {
   text-align: center;
 }
+.premioSugerido .titulo {
+  font: normal 16px/18px "Gotham-Medium";
+  margin-top: 18px;
+}
 .premioSugerido h5 {
   margin: 0;
-  font-size: 1.3rem;
+  font: normal 20px/22px "Gotham-Medium";
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 .premioSugerido i {
   color: #F40000;
@@ -10680,11 +10755,11 @@ thead th:only-child {
   font-size: 1.2em;
   display: flex;
   justify-content: space-between;
-  color: #373a3c;
+  color: #252525;
 }
 .premioCard p {
   margin: 0;
-  color: #373a3c;
+  color: #252525;
 }
 .premioCard i {
   font-size: 1.2em;
@@ -10740,10 +10815,26 @@ thead th:only-child {
   height: 50px;
 }
 
+.anioNumeros h5 {
+  font-family: "Gotham-Bold";
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  line-height: normal;
+}
+.anioNumeros p {
+  font-family: "Gotham-Medium";
+  font-size: 10px;
+}
+
 .anioIcons {
   font-size: 10px;
   display: flex;
   flex-direction: row;
+}
+.anioIcons .border-control {
+  background-color: #D3D3D3;
+  height: 40px;
 }
 .anioIcons i {
   font-size: 14px;
@@ -10835,17 +10926,19 @@ thead th:only-child {
   align-items: center;
 }
 .cajaMeses p {
-  font-size: 0.7em;
+  font-size: 10px;
+  margin-top: 4px !important;
+  font: normal 10px/14px "Gotham-Medium";
 }
 
 .mes {
-  height: 45px;
-  width: 45px;
+  height: 44px;
+  width: 44px;
   display: flex !important;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #b3b3b3;
+  background-color: #D3D3D3;
   margin-right: 0 -75rem;
   margin-left: 0 -75rem;
   margin-top: 10px;
@@ -10862,7 +10955,7 @@ thead th:only-child {
 }
 .mes i {
   color: #ffffff;
-  font-size: 26px !important;
+  font-size: 24px !important;
   margin-left: -2px;
 }
 
@@ -11010,6 +11103,9 @@ footer {
     text-align: center;
     justify-content: center;
     align-content: center;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   .titulosTeFalta h5,
 .titulosTeFalta .anioIcons {
@@ -11034,6 +11130,10 @@ footer {
     display: block;
     width: 100%;
     padding-top: 15px;
+  }
+
+  .miMeta {
+    height: 250px;
   }
 }
 
