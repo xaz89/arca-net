@@ -24,32 +24,45 @@
 <body class="login-body">
 
 <div class="login-panel">
-   <div class="row">
+   <div class="row m-auto">
        <div class="col s12">
-           <img src="./img/logo-lideres-login.svg" alt="" class="w-100">
+           <img src="./img/logo-lideres-login.svg" alt="" class="responsive-img p-1">
        </div>
     <form class="col s12">
         <div class="input-field col s12">
-            <i class="material-icons prefix">person</i>
+           
             <input id="cliente" type="number" class="validate">
-            <label for="cliente">Cliente Arca Continental</label>
+            <label for="cliente">
+              <p>
+                <i class="material-icons prefix">person</i>
+                <span>Cliente Arca Continental</span>
+              </p>
+              
+            </label>
           </div>
         <div class="input-field col s12">
-            <i class="material-icons prefix">lock</i>
+            <!-- <i class="material-icons prefix">lock</i> -->
             <input id="clave" type="password" class="validate">
-            <label for="clave">Clave</label>
+            <label for="clave"> <p><i class="material-icons prefix">lock</i><span>Clave</span></p> </label>
           </div>
-          <div class="col s12">
-            <a class="text-dark modal-trigger" href="#restablecerCuenta">¿Olvidaste tu clave?</a>
+          <div class="col s12 mt-1">
+            <a class="text-dark modal-trigger" href="#restablecerCuenta">¿Olvidaste tu contraseña?</a>
           </div>
-          <div class="col s12">
-            <a class="text-dark" href="inscribete.html">Inscríbete</a>
+          <div class="col s12 mt-1">
+            <a class="text-dark" href="inscribete.html">REGÍSTRATE</a>
           </div>
          
-          <button class="btn" formaction="mis-metas.html">INGRESAR</button>
+          <button class="btn mt-1" formaction="mis-metas.html">INGRESAR</button>
           
       
     </form>
+
+
+
+
+
+
+
   </div>
 </div>
     

@@ -9069,6 +9069,14 @@ h6 {
   font-family: "Gotham-Bold";
 }
 
+.btn, .btn-large, .btn-small {
+  height: 43px;
+  padding: 10px 40px;
+  font-family: "Gotham-Bold";
+  font-size: 14px;
+  font: normal 14px/16px "Gotham-Bold";
+}
+
 .flex-title {
   display: flex;
   align-items: center;
@@ -9468,21 +9476,28 @@ nav i.material-icons {
 }
 
 /* ONDAS */
+.input-field {
+  margin-top: 0.1rem;
+  margin-bottom: 0.5rem;
+}
 .input-field label {
-  text-transform: uppercase;
-  font-size: 80%;
-  margin-top: 1em;
+  text-transform: none;
+  font-size: 103%;
+  margin-top: 5px;
+  margin-bottom: 0;
 }
 .input-field select option:disabled {
   font-size: 10px;
   background-color: blue;
 }
 .input-field .prefix {
-  font-size: 1rem;
+  font-size: 20px;
   top: auto;
   bottom: 1rem;
   width: auto;
-  right: 0.6rem;
+  right: auto;
+  left: 0;
+  color: #D3D3D3;
 }
 
 input:not([type]),
@@ -9499,6 +9514,7 @@ input[type=number]:not(.browser-default),
 input[type=search]:not(.browser-default),
 textarea.materialize-textarea {
   font-size: 13px;
+  border-bottom: 1px solid #D3D3D3;
 }
 
 .select-wrapper input.select-dropdown {
@@ -10940,6 +10956,60 @@ figure {
   padding-left: 25px;
   padding-top: 10px;
   padding-bottom: 5px;
+}
+
+.theme-negro .btn, .theme-negro .btn-large, .theme-negro .btn-small,
+.theme-negro .dropdown-content li:hover {
+  background-color: #f40000;
+}
+.theme-negro .controls .dropdown-content::before {
+  border-bottom: 20px solid #f40000;
+}
+
+.login-panel .input-field .prefix ~ input {
+  margin-left: 0;
+  width: 100%;
+}
+
+.login-panel .input-field .prefix ~ .validate ~ label {
+  margin-left: 1.5rem;
+}
+
+.input-field label {
+  text-transform: none;
+}
+
+.input-field .prefix.active {
+  color: #f40000;
+}
+.input-field .prefix.active i {
+  color: #f40000;
+}
+
+label p {
+  display: flex;
+  flex-direction: row;
+  margin-top: -3px;
+}
+label p i {
+  margin-right: 10px;
+  padding-right: 10px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+label p span {
+  margin-left: 26px;
+}
+
+label.active p {
+  color: #f40000;
+}
+label.active p .prefix {
+  color: #f40000 !important;
+}
+
+.responsive-img {
+  width: 100%;
 }
 
 @media only screen and (max-width: 992px) {
