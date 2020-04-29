@@ -9561,7 +9561,7 @@ main .dropdown-content li span {
 }
 .sidenav li > a {
   color: white;
-  padding: 0 10px;
+  padding: 0 5px;
 }
 .sidenav li > a:hover, .sidenav li > a.active {
   background-color: #f72525;
@@ -9583,7 +9583,7 @@ main .dropdown-content li span {
   background-color: #f72525;
 }
 .sidenav .collapsible li a {
-  padding: 0 0 0 10px;
+  padding: 0 0 0 5px;
 }
 .sidenav .divider {
   width: 85%;
@@ -9833,7 +9833,7 @@ nav ul.controls i.material-icons {
 .sidenav li > a li > a > [class*=mdi-],
 .sidenav li > a > i.material-icons {
   color: white;
-  margin: 0 10px 0 0;
+  margin: 0 5px 0 0;
 }
 
 .sidenav .collapsible-body,
@@ -11020,6 +11020,45 @@ label.active p .prefix {
   position: sticky;
   background: white;
   cursor: pointer;
+}
+
+.sidenav, .logo {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.collapsed {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  width: 60px;
+}
+
+.sidenav-toggled {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.sidenav-toggled .sidenav .perfil, .sidenav-toggled .sidenav .descripcion, .sidenav-toggled .sidenav .divider {
+  display: none;
+}
+.sidenav-toggled header, .sidenav-toggled main, .sidenav-toggled footer {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  margin-left: 60px;
+}
+.sidenav-toggled footer {
+  width: calc(100% - 60px);
 }
 
 @media only screen and (max-width: 992px) {

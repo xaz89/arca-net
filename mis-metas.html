@@ -304,7 +304,10 @@
     <ul>
       <li class="logo"><a href="#!" class="logo-img"></a></li>
     </ul>
-    <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons hamburguer">menu</i></a>
+    <!-- <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-med-and-up-"><i class="material-icons hamburguer">menu</i></a>
+  <a href="#" class="sidenav-trigger  hide-on-small-only-"><i id="sidenavToggler" class="material-icons hamburguer">lock</i></a>  -->
+    <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only "><i class="material-icons hamburguer">menu</i></a>
+   <a id="sidenavToggler" class="sidenav-trigger show-on-large hide-on-med-and-down "> <i class="material-icons hamburguer">menu</i></a>
     <!-- SEGUNDO MENU LATERAL MOBILE <a href="#" data-target="slide-out2" class="sidenav-trigger show-on-large">2</a> -->
   </nav>
   
@@ -727,6 +730,26 @@
     });
 
   
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+<!-- <script src="./js/main.js"></script> -->
+
+<script>
+  (function($) {
+    "use strict"; // Start of use strict
+  // Toggle the side navigation
+  $("#sidenavToggler").click(function(e) {
+     e.preventDefault();
+      console.log("holi");
+      $("body").toggleClass("sidenav-toggled");
+      $(".sidenav").toggleClass("collapsed");
+      $(".logo").toggleClass("collapsed");
+      /* $(".navbar-sidenav .nav-link-collapse").addClass("collapsed");
+      $(".navbar-sidenav .sidenav-second-level, .navbar-sidenav .sidenav-third-level").removeClass("show"); */
+    });
+  })(jQuery); // End of use strict
 </script>
 
 </body>
