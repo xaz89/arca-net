@@ -9842,7 +9842,7 @@ nav ul.controls i.material-icons {
 }
 
 .sidenav-overlay {
-  top: 57px;
+  top: 56px;
 }
 
 .puntosGanados .carousel {
@@ -9872,13 +9872,21 @@ nav ul.controls i.material-icons {
 .logo-img {
   display: inline-block;
   vertical-align: middle;
-  width: 201px;
-  height: 38px;
-  background: url("../img/logo2x.svg") top left no-repeat;
+  width: 210px;
+  height: 64px;
+  background: url("../img/logo2x.svg") center center no-repeat;
   background-size: 100%;
   margin-left: auto;
   margin-right: auto;
   padding: 0 0;
+}
+
+.logo.collapsed .logo-img {
+  width: 64px;
+  height: 60px;
+  background: url("../img/isotipo-fr.svg") center center no-repeat;
+  background-color: rgba(0, 0, 0, 0);
+  background-size: auto;
 }
 
 .perfil {
@@ -10912,6 +10920,7 @@ figure {
 
 .hamburguer {
   font-size: 30px !important;
+  cursor: pointer;
 }
 
 .chat {
@@ -11061,12 +11070,21 @@ label.active p .prefix {
   width: calc(100% - 60px);
 }
 
+.material-tooltip {
+  visibility: hidden !important;
+  font-family: "Gotham-Book", sans-serif;
+}
+
 .hide {
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   -ms-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
+}
+
+.show {
+  visibility: visible !important;
 }
 
 @media only screen and (max-width: 992px) {

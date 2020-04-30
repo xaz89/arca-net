@@ -34,12 +34,12 @@
         <p><b>500369378</b></p>
       </div>
       <div class="divider"></div>
-      <li>
+      <li >
         <ul class="collapsible collapsible-accordion">
           <li>
-            <a class="collapsible-header active">
+            <a class="collapsible-header active  tooltipped" data-position="right" data-tooltip="Mis Metas">
               <img src="./img/mismetas-activo/ic-mis-metas.svg" alt="" srcset="">
-             <span>Mis metas</span><i class="material-icons right drop">arrow_forward_ios</i></a>
+             <span >Mis metas</span><i class="material-icons right drop">arrow_forward_ios</i></a>
             <div class="collapsible-body">
               <ul>
                 <li><a href="metas-mes.html"><span>Metas del mes</span></a></li>
@@ -51,7 +51,7 @@
       <li>
         <ul class="collapsible collapsible-accordion">
           <li>
-            <a class="collapsible-header">
+            <a class="collapsible-header tooltipped" data-position="right" data-tooltip="Estado de cuenta">
               <img src="./img/mismetas-activo/ic-estado-cuenta.svg" alt="" srcset="">
               <span>Estado de cuenta</span><i
                 class="material-icons right drop">arrow_forward_ios</i></a>
@@ -65,19 +65,19 @@
         </ul>
       </li>
       <li>
-        <a class="no-collapsible" href="beneficios.html">
+        <a class="no-collapsible tooltipped" data-position="right" data-tooltip="Beneficios por nivel" href="beneficios.html">
           <img src="./img/mismetas-activo/ic-beneficios-nivel.svg" alt="" srcset="">
           <span>Beneficios por nivel</span></a>
       </li>
       <li>
-        <a class="no-collapsible" href="encuesta.html">
+        <a class="no-collapsible tooltipped" data-position="right" data-tooltip="Encuesta" href="encuesta.html">
           <img src="./img/mismetas-activo/ic-encuesta.svg" alt="" srcset="">
         <span>Encuesta</span></a>
       </li>
       <li>
         <ul class="collapsible collapsible-accordion">
           <li>
-            <a class="collapsible-header">
+            <a class="collapsible-header tooltipped" data-position="right" data-tooltip="Catálogo para canjes">
               <img src="./img/mismetas-activo/ic-catalogo-canjes.svg" alt="" srcset="">
             <span>Catálogo para canjes</span><i
                 class="material-icons right drop">arrow_forward_ios</i></a>
@@ -162,7 +162,7 @@
         <div class="divider"></div>
       </div>
       <li>
-        <a class="no-collapsible">
+        <a class="no-collapsible tooltipped" data-position="right" data-tooltip="Salir">
           <img src="./img/mismetas-activo/ic-salir.svg" alt="" srcset="">
        <span>Salir</span></a>
       </li>
@@ -709,14 +709,24 @@
     M.AutoInit();
     
   </script>
+
+
   
 
   <script>
+    
        var elem = document.querySelector('.sidenav');
         var instance = new M.Sidenav(elem, {edge: 'left'});
        var elem = document.querySelector('.sidenav2');
         var instance = new M.Sidenav(elem, {edge: 'right'});
+        
     // instance.show();
+  </script>
+  <script>
+  
+        var elems = document.querySelectorAll('.tooltipped');
+    var instances = M.Tooltip.init(elems, {position: 'right'});
+
   </script>
 
 
@@ -735,26 +745,35 @@
 
 <!-- <script src="./js/main.js"></script> -->
 
+<!-- <script>
+  $(document).ready(function(){
+  $('.tooltipped').tooltip();
+}); -->
+      
+</script>
+
 <script>
   (function($) {
-    "use strict"; // Start of use strict
-  // Toggle the side navigation
+    "use strict";
+  // hacer toggle en sidenav
   $("#sidenavToggler").click(function(e) {
      e.preventDefault();
       console.log("holi");
       $("body").toggleClass("sidenav-toggled");
       $(".sidenav").toggleClass("collapsed");
       $(".logo").toggleClass("collapsed");
-      // $(".collapsible.collapsible-accordion").addClass("collapsed");
+      $(".material-tooltip").toggleClass("show");
       
+      // $(".sidenav .collapsible-header").toggleClass("tooltipped");
+      // $(".sidenav .no-collapsible-header").toggleClass("tooltipped");
       $(".sidenav .collapsible-header span").toggleClass("hide");
       $(".sidenav .collapsible-header i").toggleClass("hide");
       $(".sidenav .no-collapsible span").toggleClass("hide");
       $(".sidenav .no-collapsible i").toggleClass("hide");
-      /* $(".navbar-sidenav .nav-link-collapse").addClass("collapsed");
-      $(".navbar-sidenav .sidenav-second-level, .navbar-sidenav .sidenav-third-level").removeClass("show"); */
+      $(".sidenav .collapsible .active .collapsible-body").toggleClass("hide");
     });
-// Force the toggled class to be removed when a collapsible nav link is clicked
+
+    // Forzar toggled, remover cuando se haga click en collapsed 
     $(".sidenav .collapsible-header").click(function(e) {
       e.preventDefault();
       $("body").removeClass("sidenav-toggled");
@@ -764,12 +783,14 @@
       $(".sidenav .collapsible-header i").removeClass("hide");
       $(".sidenav .no-collapsible span").removeClass("hide");
       $(".sidenav .no-collapsible i").removeClass("hide");
+      $(".sidenav .collapsible .active .collapsible-body").removeClass("hide");
+    });   
+    /* $('.sidenav [data-toggle="tooltip"]').tooltip({
+      template: '<div class="tooltip navbar-sidenav-tooltip" role="tooltip" style="pointer-events: none;"><div class="arrow"></div><div class="tooltip-inner"></div></div>'
     });
-
-
-
+    $('[data-toggle="tooltip"]').tooltip()  */
     
-  })(jQuery); // End of use strict
+  })(jQuery); 
 </script>
 
 </body>
