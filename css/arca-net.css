@@ -11061,6 +11061,14 @@ label.active p .prefix {
   width: calc(100% - 60px);
 }
 
+.hide {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
 @media only screen and (max-width: 992px) {
   header,
 main,
@@ -11105,10 +11113,6 @@ footer {
 
   .cajaMeses {
     flex: 1 calc(100% / 4);
-  }
-
-  .sidenav {
-    top: 57px;
   }
 
   .logo {
