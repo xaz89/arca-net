@@ -9683,6 +9683,12 @@ nav ul.controls i.material-icons {
 .controls .dropdown-content .card {
   width: 400px;
   overflow: visible;
+  -webkit-border-radius: 0px 0px;
+  -moz-border-radius: 0px 0px;
+  -ms-border-radius: 0px 0px;
+  -o-border-radius: 0px 0px;
+  border-radius: 0px 0px;
+  overflow: hidden;
 }
 .controls .dropdown-content .card-title {
   font-family: "Gotham-Bold";
@@ -11097,6 +11103,7 @@ footer {
   footer {
     font-size: 80%;
     width: 100%;
+    height: 75px;
   }
 
   table {
