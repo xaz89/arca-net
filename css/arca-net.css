@@ -11085,6 +11085,10 @@ footer {
     font-size: 75%;
   }
 
+  .sidenav {
+    top: 56px;
+  }
+
   .login-panel {
     width: 100%;
     margin: 0;
