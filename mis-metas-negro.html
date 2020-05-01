@@ -34,16 +34,15 @@
         <p><b>500369378</b></p>
       </div>
       <div class="divider"></div>
-      <li>
+      <li >
         <ul class="collapsible collapsible-accordion">
           <li>
-            <a class="collapsible-header active">
+            <a class="collapsible-header active  tooltipped" data-position="right" data-tooltip="Mis Metas">
               <img src="./img/mismetas-activo/ic-mis-metas.svg" alt="" srcset="">
-              Mis
-              metas<i class="material-icons right drop">arrow_forward_ios</i></a>
+             <span >Mis metas</span><i class="material-icons right drop">arrow_forward_ios</i></a>
             <div class="collapsible-body">
               <ul>
-                <li><a href="metas-mes.html">Metas del mes</a></li>
+                <li><a href="metas-mes.html"><span>Metas del mes</span></a></li>
               </ul>
             </div>
           </li>
@@ -52,35 +51,35 @@
       <li>
         <ul class="collapsible collapsible-accordion">
           <li>
-            <a class="collapsible-header">
+            <a class="collapsible-header tooltipped" data-position="right" data-tooltip="Estado de cuenta">
               <img src="./img/mismetas-activo/ic-estado-cuenta.svg" alt="" srcset="">
-              Estado de cuenta<i
+              <span>Estado de cuenta</span><i
                 class="material-icons right drop">arrow_forward_ios</i></a>
             <div class="collapsible-body">
               <ul>
-                <li><a href="puntos-ganados.html">Puntos Ganados</a></li>
-                <li><a href="mis-canjes.html">Mis Canjes</a></li>
+                <li><a href="puntos-ganados.html"><span>Puntos Ganados</span></a></li>
+                <li><a href="mis-canjes.html"><span>Mis Canjes</span></a></li>
               </ul>
             </div>
           </li>
         </ul>
       </li>
       <li>
-        <a class="no-collapsible" href="beneficios.html">
+        <a class="no-collapsible tooltipped" data-position="right" data-tooltip="Beneficios por nivel" href="beneficios.html">
           <img src="./img/mismetas-activo/ic-beneficios-nivel.svg" alt="" srcset="">
-          Beneficios por nivel</a>
+          <span>Beneficios por nivel</span></a>
       </li>
       <li>
-        <a class="no-collapsible" href="encuesta.html">
-          <img src="./img/mismetas-activo/ic-encuesta.svg" alt="" srcset="">
-          Encuesta</a>
+        <a class="no-collapsible tooltipped" data-position="right" data-tooltip="Encuesta" href="encuesta.html">
+          <img src="./img/mismetas-activo/ic-enc.svg" alt="" srcset="">
+        <span>Encuesta</span></a>
       </li>
       <li>
         <ul class="collapsible collapsible-accordion">
           <li>
-            <a class="collapsible-header">
+            <a class="collapsible-header tooltipped" data-position="right" data-tooltip="Catálogo para canjes">
               <img src="./img/mismetas-activo/ic-catalogo-canjes.svg" alt="" srcset="">
-              Catálogo para canjes<i
+            <span>Catálogo para canjes</span><i
                 class="material-icons right drop">arrow_forward_ios</i></a>
             <div class="collapsible-body">
               <ul>
@@ -163,9 +162,9 @@
         <div class="divider"></div>
       </div>
       <li>
-        <a class="no-collapsible">
-          <img src="./img/mismetas-activo/ic-salir.svg" alt="" srcset="">
-          Salir</a>
+        <a class="no-collapsible tooltipped" data-position="right" data-tooltip="Salir">
+          <img src="./img/mismetas-activo/ic-sal.svg" alt="" srcset="">
+       <span>Salir</span></a>
       </li>
     </ul>
     <ul class="right controls hide-on-med-and-down">
@@ -264,7 +263,7 @@
               <div>
                 <h5>97,784 pts.</h5><small>Se restan de tu saldo</small>
               </div>
-              <div class="waves-effect waves-light btn">CANJEAR</div>
+              <button class="waves-effect waves-light btn">CANJEAR</button>
             </div>
           </div>
         </li>
@@ -304,7 +303,10 @@
     <ul>
       <li class="logo"><a href="#!" class="logo-img"></a></li>
     </ul>
-    <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons hamburguer">menu</i></a>
+    <!-- <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-med-and-up-"><i class="material-icons hamburguer">menu</i></a>
+  <a href="#" class="sidenav-trigger  hide-on-small-only-"><i id="sidenavToggler" class="material-icons hamburguer">lock</i></a>  -->
+    <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only "><i class="material-icons hamburguer">menu</i></a>
+   <a id="sidenavToggler" class="sidenav-trigger show-on-large hide-on-med-and-down "> <i class="material-icons hamburguer">menu</i></a>
     <!-- SEGUNDO MENU LATERAL MOBILE <a href="#" data-target="slide-out2" class="sidenav-trigger show-on-large">2</a> -->
   </nav>
   
@@ -730,6 +732,10 @@
 
   
 </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+<script src="./js/main.js"></script>
 
 </body>
 
