@@ -8743,6 +8743,11 @@ input[type=range]::-ms-thumb {
   margin-bottom: 0.1em !important;
 }
 
+.py-05 {
+  padding-top: 0.5em !important;
+  padding-bottom: 0.5em !important;
+}
+
 @media (max-width: 575.98px) {
   .d-none {
     display: none;
@@ -10340,33 +10345,33 @@ thead th:only-child {
 }
 
 .refrescos {
-  height: 10px;
+  height: 20px;
   background-color: #F40000;
-  -webkit-border-radius: 0.25rem 0.25rem;
-  -moz-border-radius: 0.25rem 0.25rem;
-  -ms-border-radius: 0.25rem 0.25rem;
-  -o-border-radius: 0.25rem 0.25rem;
-  border-radius: 0.25rem 0.25rem;
+  -webkit-border-radius: 2px 2px;
+  -moz-border-radius: 2px 2px;
+  -ms-border-radius: 2px 2px;
+  -o-border-radius: 2px 2px;
+  border-radius: 2px 2px;
 }
 
 .hidratacion {
-  height: 10px;
+  height: 20px;
   background-color: #2773cc;
-  -webkit-border-radius: 0.25rem 0.25rem;
-  -moz-border-radius: 0.25rem 0.25rem;
-  -ms-border-radius: 0.25rem 0.25rem;
-  -o-border-radius: 0.25rem 0.25rem;
-  border-radius: 0.25rem 0.25rem;
+  -webkit-border-radius: 2px 2px;
+  -moz-border-radius: 2px 2px;
+  -ms-border-radius: 2px 2px;
+  -o-border-radius: 2px 2px;
+  border-radius: 2px 2px;
 }
 
 .nutricion {
-  height: 10px;
+  height: 20px;
   background-color: #449d44;
-  -webkit-border-radius: 0.25rem 0.25rem;
-  -moz-border-radius: 0.25rem 0.25rem;
-  -ms-border-radius: 0.25rem 0.25rem;
-  -o-border-radius: 0.25rem 0.25rem;
-  border-radius: 0.25rem 0.25rem;
+  -webkit-border-radius: 2px 2px;
+  -moz-border-radius: 2px 2px;
+  -ms-border-radius: 2px 2px;
+  -o-border-radius: 2px 2px;
+  border-radius: 2px 2px;
 }
 
 .beneficiosCardsCont {
@@ -10582,6 +10587,7 @@ thead th:only-child {
 
 .h-100 {
   height: 100%;
+  min-height: 100%;
 }
 
 .mt-5 {
@@ -11131,6 +11137,19 @@ label.active p .prefix {
 .tabs2 button:hover {
   border-color: #5c5c5c;
   color: #5c5c5c;
+}
+
+.title-table {
+  background-color: #252525;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px;
+  font: normal 14px/24px "Gotham-Bold";
+}
+
+.one-line {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media only screen and (max-width: 992px) {
