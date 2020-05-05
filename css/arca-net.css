@@ -8747,9 +8747,30 @@ input[type=range]::-ms-thumb {
   margin-top: 0.5em !important;
 }
 
+.p-05 {
+  padding-top: 0.5em !important;
+  padding-bottom: 0.5em !important;
+  padding-left: 0.5em !important;
+  padding-right: 0.5em !important;
+}
+
 .py-05 {
   padding-top: 0.5em !important;
   padding-bottom: 0.5em !important;
+}
+
+.border-1 {
+  border-width: 1px;
+  border-color: #D3D3D3;
+  border-style: solid;
+}
+
+.border-radius-4px {
+  -webkit-border-radius: 4px 4px;
+  -moz-border-radius: 4px 4px;
+  -ms-border-radius: 4px 4px;
+  -o-border-radius: 4px 4px;
+  border-radius: 4px 4px;
 }
 
 @media (max-width: 575.98px) {
@@ -10613,6 +10634,10 @@ thead th:only-child {
   margin-left: 0;
 }
 
+.h-43px {
+  height: 43px;
+}
+
 .h-35vh {
   min-height: 10vmax;
   height: 20vmax;
@@ -11204,6 +11229,9 @@ label.active p .prefix {
   font: normal 16px/1 "Gotham-Bold";
 }
 
+.ui-datepicker-calendar td {
+  padding: 0 !important;
+}
 .ui-datepicker-calendar thead {
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
@@ -11227,17 +11255,42 @@ label.active p .prefix {
 }
 
 .hasDatepicker {
-  padding: 15px;
+  padding: 5px;
   background: #ffffff;
   -webkit-box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.15);
 }
 
+.ui-datepicker td {
+  height: 35px !important;
+}
+
 .ui-datepicker .ui-datepicker-title {
   font: normal 18px/26px "Gotham-Bold";
 }
 
+.table-mensual {
+  font-size: 14px;
+}
+
+.miTienda h4 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.miTienda h5 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.miTienda p {
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.miTienda table {
+  font-size: 13px;
+}
 .miTienda table td {
   padding: 0px 5px;
 }
@@ -11245,6 +11298,61 @@ label.active p .prefix {
   text-align: left;
 }
 
+select {
+  border-color: #D3D3D3;
+  -webkit-border-radius: 4px 4px;
+  -moz-border-radius: 4px 4px;
+  -ms-border-radius: 4px 4px;
+  -o-border-radius: 4px 4px;
+  border-radius: 4px 4px;
+}
+
+.selecciona {
+  font-size: 14px !important;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+svg .a {
+  fill: #fff;
+  opacity: 0;
+}
+svg .rojo, svg .c, svg .d {
+  fill: none;
+  stroke: #f40000;
+}
+svg .c, svg .d {
+  stroke-linecap: round;
+}
+svg .c {
+  stroke-linejoin: round;
+}
+svg .d {
+  stroke-width: 0.5px;
+}
+svg .e, svg .f {
+  fill: #f40000;
+}
+svg .f {
+  fill-rule: evenodd;
+}
+svg .gris {
+  fill: none;
+  stroke: #707070;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* .a{fill:#fff;opacity:0;}.gris{fill:none;stroke:#707070;stroke-linecap:round;stroke-linejoin:round;}
+.rojo {
+  stroke:#f40000;
+} */
 @media only screen and (max-width: 992px) {
   header,
 main,
