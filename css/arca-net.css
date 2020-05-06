@@ -11461,7 +11461,6 @@ label.active p .prefix {
   -ms-border-radius: 4px 4px 0 0;
   -o-border-radius: 4px 4px 0 0;
   border-radius: 4px 4px 0 0;
-  overflow: scroll;
 }
 .title-table .row {
   margin-bottom: 0;
