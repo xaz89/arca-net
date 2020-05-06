@@ -11873,6 +11873,16 @@ select.browser-default {
   margin: 0;
 }
 
+.carritoDos {
+  margin-top: 35px;
+}
+.carritoDos input {
+  font: normal 18px/24px "Gotham-Medium";
+}
+.carritoDos input[type=text]:not(.browser-default) {
+  font: normal 18px/24px "Gotham-Medium";
+}
+
 .separador {
   height: 15px;
   background: #f4f7fb;
@@ -12149,8 +12159,11 @@ footer {
     text-align: center;
   }
 
-  .carritoUno {
+  .carritoUno, .carritoDos {
     text-align: center;
+  }
+  .carritoUno button, .carritoDos button {
+    margin-left: 0 !important;
   }
 
   .total {
