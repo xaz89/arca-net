@@ -2,370 +2,660 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 
-    <!-- Compiled and minified CSS -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <link
-        href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/iconos.css">
-    <link rel="stylesheet" href="./css/arca-net.css">
-    <!-- Datepicker jQuery -->
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <link rel="stylesheet" href="css/date-picker.css">
-    <script src="./js/datepicker.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var elems = document.querySelectorAll('.sidenav');
-            var instances = M.Sidenav.init(elems, options);
-            var instances = M.Carousel.init({
-                fullWidth: false,
-                indicators: true,
-                duration: 100,
-                numVisible: 2,
-            });
-        });
-    </script>
-    <script>
-        $('.carousel.carousel-slider').carousel({
-            fullWidth: false,
-            indicators: true,
-        });
-    </script>
-    <title>Premios</title>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/iconos.css">
+  <link rel="stylesheet" href="./css/arca-net.css">
+  <!-- Datepicker jQuery -->
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+  <link rel="stylesheet" href="css/date-picker.css">
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+
+
+  <title>Premios</title>
 </head>
 
-<body>
-    <nav class="red-">
-        <ul id="slide-out" class="sidenav sidenav-fixed">
-            <div class="perfil">
-                <p class="nombre">¡Hola, Ramón!</p>
-                <p class="nivel">Nivel Activo</p>
-                <p class="puntos">172,536 pts.</p>
-                <p class="saldo">Saldo actual</p>
+
+
+<body class="theme-rojo">
+
+
+
+
+  <nav class="red-">
+    <ul id="slide-out" class="sidenav sidenav-fixed">
+      <div class="perfil">
+        <p class="nombre">¡Hola Luis!</p>
+        <p class="nivel">Activo</p>
+        <p class="puntos">84,320 <span>pts.</span></p>
+        <p class="saldo">Saldo actual</p>
+      </div>
+      <div class="divider"></div>
+      <div class="descripcion">
+        <p>Abarrotes "La Esperanza"</p>
+        <p>No. de Cliente Arca Continental</p>
+        <p><b>500369378</b></p>
+      </div>
+      <div class="divider"></div>
+      <li>
+        <ul class="collapsible collapsible-accordion">
+          <li>
+            <a class="collapsible-header  tooltipped" data-position="right" data-tooltip="Mis Metas">
+              <img src="./img/mismetas-activo/ic-mis-metas.svg" alt="" srcset="">
+              <span>Mis metas</span><i class="material-icons right drop">arrow_forward_ios</i></a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="metas-mes.html"><span>Metas del mes</span></a></li>
+              </ul>
             </div>
-            <div class="divider"></div>
-            <div class="descripcion">
-                <p>Usuario de prueba Nivel Activo</p>
-                <p>Chihuahua</p>
-                <p>No. Cliente Arca Continental</p>
-                <p>99999999999</p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul class="collapsible collapsible-accordion">
+          <li>
+            <a class="collapsible-header tooltipped" data-position="right" data-tooltip="Estado de cuenta">
+              <img src="./img/mismetas-activo/ic-estado-cuenta.svg" alt="" srcset="">
+              <span>Estado de cuenta</span><i class="material-icons right drop">arrow_forward_ios</i></a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="puntos-ganados.html"><span>Puntos Ganados</span></a></li>
+                <li><a href="mis-canjes.html"><span>Mis Canjes</span></a></li>
+              </ul>
             </div>
-            <div class="divider"></div>
-            <li>
-                <ul class="collapsible collapsible-accordion">
-                    <li>
-                        <a class="collapsible-header" href="mis-metas.html"><i
-                                class="demo-icon icon-mis_objetivos"></i>Mis
-                            metas<i class="material-icons right drop">chevron_right</i></a>
-                        <div class="collapsible-body">
-                            <ul>
-                                <li><a href="metas-mes.html">Metas del mes</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <ul class="collapsible collapsible-accordion">
-                    <li>
-                        <a class="collapsible-header"><i class="demo-icon icon-mismov"></i>Estado de cuenta<i
-                                class="material-icons right drop">chevron_right</i></a>
-                        <div class="collapsible-body">
-                            <ul>
-                                <li><a href="puntos-ganados.html">Puntos Ganados</a></li>
-                                <li><a href="mis-canjes.html">Mis Canjes</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a class="no-collapsible" href="beneficios.html"><i class="demo-icon icon-beneficios"></i>Beneficios</a>
-
-            </li>
-            <li>
-                <ul class="collapsible collapsible-accordion">
-                    <li>
-                        <a class="collapsible-header"><i class="demo-icon icon-tienda"></i>Tienda<i
-                                class="material-icons right drop">chevron_right</i></a>
-                        <div class="collapsible-body">
-                            <ul>
-                                <li><a href="premios.html" class="active"><i
-                                            class="demo-icon icon-premios"></i>Premios</a></li>
-                                <li><a href="lista-deseos.html"><i class="demo-icon icon-listadeseos"></i>Lista de
-                                        deseos</a></li>
-                                <li><a href="compra-puntos.html"><i class="demo-icon icon-comprapuntos"></i>Compra de
-                                        puntos</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a class="no-collapsible"><i class="demo-icon icon-salir"></i>Salir</a>
-            </li>
+          </li>
         </ul>
-        <ul class="right controls hide-on-med-and-down">
-            <li><a href="#!" class="notificaciones dropdown-trigger " data-target="favorite"><i
-                        class="small material-icons">favorite_border</i></a></li>
-            <ul id='favorite' class='dropdown-content white notiFav scrollspy'>
-                <li class="no-hover">
-                    <div class="card no-margin">
-                        <span class="card-title ">FAVORITOS</span>
-                        <div class="card-content">
-                            <div class="row valign-wrapper">
-                                <div class="col s3">
-                                    <img src="./img/profile.jpg" alt="" class="circle responsive-img">
-                                </div>
-                                <div class="col s9">
-                                    <div class="black-text">
-                                        Set de herramientas
-                                    </div>
-                                    <div class="agregar-carrito-text ">
-                                        Agregar al carrito <i class="material-icons right">delete_forever</i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row valign-wrapper">
-                                <div class="col s3">
-                                    <img src="./img/profile.jpg" alt="" class="circle responsive-img">
-                                </div>
-                                <div class="col s9">
-                                    <div class="black-text">
-                                        Set de herramientas
-                                    </div>
-                                    <div class="agregar-carrito-text ">
-                                        Agregar al carrito <i class="material-icons right">delete_forever</i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                </li>
-            </ul>
-            <li><a href="#!" class="notificaciones dropdown-trigger" data-target="shopping"><i
-                        class="small material-icons">shopping_cart</i>
-                    <div class="pulse numero btn-floating"><span>10</span></div>
-                </a></li>
-            <ul id='shopping' class='dropdown-content white'>
-                <li class="no-hover">
-                    <div class="card no-margin">
-                        <span class="card-title">CARRITO DE CANJE</span>
-                        <div class="card-content">
-                            <div class="row valign-wrapper">
-                                <div class="col s3">
-                                    <img src="./img/profile.jpg" alt="" class="circle responsive-img">
-                                </div>
-                                <div class="col s9">
-                                    <div class="carrito-canje">
-                                        Set de herramientas<i class="material-icons right">delete_forever</i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="divider" style="margin-bottom: 20px;"></div>
-                            <div class="row valign-wrapper">
-                                <div class="col s3">
-                                    <img src="./img/profile.jpg" alt="" class="circle responsive-img">
-                                </div>
-                                <div class="col s9">
-                                    <div class="carrito-canje">
-                                        Set de herramientas<i class="material-icons right">delete_forever</i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-action">
-                            <div>
-                                <h5>97,784 pts.</h5><small>Se restan de tu saldo</small>
-                            </div>
-                            <div class="waves-effect waves-light btn">CANJEAR</div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            <li><a href="#!" class="notificaciones dropdown-trigger" data-target="notifications"><i
-                        class="small material-icons">notifications_none</i>
-                    <div class="pulse numero btn-floating"><span>10</span></div>
-                </a></li>
-            <ul id='notifications' class='dropdown-content white'>
-                <li class="no-hover">
-                    <div class="card no-margin">
-                        <span class="card-title notifica">Notificaciones</span>
-                        <div class="card-content">
-                            <p>No existen notificaciones por el momento.</p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            <li class="border-control"></li>
-            <li class="drop-img-perfil"><a class="dropdown-trigger menu-perfil" href="#!" data-target="perfil">Ramón<i
-                        class="material-icons right">arrow_drop_down</i><img class="circle profile"
-                        src="./img/profile.jpg" /></a>
-            </li>
-            <ul id='perfil' class='dropdown-content dropdown-perfil'>
-                <li><a href="./mis-datos.html"><i class="demo-icon icon-misdatos"></i>Mis Datos</a></li>
-                <li><a href="./cambiar-clave.html"><i class="demo-icon icon-cambiarcontra"></i>Cambiar clave</a></li>
-                <li><a href="./agregar-dest.html"><i class="demo-icon icon-agregardest"></i>Agregar destinatarios</a>
-                </li>
-                <li><a href="./centro-pref.html"><i class="demo-icon icon-preferencias"></i>Centro de preferencias</a>
-                </li>
-                <li><a href="#bienvenida" class="modal-trigger"><i class="demo-icon icon-regalo"></i>Regalo de
-                        bienvenida</a></li>
-                <li><a href="#!"><i class="small material-icons">power_settings_new</i>Salir</li>
-            </ul>
-        </ul>
-        <ul>
-            <li class="logo"><a href="#!" class="logo-img"></a></li>
-        </ul>
-        <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large-"><i
-                class="material-icons hamburguer">menu</i></a>
-    </nav>
-    <main>
-        <section class="puntosGanados">
-            <div class="row h-35vh-">
-                <div class="flex-title">
-                    <div class="title">Premios</div>
-                </div>
-                <div class="col m3 s12 h-100-">
-                    <div class="row">
-                        <div class="col s12">
-                            <div class="card hoverable premioSugerido">
-                                <span class="card-title">Premio sugerido</span>
-                                <div class="card-content">
-                                    <img src="./img/premioSugerido.jpg" alt="" style="max-width:50%">
-                                    <p>Set de herramientas</p>
-                                    <h5>73,869 pts. <i class="small material-icons">favorite_border</i><i
-                                            class="small material-icons">shopping_cart</i></h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col s12">
-                            <div class="card premiosPremios">
-                                <span class="card-title">PREMIOS</span>
-                                <div class="card-content">
-                                    <p class="itemsPremios active"><img src="./img/articulos_de_viaje.png"
-                                            alt="">Artículos de viaje(8)</p>
-                                    <p class="itemsPremios"><img src="./img/audio_y_video.png" alt="">Audio y video(8)
-                                    </p>
-                                    <p class="itemsPremios"><img src="./img/cocina.png" alt="">Cocina(8)</p>
-                                    <p class="itemsPremios"><img src="./img/computo.png" alt="">Cómputo(8)</p>
-                                    <p class="itemsPremios"><img src="./img/especiales.png" alt="">Del Valle(8)</p>
-                                    <p class="itemsPremios"><img src="./img/deportes.png" alt="">Deportes(8)</p>
-                                    <p class="itemsPremios"><img src="./img/electrodomesticos.png"
-                                            alt="">Electrodomésticos(8)</p>
-                                    <p class="itemsPremios"><img src="./img/electronicos.png" alt="">Electrónicos(8)</p>
-                                    <p class="itemsPremios"><img src="./img/hogar.png" alt="">Hogar(8)</p>
-                                    <p class="itemsPremios"><img src="./img/linea_blanca.png" alt="">Línea Blanca(8)</p>
-                                    <p class="itemsPremios"><img src="./img/negocio.png" alt="">Negocio(8)</p>
-                                    <p class="itemsPremios"><img src="./img/personal.png" alt="">Personal(8)</p>
-                                    <p class="itemsPremios"><img src="./img/salud.png" alt="">Salud(8)</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col s12">
-                            <div class="card premiosPremios">
-                                <span class="card-title">ESPECIALES</span>
-                                <div class="card-content">
-                                    <p class="itemsPremios active"><img src="./img/certificados_digitales.png"
-                                            alt="">Certificados(8)</p>
-                                    <p class="itemsPremios"><img src="./img/servicios.png" alt="">Servicios(8)</p>
-                                    <p class="itemsPremios"><img src="./img/especiales.png" alt="">Tiempo Aire(8)</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col m9 s12  h-100">
-                    <div class="card carousel carousel-slider">
-                        <a class="carousel-item" href="#one!"><img src="./img/slider1.png"></a>
-                        <a class="carousel-item" href="#two!"><img src="./img/slider1.png"></a>
-                        <a class="carousel-item" href="#three!"><img src="./img/slider1.png"></a>
-                        <a class="carousel-item" href="#four!"><img src="./img/slider1.png"></a>
-                    </div>
-                </div>
-                <div class="col m9 s12">
-                    <div class="row">
-                        <div class="col s12">
-                            <ul class="pagination right">
-                                <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
-                                <li class="active"><a href="#!">1</a></li>
-                                <li class="waves-effect"><a href="#!">2</a></li>
-                                <li class="waves-effect"><a href="#!">3</a></li>
-                                <li class="waves-effect"><a href="#!">4</a></li>
-                                <li class="waves-effect"><a href="#!">5</a></li>
-                                <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col m4 s12">
-                            <a href="premio-detalle.html" class="premioCard">
-                                <div class="card-content">
-                                    <img src="./img/premioSugerido.jpg" alt="" style="max-width:50%">
-                                    <p>Set de herramientas</p>
-                                    <h5>73,869 pts. <div><i class="small material-icons">favorite_border</i><i
-                                                class="small material-icons">shopping_cart</i></div>
-                                    </h5>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col m4 s12">
-                            <div class="premioCard">
-                                <div class="card-content">
-                                    <img src="./img/premioSugerido.jpg" alt="" style="max-width:50%">
-                                    <p>Set de herramientas</p>
-                                    <h5>73,869 pts. <div><i class="small material-icons">favorite_border</i><i
-                                                class="small material-icons">shopping_cart</i></div>
-                                    </h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col m4 s12">
-                            <div class="premioCard">
-                                <div class="card-content">
-                                    <img src="./img/premioSugerido.jpg" alt="" style="max-width:50%">
-                                    <p>Set de herramientas</p>
-                                    <h5>73,869 pts. <div><i class="small material-icons">favorite_border</i><i
-                                                class="small material-icons">shopping_cart</i></div>
-                                    </h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      </li>
+      <li>
+        <a class="no-collapsible tooltipped" data-position="right" data-tooltip="Beneficios por nivel"
+          href="beneficios.html">
+          <img src="./img/mismetas-activo/ic-beneficios-nivel.svg" alt="" srcset="">
+          <span>Beneficios por nivel</span></a>
+      </li>
+      <li>
+        <a class="no-collapsible tooltipped" data-position="right" data-tooltip="Encuesta" href="encuesta.html">
+          <img src="./img/mismetas-activo/ic-enc.svg" alt="" srcset="">
+          <span>Encuesta</span></a>
+      </li>
+      <li>
+        <ul class="collapsible collapsible-accordion">
+          <li>
+            <a class="collapsible-header active tooltipped" data-position="right" data-tooltip="Catálogo para canjes">
+              <img src="./img/mismetas-activo/ic-catalogo-canjes.svg" alt="" srcset="">
+              <span>Catálogo para canjes</span><i class="material-icons right drop">arrow_forward_ios</i></a>
+            <div class="collapsible-body">
+              <ul>
+                <li class="active-"><a href="premios.html"><i class="demo-icon icon-premios"></i>Premios</a></li>
+                <li><a href="lista-deseos.html"><i class="demo-icon icon-listadeseos"></i>Lista de
+                    deseos</a></li>
+                <li><a href="compra-puntos.html"><i class="demo-icon icon-comprapuntos"></i>Compra de
+                    puntos</a></li>
+              </ul>
             </div>
-        </section>
-    </main>
-    <footer>
-        <a href="#!">Términos y condiciones</a>
-        <a href="#!">Aviso de privacidad</a>
-        <a href="#!">preguntas frecuentes</a>
-        <a href="#!">garantía de premios</a>
-        <a href="#!">contacto</a>
-    </footer>
+          </li>
+        </ul>
+      </li>
+      <div class="d-md-none d-block">
+        <div class="divider"></div>
+        <li>
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header text-center"><img src="./img/profile.jpg" class="circle profile left"
+                  style="margin-top: 5px;" alt=""> Luis Felipe<i
+                  class="material-icons right drop">arrow_forward_ios</i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="./mis-datos.html"><i class="demo-icon icon-misdatos"></i>Mis Datos</a></li>
+                  <li><a href="./cambiar-clave.html"><i class="demo-icon icon-cambiarcontra"></i>Cambiar Contraseña</a>
+                  </li>
+                  <li><a href="./agregar-dest.html"><i class="demo-icon icon-agregardest"></i>Agregar Destinatarios</a>
+                  </li>
+                  <li><a href="./centro-pref.html"><i class="demo-icon icon-preferencias"></i>Centro de Preferencias</a>
+                  </li>
+                  <li><a href="!#"><i class="demo-icon icon-regalo"></i>Regalo de Bienvenida</a></li>
+                  <li class="active-"><a href="premios.html"><i class="material-icons">power_settings_new</i>Salir</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <div class="divider"></div>
+        <li>
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header"><i class="material-icons">favorite_border</i>Favoritos<i
+                  class="material-icons right drop">arrow_forward_ios</i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li class="active-"><a href="premios.html"><i class="demo-icon icon-premios"></i>Bocina portatil</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header"><i class="material-icons">shopping_cart</i>Carrito de canje<i
+                  class="material-icons right drop">arrow_forward_ios</i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li class="active-"><a href="premios.html"><i class="demo-icon icon-premios"></i>Bocina portatil</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header"><i class="material-icons">notifications_none</i>Notificaciones<i
+                  class="material-icons right drop">arrow_forward_ios</i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li class="active-"><a href="premios.html"><i class="demo-icon icon-premios"></i>Bocina portatil</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <div class="divider"></div>
+      </div>
+      <li>
+        <a class="no-collapsible tooltipped" data-position="right" data-tooltip="Salir">
+          <img src="./img/mismetas-activo/ic-sal.svg" alt="" srcset="">
+          <span>Salir</span></a>
+      </li>
+    </ul>
+    <ul class="right controls hide-on-med-and-down">
+      <li>
+        <a href="#!" class="notificaciones dropdown-trigger " data-target="favorite">
+          <img src="./img/mismetas-activo/objetivo-menu.svg" alt="" srcset="">
+        </a>
+      </li>
+      <ul id='favorite' class='dropdown-content white notiFav scrollspy'>
+        <li class="no-hover">
+          <div class="card no-margin">
+            <span class="card-title ">MI PREMIO OBJETIVO</span>
+            <hr>
+            <div class="card-content">
+              <div class="row valign-wrapper">
+                <div class="col s5">
+                  <img src="./img/obj-prod1.png" alt="" class="w-100">
+                </div>
+                <div class="col s10">
+                  <div class="black-text">
+                    Notebook Lenovo <br>
+                    IP S340-15IIL 17 15.6"
+                  </div>
+                  <div class="red-text">
+                    <small class="left-align-">Aún te faltan</small>
+                    <div class="premio-pts">
+                      <h4>2,979 <span>pts.</span></h4>
+                      <div class="controles-img">
+                        <img class="ml-1" src="./img/mismetas-activo/carrito_icon 30 Red.svg" alt="">
+                        <img class="ml-1" src="./img/ic-trash.svg" alt="">
+                      </div>
+                    </div>
+                  </div>
 
-    <script src="./js/dropdown.js"></script>
-    <script src="./js/grafica.js"></script>
+                </div>
+              </div>
+              <hr class="mb-1">
+              <div class="row valign-wrapper">
+                <div class="col s5">
+                  <img src="./img/obj-prod2.png" alt="" class="w-100">
+                </div>
+                <div class="col s10">
+                  <div class="black-text">
+                    Notebook Lenovo <br>
+                    IP S340-15IIL 17 15.6"
+                  </div>
+                  <div class="red-text">
+                    <small class="left-align-">Aún te faltan</small>
+                    <div class="premio-pts">
+                      <h4>2,979 <span>pts.</span></h4>
+                      <div class="controles-img">
+                        <img class="ml-1" src="./img/mismetas-activo/carrito_icon 30 Red.svg" alt="">
+                        <img class="ml-1" src="./img/ic-trash.svg" alt="">
+                      </div>
+                    </div>
+                  </div>
 
-    <script>
-        M.AutoInit();
-    </script>
+                </div>
+              </div>
+            </div>
+        </li>
+      </ul>
+      <li><a href="#!" class="notificaciones dropdown-trigger" data-target="shopping">
+          <img src="./img/mismetas-activo/carrito-menu.svg" alt="" srcset="">
+          <div class="pulse numero btn-floating"><span>10</span></div>
+        </a></li>
+      <ul id='shopping' class='dropdown-content white'>
+        <li class="no-hover">
+          <div class="card no-margin">
+            <span class="card-title">CARRITO DE CANJE</span>
+            <hr>
+            <div class="card-content">
+              <div class="row valign-wrapper">
+                <div class="col s5">
+                  <img src="./img/obj-prod2.png" alt="" class="w-100">
+                </div>
+                <div class="col s10">
+                  <div class="carrito-canje">
+                    Set de herramientas<img class="ml-1" src="./img/ic-trash.svg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="divider" style="margin-bottom: 20px;"></div>
+              <div class="row valign-wrapper">
+                <div class="col s5">
+                  <img src="./img/obj-prod2.png" alt="" class="w-100">
+                </div>
+                <div class="col s10">
+                  <div class="carrito-canje">
+                    Set de herramientas<img class="ml-1" src="./img/ic-trash.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-action">
+              <div>
+                <h5>97,784 pts.</h5><small>Se restan de tu saldo</small>
+              </div>
+              <button class="waves-effect waves-light btn">CANJEAR</button>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <li>
+        <a href="#!" class="notificaciones dropdown-trigger" data-target="notifications">
+          <img src="./img/mismetas-activo/notificaciones-menu.svg" alt="" srcset="">
+          <div class="pulse numero btn-floating"><span>10</span></div>
+        </a></li>
+      <ul id='notifications' class='dropdown-content white'>
+        <li class="no-hover">
+          <div class="card no-margin">
+            <span class="card-title notifica">Notificaciones</span>
+            <div class="card-content">
 
-    <script>
-        $('.carousel.carousel-slider').carousel({
-            fullWidth: false,
-            indicators: true,
-        });
-    </script>
+              <p>No existen notificaciones por el momento.</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <li class="border-control"></li>
+      <li class="drop-img-perfil">
+        <a class="dropdown-trigger menu-perfil" href="#!" data-target="perfil">
+          Luis Felipe
+          <i class="material-icons right drop">arrow_forward_ios</i>
+          <img class="circle profile" src="./img/mismetas-activo/ic-mi-cuenta.svg" alt="" srcset="">
+      </li>
+      <ul id='perfil' class='dropdown-content dropdown-perfil'>
+        <li><a href="./mis-datos.html"><img src="./img/ic-misdatos.svg" alt="">Mis Datos</a></li>
+        <li><a href="./cambiar-clave.html"><img src="./img/ic-cambiar_clave.svg" alt="">Cambiar Contraseña</a></li>
+        <li><a href="./agregar-dest.html"><img src="./img/ic-destinatario.svg" alt="">Agregar Destinatarios</a></li>
+        <li><a href="./centro-pref.html"><img src="./img/ic-preferencias.svg" alt="">Centro de Preferencias</a></li>
+
+      </ul>
+    </ul>
+    <!-- SEGUNDO MENU LATERAL MOBILE <ul id="slide-out2" class="sidenav2  hide-on-med-and-down"></ul> -->
+    <ul>
+      <li class="logo"><a href="#!" class="logo-img"></a></li>
+    </ul>
+    <!-- <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-med-and-up-"><i class="material-icons hamburguer">menu</i></a>
+  <a href="#" class="sidenav-trigger  hide-on-small-only-"><i id="sidenavToggler" class="material-icons hamburguer">lock</i></a>  -->
+    <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only "><i
+        class="material-icons hamburguer">menu</i></a>
+    <a id="sidenavToggler" class="sidenav-trigger show-on-large hide-on-med-and-down "> <i
+        class="material-icons hamburguer">menu</i></a>
+    <!-- SEGUNDO MENU LATERAL MOBILE <a href="#" data-target="slide-out2" class="sidenav-trigger show-on-large">2</a> -->
+  </nav>
+
+
+  <main>
+    <div class="flex-title-black">
+      <div class="title">Premios</div>
+      <p>Actualizado el lunes 13 de Enero de 2020</p>
+    </div>
+    
+
+
+<div class="back-black"></div>
+       
+          <section class="premios">
+            <div class="row">
+              <div class="col s7 offset-s2 m10 l10 offset-m1 offset-l1">
+                <div class="responsive">
+                  <div><img src="./img/pr-coca.svg" alt="" srcset=""><p>P. Coca-cola</p></div>
+                  <div><img src="./img/pr-valle.svg" alt="" srcset=""><p>P Del Valle</p></div>
+                  <div><img src="./img/pr-audiovideo.svg" alt="" srcset=""><p>Audio y video</p></div>
+                  <div><img src="./img/pr-cocina.svg" alt="" srcset=""><p>Cocina</p></div>
+                  <div><img src="./img/pr-computo.svg" alt="" srcset=""><p>Cómputo</p></div>
+                  <div><img src="./img/pr-electronicos.svg" alt="" srcset=""><p>Electrónicos</p></div>
+                  <div><img src="./img/pr-hogar.svg" alt="" srcset=""><p>Hogar</p></div>
+                  <div><img src="./img/pr-blanca.svg" alt="" srcset=""><p>Línea Blanca</p></div>
+                  <div><img src="./img/pr-personal.svg" alt="" srcset=""><p>Personal</p></div>
+                  <div><img src="./img/pr-salud.svg" alt="" srcset=""><p>Salud</p></div>
+                  <div><img src="./img/pr-viaje.svg" alt="" srcset=""><p>Artículos de viaje</p></div>
+                  <div><img src="./img/pr-deportes.svg" alt="" srcset=""><p>Deportes</p></div>
+                  <div><img src="./img/pr-electrodomesticos.svg" alt="" srcset=""><p>Electrodomésticos</p></div>
+                  <div><img src="./img/pr-infantil.svg" alt="" srcset=""><p>Infantil</p></div>
+                  <div><img src="./img/pr-entretenimiento.svg" alt="" srcset=""><p>Entretenimiento</p></div>
+                  <div><img src="./img/pr-negocio.svg" alt="" srcset=""><p>Negocio</p></div>
+                  
+                  
+                </div>
+              </div>
+              <div class="col s12">
+                <div class="slider">
+                  <ul class="slides">
+                    <li>
+                      <img src="./img/banner-premios.png"> <!-- random image -->
+                      <!-- <div class="caption left-align">
+                        <h5 class="">2020</h5>
+                        <h1>CATÁLOGO</h1>
+                      </div> -->
+                    </li>
+                    <li>
+                      <img src="./img/banner-premios.png"> <!-- random image -->
+                      <!-- <div class="caption left-align">
+                        <h5 class="">2020</h5>
+                        <h1>CATÁLOGO</h1>
+                      </div> -->
+                    </li>
+                    <li>
+                      <img src="./img/banner-premios.png"> <!-- random image -->
+                      <!-- <div class="caption left-align">
+                        <h5 class="">2020</h5>
+                        <h1>CATÁLOGO</h1>
+                      </div> -->
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+              <div class="col s12 premSug">
+                <div class="card">
+                  <img src="./img/ic-objetivo-red.svg" alt="" srcset="" class="ml-auto">
+                  <div class="w-100"></div>
+                  <a href="./premios-cat.html">
+                  <img src="./img/premio3_posicion-4.png" alt="" srcset="">
+                  </a>
+                  <p>MyKronoz <br> ZeSport</p>
+                  <p><b>2,999 pts.</b></p>
+                </div>
+                <div class="card">
+                  <img src="./img/ic-objetivo-red.svg" alt="" srcset="" class="ml-auto">
+                  <div class="w-100"></div>
+                  <a href="./premios-cat.html">
+                  <img src="./img/premio3_posicion-3.png" alt="" srcset="">
+                </a>
+              
+                  <p>MyKronoz ZeSport</p>
+                  <p><b>2,999 pts.</b></p>
+                </div>
+                <div class="card">
+                  <img src="./img/ic-objetivo-red.svg" alt="" srcset="" class="ml-auto">
+                  <div class="w-100"></div>
+                  <a href="./premios-cat.html">
+                  <img src="./img/premio3_posicion-2.png" alt="" srcset="">
+                </a>
+                  <p>MyKronoz ZeSport</p>
+                  <p><b>2,999 pts.</b></p>
+                </div>
+                <div class="card">
+                  <img src="./img/ic-objetivo-red.svg" alt="" srcset="" class="ml-auto">
+                  <div class="w-100"></div>
+                  <a href="./premios-cat.html">
+                  <img src="./img/premio3_posicion-1.png" alt="" srcset="">
+                </a>
+                  <p>MyKronoz ZeSport</p>
+                  <p><b>2,999 pts.</b></p>
+                </div>
+                <div class="card">
+                  <img src="./img/ic-objetivo-red.svg" alt="" srcset="" class="ml-auto">
+                  <div class="w-100"></div>
+                  <a href="./premios-cat.html">
+                  <img src="./img/premio3_posicion.png" alt="" srcset="">
+                </a>
+                  <p>MyKronoz ZeSport</p>
+                  <p><b>2,999 pts.</b></p>
+                </div>
+              </div>
+            </div>
+                    
+            
+          </section>
+ 
+      
+       
+
+
+
+
+
+
+
+
+
+  </main>
+  <footer>
+    <a href="#!">Términos y condiciones</a>
+    <a href="#!">Aviso de privacidad</a>
+    <a href="#!">preguntas frecuentes</a>
+    <a href="#!">garantía de premios</a>
+    <a href="#!">contacto</a>
+  </footer>
+
+
+  <script>
+
+
+
+    // ============ TABS ============= //
+
+
+    const tabs = document.querySelector('.tabs2');
+    const tabButtons = tabs.querySelectorAll('[role="tab"]');
+    const tabPanels = Array.from(tabs.querySelectorAll('[role="tabpanel"]'));
+
+    function handleTabClick(event) {
+      // Hide tab panels
+      tabPanels.forEach(panel => panel.hidden = true);
+
+      // Mark all tabs as unselected
+      tabButtons.forEach(tab => tab.setAttribute("aria-selected", false));
+
+      // Mark the clicked tab as selected
+      event.currentTarget.setAttribute("aria-selected", true);
+
+      // Find the associated tabPanel and show it
+      const { id } = event.currentTarget;
+
+      // Find in the array of tabPanels
+      const tabPanel = tabPanels.find(
+        panel => panel.getAttribute('aria-labelledby') === id
+      );
+      tabPanel.hidden = false;
+    }
+
+    tabButtons.forEach(button => button.addEventListener('click', handleTabClick));
+  </script>
+
+
+
+
+
+
+
+
+  <script>
+    M.AutoInit();
+
+  </script>
+
+
+
+
+  <script>
+
+    var elem = document.querySelector('.sidenav');
+    var instance = new M.Sidenav(elem, { edge: 'left' });
+    var elem = document.querySelector('.sidenav2');
+    var instance = new M.Sidenav(elem, { edge: 'right' });
+        // var elem = document.querySelector('.tabs');
+      //  var instance = M.Tabs.init(el, options);
+    
+    
+
+
+    // instance.show();
+  </script>
+
+
+
+
+
+
+  <script>
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems, {
+      inDuration: 350,
+      outDuration: 125,
+      alignment: 'right'
+    });
+
+
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.slider');
+    var instances = M.Slider.init(elems, {
+      duration: 600,
+    });
+  });
+
+  </script>
+
+
+
+
+
+  <!-- <script>
+    M.AutoInit();
+
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems, options);
+    });
+
+
+
+
+//     document.addEventListener('DOMContentLoaded', function() {
+//                     var elem = document.querySelector('.sidenav');
+// var instance = M.Sidenav.init(elem, {
+//     onOpenStart: function () {
+//         console.log("I trigger as soon as the page is loaded");
+//     },
+//     onCloseEnd: function () {
+//         console.log("same");
+//     }
+// });
+
+  </script> -->
+
+  <!-- <script>
+      $(document).ready(function(){
+    $('.tabs').tabs();
+  });
+       
+  </script> -->
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script> -->
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="./js/datepicker.js"></script>
+  <!-- <script src="js/dropdown.js"></script> -->
+  <!-- <script src="js/grafica.js"></script> -->
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script> -->
+
+  <script src="./js/main.js"></script>
+
+
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script>
+    $('.responsive').slick({
+      arrow: true,
+      prevArrow:'<img src="./img/pr-menos.svg" class="slick-prev slick-arrow">',
+      // nextArrow: '<button type="button" class="slick-next">Next</button>',
+      nextArrow: '<img src="./img/pr-mas.svg" class="slick-next slick-arrow">',
+  dots: false,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 10,
+  slidesToScroll: 10,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 10,
+        slidesToScroll: 10,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 6,
+        slidesToScroll: 6
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+  </script>
+
+
+
+
 </body>
 
 </html>

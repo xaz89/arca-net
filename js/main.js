@@ -3,6 +3,10 @@ var elems = document.querySelectorAll('.tooltipped');
 var instances = M.Tooltip.init(elems, {position: 'right'});
 
 
+
+
+
+
 //////////========== Para sidenav icon ============//////////
 
 (function($) {
@@ -21,6 +25,7 @@ $("#sidenavToggler").click(function(e) {
     $(".sidenav .no-collapsible span").toggleClass("hide");
     $(".sidenav .no-collapsible i").toggleClass("hide");
     $(".sidenav .collapsible .active .collapsible-body").toggleClass("hide");
+    $(".slider .slides li .caption").toggleClass("left-13");
   });
 
   // Forzar toggled, remover cuando se haga click en collapsed 

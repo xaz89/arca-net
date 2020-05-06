@@ -8747,6 +8747,16 @@ input[type=range]::-ms-thumb {
   margin-top: 0.5em !important;
 }
 
+.ml-auto {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+
+.mr-auto {
+  margin-right: auto !important;
+  margin-left: 0 !important;
+}
+
 .p-05 {
   padding-top: 0.5em !important;
   padding-bottom: 0.5em !important;
@@ -8773,6 +8783,46 @@ input[type=range]::-ms-thumb {
   border-radius: 4px 4px;
 }
 
+.left-13 {
+  left: 12.7% !important;
+}
+
+.d__flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.flex__md__row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.flex__md__column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.flex__row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.flex__column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
 @media (max-width: 575.98px) {
   .d-none {
     display: none;
@@ -8780,6 +8830,13 @@ input[type=range]::-ms-thumb {
 
   .d-block {
     display: block;
+  }
+
+  .flex__md__column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 /*
@@ -9018,6 +9075,10 @@ body {
   display: none;
 }
 
+.d-none {
+  display: none;
+}
+
 i.demo-icon {
   font-size: 1.5em;
 }
@@ -9123,8 +9184,8 @@ h6 {
   justify-content: space-between;
   padding-right: 15px !important;
   background: white;
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: -16px;
+  margin-right: -16px;
   padding-top: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -9132,6 +9193,27 @@ h6 {
 }
 .flex-title-white p {
   font: normal 12px/16px "Gotham-Medium";
+}
+
+.flex-title-black {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 15px !important;
+  background: #252525;
+  margin-left: -16px;
+  margin-right: -16px;
+  padding-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 55px;
+  color: #ffffff;
+  z-index: 2;
+  position: relative;
+}
+.flex-title-black p {
+  font: normal 12px/16px "Gotham-Medium";
+  color: #ffffff;
 }
 
 .title {
@@ -9223,7 +9305,10 @@ nav i.material-icons {
   color: #252525;
 }
 .bread a:after {
-  content: " >";
+  content: " /";
+}
+.bread a:last-child {
+  font-family: "Gotham-Bold";
 }
 .bread a:last-child:after {
   content: none;
@@ -9247,8 +9332,10 @@ nav i.material-icons {
 .amount-container i {
   margin-right: 15px;
   margin-left: 15px;
-  color: #8b8b8b;
+  color: white;
   font-size: 1.4em;
+  text-shadow: 0px 1px black;
+  cursor: pointer;
 }
 
 .card {
@@ -9974,10 +10061,20 @@ nav ul.controls i.material-icons {
   font: 14px/18px "Gotham-Book";
 }
 
+.premDesc {
+  font-size: 14px;
+  font-family: "Gotham-Book";
+  font: normal 14px/20px "Gotham-Book";
+}
+
+.desc h4, .desc h5, .desc p, .desc .d-flex {
+  margin-bottom: 25px;
+}
+
 .descripcion {
   margin-top: 15px;
   margin-bottom: 15px;
-  font: Medium 12px/18px "Gotham-Book";
+  font: normal 12px/18px "Gotham-Book";
 }
 .descripcion p {
   font: normal 12px/18px "Gotham-Medium";
@@ -10642,6 +10739,14 @@ thead th:only-child {
   min-height: 10vmax;
   height: 20vmax;
   max-height: 45vmax;
+}
+
+.h-100vmax {
+  height: 100vmax !important;
+}
+
+.h-100vh {
+  height: 100vh !important;
 }
 
 .h-100 {
@@ -11353,6 +11458,208 @@ svg .gris {
 .rojo {
   stroke:#f40000;
 } */
+.slider .indicators {
+  bottom: 14%;
+  top: auto;
+  z-index: 999;
+}
+.slider .indicators .indicator-item {
+  background: transparent;
+  border: 1px solid #ffffff;
+  height: 13px;
+  width: 13px;
+  margin: 0 10px;
+}
+.slider .indicators .indicator-item.active {
+  background-color: #ffffff;
+}
+.slider .slides {
+  -webkit-border-radius: 15px 15px;
+  -moz-border-radius: 15px 15px;
+  -ms-border-radius: 15px 15px;
+  -o-border-radius: 15px 15px;
+  border-radius: 15px 15px;
+  background-color: transparent;
+}
+.slider .slides li img {
+  background-size: auto !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-color: transparent !important;
+}
+.slider .slides li .caption {
+  left: 6.9%;
+  top: 45%;
+}
+.slider .slides li .caption h5 {
+  font-family: "Gotham-Book";
+  font-size: 44px;
+  margin: 0;
+  margin-top: 5px;
+}
+.slider .slides li .caption h1 {
+  font-family: "Gotham-Bold";
+  font-size: 90px;
+  margin: 0;
+  margin-top: 4px;
+}
+
+.slick-prev, .slick-next {
+  width: auto !important;
+  height: auto !important;
+  top: 25px !important;
+}
+
+.slick-next {
+  right: -75px !important;
+}
+
+.slick-prev {
+  left: -75px !important;
+}
+
+.back-black {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 80%;
+  background-color: #252525;
+  z-index: 1;
+}
+
+.premios {
+  z-index: 2;
+  position: relative;
+}
+.premios .slick-slide {
+  color: white;
+  font-size: 11px;
+  line-height: 1.5;
+}
+.premios .slick-slide img {
+  margin-left: auto;
+  margin-right: auto;
+}
+.premios .slick-slide p {
+  text-align: center;
+}
+
+.premSug {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+.premSug .card {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+}
+.premSug .card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.premCat aside.col {
+  height: 100vh;
+}
+.premCat .col {
+  position: relative;
+  height: 335px;
+}
+.premCat .card {
+  text-align: center;
+  margin-left: 0;
+  margin-bottom: 25px;
+  padding: 5px;
+  font-size: 16px;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.premCat .card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.premCat .card button {
+  display: none;
+}
+.premCat .card:hover {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  margin-top: -50px;
+  z-index: 999;
+  position: absolute;
+}
+.premCat .card:hover button {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  display: block;
+  margin: auto;
+  width: 90%;
+  margin-bottom: 10px;
+}
+.premCat .card:hover .col {
+  position: relative;
+  height: 335px;
+}
+
+.premDet aside.col {
+  margin-bottom: 25px;
+}
+.premDet h4 {
+  font-size: 30px;
+  width: 75%;
+}
+.premDet .sku {
+  color: #707070;
+}
+.premDet .descLine {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+}
+
+.premCat .flex-title-white, .premDet .flex-title-white {
+  padding-left: 30px;
+}
+
+.pagination {
+  text-align: center;
+}
+.pagination li {
+  border: 1px solid #D3D3D3;
+  border-radius: 3px;
+}
+.pagination li i {
+  margin: 0 -10px;
+}
+
+select.browser-default {
+  font-family: "Gotham-Book";
+  text-align: center;
+}
+
 @media only screen and (max-width: 992px) {
   header,
 main,
@@ -11558,6 +11865,63 @@ footer {
   }
   .textosTabs .col small {
     font: normal 14px/1 "Gotham-Bold";
+  }
+
+  .flex-title-black, .flex-title, .flex-title-white {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-top: -10px;
+  }
+
+  .premSug {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .premSug .card {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .premCat aside {
+    height: 100% !important;
+    margin-bottom: 25px;
+  }
+
+  .slider {
+    height: 240px !important;
+  }
+  .slider .slides {
+    height: 200px !important;
+  }
+  .slider .slides li img {
+    background-size: 100% !important;
+  }
+
+  .premios .slick-slide p {
+    word-break: break-all;
+  }
+
+  .back-black {
+    height: 90%;
+  }
+
+  .premDet h4 {
+    width: 100%;
+  }
+  .premDet .descLine {
+    flex-direction: column;
+  }
+  .premDet .descLine div, .premDet .descLine button, .premDet .descLine i {
+    margin-bottom: 10px;
+  }
+
+  .desc {
+    text-align: center;
   }
 }
 
