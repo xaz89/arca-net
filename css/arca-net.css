@@ -8208,7 +8208,14 @@ input[type=range]::-ms-thumb {
 @font-face {
   font-family: "Gotham-Medium";
   src: url("../fonts/Gotham-Medium/fonts/Gotham-Medium.eot");
-  src: local("☺"), url("../fonts/Gotham-Medium/fonts/Gotham-Medium.woff") format("woff"), url("../fonts/Gotham-Book/fonts/Gotham-Medium.ttf") format("truetype"), url("../fonts/Gotham-Book/fonts/Gotham-Medium.svg") format("svg");
+  src: local("☺"), url("../fonts/Gotham-Medium/fonts/Gotham-Medium.woff") format("woff"), url("../fonts/Gotham-Medium/fonts/Gotham-Medium.ttf") format("truetype"), url("../fonts/Gotham-Medium/fonts/Gotham-Medium.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gotham-Black";
+  src: url("../fonts/Gotham-Black/fonts/Gotham-Black.eot");
+  src: local("☺"), url("../fonts/Gotham-Black/fonts/Gotham-Black.woff") format("woff"), url("../fonts/Gotham-Black/fonts/Gotham-Black.ttf") format("truetype"), url("../fonts/Gotham-Black/fonts/Gotham-Black.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -9823,6 +9830,11 @@ main .dropdown-content li span {
   -ms-transition: margin-left 0.3s;
   -o-transition: margin-left 0.3s;
   transition: margin-left 0.3s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
 }
 .sidenav::-webkit-scrollbar-thumb {
   background: rgba(255, 255, 255, 0.1);
@@ -11396,6 +11408,15 @@ label.active p .prefix {
 .sidenav-toggled footer {
   width: calc(100% - 60px);
 }
+.sidenav-toggled .slider.fullscreen {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  width: calc(100% - 60px);
+  margin-left: 60px;
+}
 
 .material-tooltip {
   visibility: hidden !important;
@@ -11412,6 +11433,11 @@ label.active p .prefix {
 
 .show {
   visibility: visible !important;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 .tabs2 .content {
@@ -11649,6 +11675,19 @@ svg .gris {
   font-size: 90px;
   margin: 0;
   margin-top: 4px;
+}
+.slider.fullscreen {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.slider.fullscreen .indicators {
+  width: calc(100% - 60px) !important;
+}
+.slider.fullscreen .slides li img {
+  background-size: cover !important;
 }
 
 .slick-prev, .slick-next {
@@ -11898,6 +11937,18 @@ select.browser-default {
 .dirEntrega {
   font-size: 14px;
   line-height: 1.2;
+}
+
+.ml-229px {
+  margin-left: 229px;
+}
+
+.calc100-229px {
+  width: calc(100% - 229px) !important;
+  margin-left: 229px;
+}
+.calc100-229px .caption {
+  left: 15% !important;
 }
 
 @media only screen and (max-width: 992px) {
@@ -12182,6 +12233,25 @@ footer {
   }
   .carrito-pasos h5 {
     font-size: 14px;
+  }
+
+  .ml-229px {
+    margin-left: 0;
+  }
+
+  .slider.fullscreen {
+    height: 100% !important;
+  }
+  .slider.fullscreen .slides {
+    height: 100% !important;
+  }
+
+  .calc100-229px {
+    width: 100% !important;
+    margin-left: 0;
+  }
+  .calc100-229px .caption {
+    left: 15% !important;
   }
 }
 

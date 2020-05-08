@@ -19,6 +19,7 @@ $("#sidenavToggler").click(function(e) {
     $(".sidenav").toggleClass("collapsed");
     $(".logo").toggleClass("collapsed");
     $(".material-tooltip").toggleClass("show");
+    $(".slider.fullscreen").toggleClass("calc100-229px");
     
     $(".sidenav .collapsible-header span").toggleClass("hide");
     $(".sidenav .collapsible-header i").toggleClass("hide");
@@ -26,6 +27,7 @@ $("#sidenavToggler").click(function(e) {
     $(".sidenav .no-collapsible i").toggleClass("hide");
     $(".sidenav .collapsible .active .collapsible-body").toggleClass("hide");
     $(".slider .slides li .caption").toggleClass("left-13");
+    
   });
 
   // Forzar toggled, remover cuando se haga click en collapsed 
