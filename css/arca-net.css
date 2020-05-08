@@ -11684,10 +11684,42 @@ svg .gris {
   transition: all 0.4s;
 }
 .slider.fullscreen .indicators {
-  width: calc(100% - 60px) !important;
+  width: 100% !important;
 }
 .slider.fullscreen .slides li img {
   background-size: cover !important;
+  background-color: rgba(0, 0, 0, 0.35) !important;
+  background-blend-mode: multiply;
+}
+.slider.fullscreen .caption .puntosNecesarios {
+  top: -50%;
+  position: absolute;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 15px;
+}
+.slider.fullscreen .caption .puntosNecesarios small {
+  font-size: 12px;
+  line-height: 1;
+}
+.slider.fullscreen .caption .puntosNecesarios small span {
+  font-size: 28px;
+  font-family: "Gotham-Bold";
+  line-height: 1;
+}
+.slider.fullscreen .caption .puntosNecesarios p {
+  font-size: 16px;
+  margin: 0;
+  line-height: 1;
+}
+.slider.fullscreen .caption .deseos a {
+  color: #ffffff !important;
+}
+.slider.fullscreen .caption .deseos a small {
+  font-family: "Gotham-Bold";
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #ffffff !important;
 }
 
 .slick-prev, .slick-next {
@@ -11934,6 +11966,14 @@ select.browser-default {
   color: #707070;
 }
 
+.btn-outline-white {
+  border: 1px solid transparent;
+  border-color: #ffffff;
+  background-color: transparent !important;
+  color: #ffffff;
+  padding-top: 5px;
+}
+
 .dirEntrega {
   font-size: 14px;
   line-height: 1.2;
@@ -11949,6 +11989,16 @@ select.browser-default {
 }
 .calc100-229px .caption {
   left: 15% !important;
+}
+
+.solplaya {
+  margin-top: -6rem;
+  margin-bottom: 1rem;
+}
+
+.chepe {
+  margin-top: -3rem;
+  margin-bottom: 0;
 }
 
 @media only screen and (max-width: 992px) {
@@ -12245,6 +12295,22 @@ footer {
   .slider.fullscreen .slides {
     height: 100% !important;
   }
+  .slider.fullscreen .slides li .caption {
+    top: 30%;
+  }
+  .slider.fullscreen .slides li svg {
+    width: 100%;
+  }
+  .slider.fullscreen .indicators {
+    width: 100% !important;
+  }
+  .slider.fullscreen .caption .puntosNecesarios {
+    top: -25%;
+  }
+  .slider.fullscreen .caption .deseos a {
+    width: 100%;
+    display: block;
+  }
 
   .calc100-229px {
     width: 100% !important;
@@ -12252,6 +12318,21 @@ footer {
   }
   .calc100-229px .caption {
     left: 15% !important;
+  }
+
+  p ~ ul {
+    z-index: 99999;
+    position: absolute;
+  }
+
+  .solplaya {
+    margin-top: -3rem;
+    margin-bottom: 0;
+  }
+
+  .chepe {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 
