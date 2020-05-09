@@ -9771,9 +9771,8 @@ nav i.material-icons {
   margin-top: 5px;
   margin-bottom: 0;
 }
-.input-field select option:disabled {
+.input-field .browser-default option:disabled {
   font-size: 10px;
-  background-color: blue;
 }
 .input-field .prefix {
   font-size: 20px;
@@ -11576,7 +11575,7 @@ label.active p .prefix {
   text-align: left;
 }
 
-select {
+.browser-default {
   border-color: #D3D3D3;
   -webkit-border-radius: 4px 4px;
   -moz-border-radius: 4px 4px;
@@ -11682,6 +11681,16 @@ svg .gris {
   -ms-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
+}
+.slider.fullscreen .titulo {
+  margin-top: 65px;
+  padding-left: 55px;
+  color: #ffffff;
+  position: absolute;
+  padding-top: 10px;
+  font-size: 24px;
+  font-family: "Gotham-Bold", sans-serif !important;
+  margin-left: 5px;
 }
 .slider.fullscreen .indicators {
   width: 100% !important;
@@ -11925,7 +11934,7 @@ select.browser-default {
   margin-left: 0;
   margin-right: 0;
 }
-.carritoUno select {
+.carritoUno .browser-default {
   height: 30px;
   font-size: 12px;
 }
@@ -11944,14 +11953,18 @@ select.browser-default {
   margin: 0;
 }
 
-.carritoDos {
+.carritoDos, .misViajes, .esPremio {
   margin-top: 35px;
 }
-.carritoDos input {
+.carritoDos input, .misViajes input, .esPremio input {
   font: normal 18px/24px "Gotham-Medium";
 }
-.carritoDos input[type=text]:not(.browser-default) {
+.carritoDos input[type=text]:not(.browser-default), .misViajes input[type=text]:not(.browser-default), .esPremio input[type=text]:not(.browser-default) {
   font: normal 18px/24px "Gotham-Medium";
+  color: black;
+}
+.carritoDos .select-wrapper input.select-dropdown, .misViajes .select-wrapper input.select-dropdown, .esPremio .select-wrapper input.select-dropdown {
+  text-transform: inherit;
 }
 
 .separador {
@@ -11999,6 +12012,74 @@ select.browser-default {
 .chepe {
   margin-top: -3rem;
   margin-bottom: 0;
+}
+
+.queEsLista .slider.fullscreen .slides li img {
+  background-color: white;
+  background-blend-mode: normal;
+}
+.queEsLista .caption {
+  top: 25% !important;
+}
+.queEsLista .caption .texto {
+  background-color: rgba(255, 255, 255, 0.85);
+  width: 50%;
+  padding: 35px;
+  text-align: center;
+  color: black !important;
+  right: 0 !important;
+  left: auto !important;
+  position: absolute !important;
+  bottom: auto !important;
+}
+.queEsLista .caption .texto h5 {
+  font-size: 20px !important;
+  font-family: "Gotham-Medium" !important;
+  margin-bottom: 35px !important;
+  margin-top: 35px !important;
+  color: black !important;
+}
+.queEsLista .caption .texto p {
+  font-size: 16px !important;
+  color: black !important;
+}
+
+.misViajes {
+  height: 100%;
+  padding: 0;
+  margin-top: 64px;
+}
+.misViajes section {
+  height: 100%;
+  margin-top: 64px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+}
+.misViajes .row {
+  margin-bottom: 0;
+}
+.misViajes .fotoMisViajes {
+  background-image: url("../img/misviajes.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.misViajes .fotoMisViajes h5 {
+  color: white;
+  padding-left: 55px;
+}
+.misViajes .formMisViajes {
+  margin-top: 64px;
+}
+
+.ranking {
+  text-align: center;
+}
+.ranking .material-icons {
+  font-size: 35px;
+  color: #707070;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 992px) {
@@ -12333,6 +12414,10 @@ footer {
   .chepe {
     margin-top: 0;
     margin-bottom: 0;
+  }
+
+  .misViajes .fotoMisViajes, section .fotoMisViajes {
+    display: none;
   }
 }
 
