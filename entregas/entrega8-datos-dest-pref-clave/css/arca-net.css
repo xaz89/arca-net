@@ -8292,23 +8292,23 @@ input[type=range]::-ms-thumb {
 }
 
 .align-items__flex-start {
-  align-items: flex-start;
+  align-items: flex-start !important;
 }
 
 .align-items__flex-end {
-  align-items: flex-end;
+  align-items: flex-end !important;
 }
 
 .align-items__center {
-  align-items: center;
+  align-items: center !important;
 }
 
 .align-items__baseline {
-  align-items: baseline;
+  align-items: baseline !important;
 }
 
 .align-items__stretch {
-  align-items: stretch;
+  align-items: stretch !important;
 }
 
 .justify-content__flex-start {
@@ -8972,6 +8972,14 @@ input[type=range]::-ms-thumb {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+
+.border-0 {
+  border: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
 }
 
 @media (max-width: 575.98px) {
@@ -10432,6 +10440,9 @@ nav ul.controls i.material-icons {
   flex-direction: row;
   justify-content: center;
 }
+.textosTabs h5 {
+  font: normal 20px/24px "Gotham-Medium";
+}
 .textosTabs .col {
   display: flex;
   justify-content: space-between;
@@ -10439,6 +10450,10 @@ nav ul.controls i.material-icons {
   flex-direction: column;
   border-left: 1px solid #b3b3b3;
   height: 100%;
+}
+.textosTabs .col:first-child {
+  border-left: none;
+  align-items: flex-start;
 }
 .textosTabs .col:last-child {
   border-right: 1px solid #b3b3b3;
@@ -10459,43 +10474,43 @@ nav ul.controls i.material-icons {
   font: normal 26px/36px "Gotham-Bold";
 }
 
-.metasMes .card {
+.metasMes .card, .puntosGanados .card {
   -webkit-border-radius: 4px 4px;
   -moz-border-radius: 4px 4px;
   -ms-border-radius: 4px 4px;
   -o-border-radius: 4px 4px;
   border-radius: 4px 4px;
 }
-.metasMes .tabs {
+.metasMes .tabs, .puntosGanados .tabs {
   margin-bottom: 15px;
   margin-top: 15px;
 }
-.metasMes .tabs a {
+.metasMes .tabs a, .puntosGanados .tabs a {
   color: rgba(37, 37, 37, 0.4);
   border: 0.1px solid rgba(37, 37, 37, 0.4);
   font-family: "Gotham-Bold", sans-serif;
   text-transform: capitalize;
   font-size: 14px;
 }
-.metasMes .tabs a:focus {
+.metasMes .tabs a:focus, .puntosGanados .tabs a:focus {
   background-color: rgba(37, 37, 37, 0.1);
   outline: none;
   border: 0.1px solid #252525;
 }
-.metasMes .tabs a:focus.active {
+.metasMes .tabs a:focus.active, .puntosGanados .tabs a:focus.active {
   background-color: rgba(37, 37, 37, 0.1);
   outline: none;
 }
-.metasMes .tabs a.active {
+.metasMes .tabs a.active, .puntosGanados .tabs a.active {
   color: #252525;
   border: 1px solid #252525;
   border-bottom: none;
 }
-.metasMes .tabs a:hover {
+.metasMes .tabs a:hover, .puntosGanados .tabs a:hover {
   color: #252525;
   background-color: rgba(37, 37, 37, 0.1);
 }
-.metasMes .tabs .indicator {
+.metasMes .tabs .indicator, .puntosGanados .tabs .indicator {
   background-color: #252525;
   height: 1px;
 }
@@ -10575,52 +10590,106 @@ thead th:only-child {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-bottom: 2em;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  margin-right: -20px;
 }
 .cardsGanados .hoverable {
-  width: calc(50% - 10px);
+  width: calc(33.3333% - 20px);
+  -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  border-radius: 10px;
+  -webkit-border-radius: 4px 4px;
+  -moz-border-radius: 4px 4px;
+  -ms-border-radius: 4px 4px;
+  -o-border-radius: 4px 4px;
+  border-radius: 4px 4px;
   margin-bottom: 10px;
   margin-top: 10px;
-  padding: 1em;
+  padding: 5px;
+}
+.cardsGanados .hoverable:hover {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cardsGanados .hoverable p {
+  font: normal 14px/16px "Gotham-Medium";
+}
+.cardsGanados .hoverable h5 {
+  font: normal 18px/32px "Gotham-Medium";
 }
 .cardsGanados .hoverable:nth-of-type(1) {
-  background-color: #F40000;
-  margin-right: 10px;
+  background-color: #252525;
+  margin-right: 20px;
+}
+.cardsGanados .hoverable:nth-of-type(1) i {
+  color: #f40000;
 }
 .cardsGanados .hoverable:nth-of-type(2) {
-  background-color: #e6e6e6;
-  margin-left: 10px;
+  background-color: #EDEDED;
+  margin-right: 20px;
   color: #252525;
 }
 .cardsGanados .hoverable:nth-of-type(2) i {
   color: red;
 }
 .cardsGanados .hoverable:nth-of-type(3) {
-  background-color: white;
-  color: #252525;
-  margin-right: 10px;
+  background-color: #f40000;
+  margin-right: 20px;
 }
 .cardsGanados .hoverable:nth-of-type(3) i {
-  color: red;
+  color: #ffffff;
 }
 .cardsGanados .hoverable:nth-of-type(4) {
+  background-color: #f40000;
+  margin-right: 20px;
+}
+.cardsGanados .hoverable:nth-of-type(5) {
+  background-color: #ffffff;
+  color: #252525;
+  margin-right: 20px;
+}
+.cardsGanados .hoverable:nth-of-type(6) {
   background-color: #252525;
-  margin-left: 10px;
+  margin-right: 20px;
+}
+.cardsGanados .hoverable:nth-of-type(6) i {
+  color: #f40000;
 }
 .cardsGanados i {
-  font-size: 5em;
+  font-size: 45px;
+}
+
+.premioTemp {
+  margin-top: 60px;
+  text-align: center;
+}
+.premioTemp hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.premioTemp p {
+  height: 40px;
+}
+.premioTemp h5 {
+  font: normal 20px/18px "Gotham-Bold";
+  text-align: center;
+  margin-bottom: 30px;
+}
+.premioTemp .card {
+  -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 4px 4px;
+  -moz-border-radius: 4px 4px;
+  -ms-border-radius: 4px 4px;
+  -o-border-radius: 4px 4px;
+  border-radius: 4px 4px;
 }
 
 .compraPuntos img {
@@ -10972,6 +11041,10 @@ thead th:only-child {
 
 .justify-content-between {
   justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
 }
 
 .justify-content-center {
@@ -12133,6 +12206,56 @@ select.browser-default {
   font-size: 16px !important;
 }
 
+.progress {
+  height: 8px;
+  background-color: #D3D3D3;
+  -webkit-border-radius: 5px 5px;
+  -moz-border-radius: 5px 5px;
+  -ms-border-radius: 5px 5px;
+  -o-border-radius: 5px 5px;
+  border-radius: 5px 5px;
+}
+.progress .determinate {
+  -webkit-border-radius: 5px 5px;
+  -moz-border-radius: 5px 5px;
+  -ms-border-radius: 5px 5px;
+  -o-border-radius: 5px 5px;
+  border-radius: 5px 5px;
+}
+
+.misDatos .flex-title-white .w-75 h5 {
+  font: normal 24px/34px "Gotham-Medium";
+  color: #252525;
+}
+.misDatos h5 {
+  font: normal 24px/24px "Gotham-Book";
+  color: #f40000;
+  margin-bottom: 35px;
+}
+.misDatos .input-field .prefix {
+  right: 10px;
+  left: auto;
+  font-size: 26px;
+}
+.misDatos .input-field label {
+  text-transform: uppercase;
+  color: #707070;
+}
+.misDatos .input-field p {
+  color: #707070;
+  margin: 0;
+  font-size: 11px;
+}
+.misDatos .input-field input[type=text]:not(.browser-default) {
+  font: normal 18px/24px "Gotham-Medium";
+  color: black;
+}
+
+.texto-input {
+  margin-top: -25px !important;
+  margin-bottom: 20px !important;
+}
+
 @media only screen and (max-width: 992px) {
   header,
 main,
@@ -12239,6 +12362,11 @@ footer {
   }
   .cardsGanados .hoverable {
     width: 100%;
+    margin: 20px !important;
+    margin-left: 0 !important;
+    margin-right: 20px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
   }
   .cardsGanados .hoverable:only-child {
     margin-right: 0;
@@ -12259,7 +12387,7 @@ footer {
     margin-left: 0;
   }
   .cardsGanados i {
-    font-size: 5em;
+    font-size: 50px;
   }
 
   .titulosTeFalta {
@@ -12330,14 +12458,40 @@ footer {
   }
 
   .textosTabs {
-    height: 60px;
+    /* height: auto;
     margin-top: 15px;
+    .col {
+      p{
+        font-size: 10px;
+      }
+      small {
+        font: normal 14px/1 "Gotham-Bold"
+      }
+    } */
+  }
+  .textosTabs .col {
+    margin: auto;
+    width: 50%;
+    margin-left: auto !important;
+    border: none;
+    border-right: none !important;
+    border-bottom: 1px solid #b3b3b3;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
   .textosTabs .col p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .textosTabs .col small {
-    font: normal 14px/1 "Gotham-Bold";
+    font-size: 15px;
   }
 
   .flex-title-black, .flex-title, .flex-title-white {
