@@ -12453,14 +12453,40 @@ footer {
   }
 
   .textosTabs {
-    height: 60px;
+    /* height: auto;
     margin-top: 15px;
+    .col {
+      p{
+        font-size: 10px;
+      }
+      small {
+        font: normal 14px/1 "Gotham-Bold"
+      }
+    } */
+  }
+  .textosTabs .col {
+    margin: auto;
+    width: 50%;
+    margin-left: auto !important;
+    border: none;
+    border-right: none !important;
+    border-bottom: 1px solid #b3b3b3;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
   .textosTabs .col p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .textosTabs .col small {
-    font: normal 14px/1 "Gotham-Bold";
+    font-size: 15px;
   }
 
   .flex-title-black, .flex-title, .flex-title-white {
