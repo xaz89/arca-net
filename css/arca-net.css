@@ -10559,6 +10559,101 @@ nav ul.controls i.material-icons {
   height: 1px;
 }
 
+.metasAnio .a {
+  fill: #fff;
+  opacity: 0;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.metasAnio .b {
+  fill: none;
+  stroke: #f40000;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.metasAnio .active .a {
+  fill: #f40000;
+  stroke: #fff;
+  opacity: 1;
+}
+.metasAnio .active .b {
+  fill: none;
+  stroke: #fff;
+}
+.metasAnio svg:hover .a {
+  fill: #f40000;
+  stroke: #fff;
+  opacity: 1;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.metasAnio svg:hover .b {
+  fill: none;
+  stroke: #fff;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.metasAnio .promocionales .a {
+  fill: #fff;
+  opacity: 0;
+}
+.metasAnio .promocionales .b, .metasAnio .promocionales .c, .metasAnio .promocionales .d {
+  fill: none;
+  stroke: #f40000;
+}
+.metasAnio .promocionales .c, .metasAnio .promocionales .d {
+  stroke-linecap: round;
+}
+.metasAnio .promocionales .c {
+  stroke-linejoin: round;
+}
+.metasAnio .promocionales .d {
+  stroke-width: 0.5px;
+}
+.metasAnio .promocionales .e, .metasAnio .promocionales .f {
+  fill: #f40000;
+}
+.metasAnio .promocionales .f {
+  fill-rule: evenodd;
+}
+.metasAnio .promocionales:hover .a, .metasAnio .promocionales.active .a {
+  fill: #f40000;
+  opacity: 1;
+}
+.metasAnio .promocionales:hover .b, .metasAnio .promocionales:hover .c, .metasAnio .promocionales:hover .d, .metasAnio .promocionales.active .b, .metasAnio .promocionales.active .c, .metasAnio .promocionales.active .d {
+  fill: none;
+  stroke: #fff;
+}
+.metasAnio .promocionales:hover .c, .metasAnio .promocionales:hover .d, .metasAnio .promocionales.active .c, .metasAnio .promocionales.active .d {
+  stroke-linecap: round;
+}
+.metasAnio .promocionales:hover .c, .metasAnio .promocionales.active .c {
+  stroke-linejoin: round;
+}
+.metasAnio .promocionales:hover .d, .metasAnio .promocionales.active .d {
+  stroke-width: 0.5px;
+}
+.metasAnio .promocionales:hover .e, .metasAnio .promocionales:hover .f, .metasAnio .promocionales.active .e, .metasAnio .promocionales.active .f {
+  fill: #fff;
+}
+.metasAnio .promocionales:hover .f, .metasAnio .promocionales.active .f {
+  fill-rule: evenodd;
+}
+
 /*==================================TABLE==================================*/
 th,
 td {
