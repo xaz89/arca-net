@@ -8219,6 +8219,38 @@ input[type=range]::-ms-thumb {
   font-weight: normal;
   font-style: normal;
 }
+.ov-x__auto {
+  overflow-x: auto;
+}
+
+.ov-x__hidden {
+  overflow-x: hidden;
+}
+
+.ov-x__inherit {
+  overflow-x: inherit;
+}
+
+.ov-x__initial {
+  overflow-x: initial;
+}
+
+.ov-x__revert {
+  overflow-x: revert;
+}
+
+.ov-x__scroll {
+  overflow-x: scroll;
+}
+
+.ov-x__unset {
+  overflow-x: unset;
+}
+
+.ov-x__visible {
+  overflow-x: visible;
+}
+
 .d__block {
   display: block;
 }
@@ -8479,15 +8511,15 @@ input[type=range]::-ms-thumb {
   width: 200vmax;
 }
 
-.left {
+.f-left {
   float: left !important;
 }
 
-.right {
+.f-right {
   float: right !important;
 }
 
-.none {
+.f-none {
   float: none !important;
 }
 
@@ -11299,6 +11331,12 @@ thead th:only-child {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.cajaMeses a {
+  color: #252525;
+}
+.cajaMeses a p {
+  color: #252525;
 }
 .cajaMeses p {
   font-size: 10px;
