@@ -5,12 +5,6 @@ var instances = M.Tooltip.init(elems, {position: 'right'});
 
 
 
-  var elems = document.querySelectorAll('.modal');
-    var instances = M.Modal.init(elems, {startingTop: '100%'});
-
-
-
-
 
 
 //////////========== Para sidenav icon ============//////////

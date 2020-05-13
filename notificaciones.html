@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Compiled and minified CSS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <link rel="stylesheet" href="css/iconos.css">
+  <link rel="stylesheet" href="css/arca-net.css">
+  <title>Mis Metas</title>
+</head>
+
+<body class="theme-rojo">
+  <nav class="red-">
+    <ul id="slide-out" class="sidenav sidenav-fixed">
+      <div class="perfil">
+        <p class="nombre">¡Hola Luis!</p>
+        <p class="nivel">Activo</p>
+        <p class="puntos">84,320 <span>pts.</span></p>
+        <p class="saldo">Saldo actual</p>
+      </div>
+      <div class="divider"></div>
+      <div class="descripcion">
+        <p>Abarrotes "La Esperanza"</p>
+        <p>No. de Cliente Arca Continental</p>
+        <p><b>500369378</b></p>
+      </div>
+      <div class="divider"></div>
+      <li>
+        <ul class="collapsible collapsible-accordion">
+          <li>
+            <a class="collapsible-header active  tooltipped" data-position="right" data-tooltip="Mis Metas">
+              <img src="./img/mismetas-activo/ic-mis-metas.svg" alt="" srcset="">
+              <span>Mis metas</span><i class="material-icons right drop">arrow_forward_ios</i></a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="metas-mes.html"><span>Mis metas del mes</span></a></li>
+                <li><a href="cambio-nivel.html"><span>Mi meta cambio de nivel</span></a></li>
+                <li><a href="acuerdos.html"><span>Acuerdos</span></a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul class="collapsible collapsible-accordion">
+          <li>
+            <a class="collapsible-header tooltipped" data-position="right" data-tooltip="Estado de cuenta">
+              <img src="./img/mismetas-activo/ic-estado-cuenta.svg" alt="" srcset="">
+              <span>Estado de cuenta</span><i class="material-icons right drop">arrow_forward_ios</i></a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="puntos-ganados.html"><span>Puntos Ganados</span></a></li>
+                <li><a href="mis-canjes.html"><span>Canjes</span></a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a class="no-collapsible tooltipped" data-position="right" data-tooltip="Beneficios por nivel"
+          href="beneficios.html">
+          <img src="./img/mismetas-activo/ic-beneficios-nivel.svg" alt="" srcset="">
+          <span>Beneficios por nivel</span></a>
+      </li>
+      <li>
+        <a class="no-collapsible tooltipped" data-position="right" data-tooltip="Encuesta" href="encuesta.html">
+          <img src="./img/mismetas-activo/ic-enc.svg" alt="" srcset="">
+          <span>Encuesta</span></a>
+      </li>
+      <li>
+        <ul class="collapsible collapsible-accordion">
+          <li>
+            <a class="collapsible-header tooltipped" data-position="right" data-tooltip="Catálogo para canjes">
+              <img src="./img/mismetas-activo/ic-catalogo-canjes.svg" alt="" srcset="">
+              <span>Catálogo para canjes</span><i class="material-icons right drop">arrow_forward_ios</i></a>
+            <div class="collapsible-body">
+              <ul>
+                <li class="active-"><a href="premios.html">Premios</a></li>
+                <li><a href="premios-cat.html">Tienda digital</a></li>
+                <li><a href="lista-deseos.html">Lista de deseos</a></li>
+                <li><a href="compra-puntos.html">Compra de puntos</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <div class="d-md-none d-block">
+        <div class="divider"></div>
+        <li>
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header text-center"><img src="./img/profile.jpg" class="circle profile left"
+                  style="margin-top: 5px;" alt=""> Luis Felipe<i
+                  class="material-icons right drop">arrow_forward_ios</i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="./mis-datos.html"><i class="demo-icon icon-misdatos"></i>Mis Datos</a></li>
+                  <li><a href="./cambiar-clave.html"><i class="demo-icon icon-cambiarcontra"></i>Cambiar Contraseña</a>
+                  </li>
+                  <li><a href="./agregar-dest.html"><i class="demo-icon icon-agregardest"></i>Agregar Destinatarios</a>
+                  </li>
+                  <li><a href="./centro-pref.html"><i class="demo-icon icon-preferencias"></i>Centro de Preferencias</a>
+                  </li>
+                  <li><a href="!#"><i class="demo-icon icon-regalo"></i>Regalo de Bienvenida</a></li>
+                  <li class="active-"><a href="premios.html"><i class="material-icons">power_settings_new</i>Salir</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <div class="divider"></div>
+        <li>
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header"><i class="material-icons">favorite_border</i>Favoritos<i
+                  class="material-icons right drop">arrow_forward_ios</i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li class="active-"><a href="premios.html"><i class="demo-icon icon-premios"></i>Bocina portatil</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header"><i class="material-icons">shopping_cart</i>Carrito de canje<i
+                  class="material-icons right drop">arrow_forward_ios</i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li class="active-"><a href="premios.html"><i class="demo-icon icon-premios"></i>Bocina portatil</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header"><i class="material-icons">notifications_none</i>Notificaciones<i
+                  class="material-icons right drop">arrow_forward_ios</i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li class="active-"><a href="premios.html"><i class="demo-icon icon-premios"></i>Bocina portatil</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <div class="divider"></div>
+      </div>
+      <li>
+        <a class="no-collapsible tooltipped" data-position="right" data-tooltip="Salir">
+          <img src="./img/mismetas-activo/ic-sal.svg" alt="" srcset="">
+          <span>Salir</span></a>
+      </li>
+    </ul>
+    <ul class="right controls hide-on-med-and-down">
+      <li>
+        <a href="#!" class="notificaciones dropdown-trigger " data-target="favorite">
+          <img src="./img/mismetas-activo/objetivo-menu.svg" alt="" srcset="">
+        </a>
+      </li>
+      <ul id='favorite' class='dropdown-content white notiFav scrollspy'>
+        <li class="no-hover">
+          <div class="card no-margin">
+            <span class="card-title ">MI PREMIO OBJETIVO</span>
+            <hr>
+            <div class="card-content">
+              <div class="row valign-wrapper">
+                <div class="col s5">
+                  <img src="./img/obj-prod1.png" alt="" class="w-100">
+                </div>
+                <div class="col s10">
+                  <div class="black-text">
+                    Notebook Lenovo <br>
+                    IP S340-15IIL 17 15.6"
+                  </div>
+                  <div class="red-text">
+                    <small class="left-align-">Aún te faltan</small>
+                    <div class="premio-pts">
+                      <h4>2,979 <span>pts.</span></h4>
+                      <div class="controles-img">
+                        <img class="ml-1" src="./img/mismetas-activo/carrito_icon 30 Red.svg" alt="">
+                        <img class="ml-1" src="./img/ic-trash.svg" alt="">
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <hr class="mb-1">
+              <div class="row valign-wrapper">
+                <div class="col s5">
+                  <img src="./img/obj-prod2.png" alt="" class="w-100">
+                </div>
+                <div class="col s10">
+                  <div class="black-text">
+                    Notebook Lenovo <br>
+                    IP S340-15IIL 17 15.6"
+                  </div>
+                  <div class="red-text">
+                    <small class="left-align-">Aún te faltan</small>
+                    <div class="premio-pts">
+                      <h4>2,979 <span>pts.</span></h4>
+                      <div class="controles-img">
+                        <img class="ml-1" src="./img/mismetas-activo/carrito_icon 30 Red.svg" alt="">
+                        <img class="ml-1" src="./img/ic-trash.svg" alt="">
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+        </li>
+      </ul>
+      <li><a href="#!" class="notificaciones dropdown-trigger" data-target="shopping">
+          <img src="./img/mismetas-activo/carrito-menu.svg" alt="" srcset="">
+          <div class="pulse numero btn-floating"><span>10</span></div>
+        </a></li>
+      <ul id='shopping' class='dropdown-content white'>
+        <li class="no-hover">
+          <div class="card no-margin">
+            <span class="card-title">CARRITO DE CANJE</span>
+            <hr>
+            <div class="card-content">
+              <div class="row valign-wrapper">
+                <div class="col s5">
+                  <img src="./img/obj-prod2.png" alt="" class="w-100">
+                </div>
+                <div class="col s10">
+                  <div class="carrito-canje">
+                    Set de herramientas<img class="ml-1" src="./img/ic-trash.svg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="divider" style="margin-bottom: 20px;"></div>
+              <div class="row valign-wrapper">
+                <div class="col s5">
+                  <img src="./img/obj-prod2.png" alt="" class="w-100">
+                </div>
+                <div class="col s10">
+                  <div class="carrito-canje">
+                    Set de herramientas<img class="ml-1" src="./img/ic-trash.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-action">
+              <div>
+                <h5>97,784 pts.</h5><small>Se restan de tu saldo</small>
+              </div>
+              <button class="waves-effect waves-light btn">CANJEAR</button>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <li>
+        <a href="#!" class="notificaciones dropdown-trigger" data-target="notifications">
+          <img src="./img/mismetas-activo/notificaciones-menu.svg" alt="" srcset="">
+          <div class="pulse numero btn-floating"><span>10</span></div>
+        </a></li>
+      <ul id='notifications' class='dropdown-content white'>
+        <li class="no-hover">
+          <div class="card no-margin">
+            <span class="card-title notifica">Notificaciones</span>
+            <div class="card-content">
+
+              <p>No existen notificaciones por el momento.</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <li class="border-control"></li>
+      <li class="drop-img-perfil">
+        <a class="dropdown-trigger menu-perfil" href="#!" data-target="perfil">
+          Luis Felipe
+          <i class="material-icons right drop">arrow_forward_ios</i>
+          <img class="circle profile" src="./img/mismetas-activo/ic-mi-cuenta.svg" alt="" srcset="">
+      </li>
+      <ul id='perfil' class='dropdown-content dropdown-perfil'>
+        <li><a href="./mis-datos.html"><img src="./img/ic-misdatos.svg" alt="">Mis Datos</a></li>
+        <li><a href="./cambiar-clave.html"><img src="./img/ic-cambiar_clave.svg" alt="">Cambiar Contraseña</a></li>
+        <li><a href="./agregar-dest.html"><img src="./img/ic-destinatario.svg" alt="">Agregar Destinatarios</a></li>
+        <li><a href="./centro-pref.html"><img src="./img/ic-preferencias.svg" alt="">Centro de Preferencias</a></li>
+      </ul>
+    </ul>
+    <!-- SEGUNDO MENU LATERAL MOBILE <ul id="slide-out2" class="sidenav2  hide-on-med-and-down"></ul> -->
+    <ul>
+      <li class="logo"><a href="#!" class="logo-img"></a></li>
+    </ul>
+    <!-- <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-med-and-up-"><i class="material-icons hamburguer">menu</i></a>
+  <a href="#" class="sidenav-trigger  hide-on-small-only-"><i id="sidenavToggler" class="material-icons hamburguer">lock</i></a>  -->
+    <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only "><i
+        class="material-icons hamburguer">menu</i></a>
+    <a id="sidenavToggler" class="sidenav-trigger show-on-large hide-on-med-and-down "> <i
+        class="material-icons hamburguer">menu</i></a>
+    <!-- SEGUNDO MENU LATERAL MOBILE <a href="#" data-target="slide-out2" class="sidenav-trigger show-on-large">2</a> -->
+  </nav>
+  <main>
+    <section>
+      <h1>Modals</h1>
+      <h5>Sección Modals</h5>
+      <!-- Modal Conoce tu meta -->
+      <button data-target="conocemeta" class="btn modal-trigger">Conoce tu meta</button>
+      <!-- Modal Conoce tu meta -->
+      <div id="conocemeta" class="modal w-320px br__0">
+        <div class="modal-content p-0">
+          <div class="modal-header red">
+            <button class="modal-close white-text">x</button>
+            <img src="./img/modals/lideres-logo-bco.svg" class="mx-auto d__block py-2" alt="" srcset="">
+          </div>
+          <div class="body dark white-text center-align p-2">
+            <img src="./img/modals/modal-meta-bco.svg" alt="" srcset="">
+            <h5>Conoce tu meta</h5>
+            <p>del mes y multiplica tus puntos.</p>
+            <button class="btn btn-primary w-100">MI META</button>
+          </div>
+        </div>
+      </div>
+      <!-- Modal Descubre cuánto has ganado -->
+      <button data-target="descubreganado" class="btn modal-trigger">Descubre cuánto has ganado</button>
+      <!-- Modal Descubre cuánto has ganado -->
+      <div id="descubreganado" class="modal w-320px br__0">
+        <div class="modal-content p-0">
+          <div class="modal-header red">
+            <button class="modal-close white-text">x</button>
+            <img src="./img/modals/lideres-logo-bco.svg" class="mx-auto d__block py-2" alt="" srcset="">
+          </div>
+          <div class="body center-align p-2">
+            <img src="./img/modals/modal-edocta.svg" alt="" srcset="">
+            <p>Descubre cuánto has ganado.</p>
+            <button class="btn btn-primary w-100">ESTADO DE CUENTA</button>
+          </div>
+        </div>
+      </div>
+      <!-- Modal Ir al catálogo -->
+      <button data-target="ircatalogo" class="btn modal-trigger">Ir al catálogo</button>
+      <!-- Modal Ir al catálogo -->
+      <div id="ircatalogo" class="modal w-320px br__0">
+        <div class="modal-content p-0">
+          <div class="modal-header">
+            <button class="modal-close">x</button>
+            <img src="./img/modals/lideres-logo-fb.svg" class="mx-auto d__block py-2" alt="" srcset="">
+          </div>
+          <img src="./img/modals/modal-catalogo.png" alt="" srcset="" class="w-100">
+          <div class="m-1 center-align">
+            <button class="btn btn-primary w-100">ESTADO DE CUENTA</button>
+          </div>
+        </div>
+      </div>
+      <!-- Modal Gana puntos -->
+      <button data-target="ganapuntos" class="btn modal-trigger">Gana puntos</button>
+      <!-- Modal Gana puntos -->
+      <div id="ganapuntos" class="modal w-320px br__0">
+        <div class="modal-content p-0">
+          <div class="modal-header red">
+            <button class="modal-close white-text">x</button>
+            <h5 class="white-text m-0 py-2 center-align">Gana 200 puntos</h5>
+          </div>
+          <div class="body center-align p-2">
+            <img src="./img/modals/modal-encuesta.svg" alt="" srcset="">
+            <p>al responder esta breve encuesta.</p>
+            <button class="btn btn-primary w-100">RESPONDER</button>
+          </div>
+        </div>
+      </div>
+      <!-- Modal Líderes viaje -->
+      <button data-target="lideresviaje" class="btn modal-trigger">Líderes viaje</button>
+      <!-- Modal Líderes viaje -->
+      <div id="lideresviaje" class="modal w-320px">
+        <div class="modal-content p-0">
+          <div class="modal-header dark">
+           <div class="white-text px-1 py-0 d__flex justify-content-between align-items-center">
+             <div class="d__flex">
+               <img class="mr-1" src="./img/modals/modal-isotipo-fn.svg" alt="" srcset="">
+              <p><b>Líderes Coca-Cola</b></p>
+            </div>
+            <small>13:15</small>
+           </div>
+          </div>
+          <div class="body center-align pb-1">
+            <img src="./img/modals/modal-buenviaje2.png" alt="" srcset="" class="w-100">
+            <small><b>Líderes Coca-Cola te desea un buen viaje.</b></small>
+          </div>
+        </div>
+      </div>
+      <!-- Modal Líderes viaje dos -->
+      <button data-target="lideresviaje2" class="btn modal-trigger">Líderes viaje dos</button>
+      <!-- Modal Líderes viaje dos -->
+      <div id="lideresviaje2" class="modal w-320px">
+        <div class="modal-content p-0">
+          <div class="modal-header">
+           <div class="px-1 py-0 d__flex justify-content-between align-items-center">
+             <div class="d__flex">
+               <img class="mr-1" src="./img/modals/modal-isotipo-fb2.svg" alt="" srcset="">
+              <p><b>Líderes Coca-Cola</b></p>
+            </div>
+            <small>13:15</small>
+           </div>
+          </div>
+          <div class="body center-align">
+            <img src="./img/modals/modal-buenviaje.png" alt="" srcset="" class="w-100">
+            <p>¡Tenemos este premio especial por temporada! 7,999 puntos. Consola Xbox One de 1 TB.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Modal Ya estás cerca -->
+      <button data-target="cerca" class="btn modal-trigger">Ya estás cerca</button>
+      <!-- Modal Ya estás cerca -->
+      <div id="cerca" class="modal w-500px">
+        <div class="modal-content p-0">
+          <button class="modal-close">x</button>
+          <div class="body center-align">
+            <div class="row valign-wrapper">
+              <div class="col m6 s12">
+                <img src="./img/modals/modal-obj.png"  alt="" srcset="">
+              </div>
+              <div class="col m6 s12">
+                <img src="./img/modals/ic-obj-rojo.svg" class="mt-1" alt="" srcset="">
+                <h5>Ya estás cerca</h5>
+                <p>de los puntos que requieres para poder canjear tu premio objetivo.</p>
+                <button class="btn btn-primary">VÉ POR ÉL</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal Lo lograste -->
+      <button data-target="lolograste" class="btn modal-trigger">Lo lograste</button>
+      <!-- Modal Lo lograste -->
+      <div id="lolograste" class="modal w-500px">
+        <div class="modal-content p-0">
+          <button class="modal-close">x</button>
+          <div class="body center-align">
+            <div class="row valign-wrapper">
+              <div class="col m6 s12">
+                <img src="./img/modals/modal-obj.png"  alt="" srcset="">
+              </div>
+              <div class="col m6 s12">
+                <img src="./img/modals/ic-carrito-rojo.svg" class="mt-1" alt="" srcset="">
+                <h5>¡Lo lograste!</h5>
+                <p>Ya tienes los puntos necesarios para poder canjear tu premio objetivo.</p>
+                <button class="btn btn-primary">CANJEARL</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal Mi tienda de 10 -->
+      <button data-target="tienda10" class="btn modal-trigger">Mi tienda de 10</button>
+      <!-- Modal Mi tienda de 10 -->
+      <div id="tienda10" class="modal w-320px br__0">
+        <div class="modal-content p-0">
+          <div class="modal-header red">
+            <button class="modal-close white-text">x</button>
+            <img src="./img/modals/lideres-logo-bco.svg" class="mx-auto d__block py-2" alt="" srcset="">
+          </div>
+          <div class="body dark white-text center-align p-2">
+            <img src="./img/modals/noti-mitienda-bco.svg" alt="" srcset="">
+            <h5>Mi Tienda de 10</h5>
+            <p>Conoce tus resultados del mes de marzo.</p>
+            <button class="btn btn-primary w-100">MI TIENDA</button>
+          </div>
+        </div>
+      </div>
+      <!-- Modal ¡Aún te falta! -->
+      <button data-target="aunfalta" class="btn modal-trigger">¡Aún te falta!</button>
+      <!-- Modal ¡Aún te falta! -->
+      <div id="aunfalta" class="modal w-320px br__0">
+        <div class="modal-content p-0">
+          <div class="modal-header red">
+            <button class="modal-close white-text">x</button>
+            <img src="./img/modals/lideres-logo-bco.svg" class="mx-auto d__block py-2" alt="" srcset="">
+          </div>
+          <div class="body center-align p-2">
+            <h5>¡Aún te falta!</h5>
+            <img src="./img/modals/modal-cb.png" alt="" srcset="">
+            <p>Coca-Cola Regular NR vidrio 235 ml</p>
+            <button class="btn btn-primary w-100">IMPERDONABLES</button>
+          </div>
+        </div>
+      </div>
+
+      <h5>Sección C Estado de cuenta</h5>
+      <!-- Modal Código de certificado -->
+      <button data-target="aunfalta" class="btn modal-trigger">Código de certificado</button>
+      <!-- Modal Código de certificado -->
+      <div id="aunfalta" class="modal w-320px br__0">
+        <div class="modal-content p-0">
+          <div class="modal-header red">
+            <button class="modal-close white-text">x</button>
+            <img src="./img/modals/lideres-logo-bco.svg" class="mx-auto d__block py-2" alt="" srcset="">
+          </div>
+          <div class="body center-align p-2">
+            <h5>¡Aún te falta!</h5>
+            <img src="./img/modals/modal-cb.png" alt="" srcset="">
+            <p>Coca-Cola Regular NR vidrio 235 ml</p>
+            <button class="btn btn-primary w-100">IMPERDONABLES</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+    <div class="chat">
+      <img src="./img/mismetas-activo/boton-chat.svg" alt="" srcset="">
+    </div>
+  </main>
+  <footer>
+    <a href="#!">Términos y condiciones</a>
+    <a href="#!">Aviso de privacidad</a>
+    <a href="#!">preguntas frecuentes</a>
+    <a href="#!">garantía de premios</a>
+    <a href="#!">contacto</a>
+  </footer>
+
+  <script src="js/dropdown.js"></script>
+  <!-- <script src="js/grafica.js"></script> -->
+  <script src="js/apexchart.js"></script>
+  <script>
+    M.AutoInit();
+  </script>
+  <script>
+    var elem = document.querySelector('.sidenav');
+    var instance = new M.Sidenav(elem, { edge: 'left' });
+    var elem = document.querySelector('.sidenav2');
+    var instance = new M.Sidenav(elem, { edge: 'right' });
+  </script>
+  <script>
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems, {
+      inDuration: 350,
+      outDuration: 125,
+      alignment: 'right'
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>

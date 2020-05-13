@@ -8219,54 +8219,6 @@ input[type=range]::-ms-thumb {
   font-weight: normal;
   font-style: normal;
 }
-.br__0 {
-  -webkit-border-radius: 0 0 !important;
-  -moz-border-radius: 0 0 !important;
-  -ms-border-radius: 0 0 !important;
-  -o-border-radius: 0 0 !important;
-  border-radius: 0 0 !important;
-}
-
-.br__2px {
-  -webkit-border-radius: 2px 2px !important;
-  -moz-border-radius: 2px 2px !important;
-  -ms-border-radius: 2px 2px !important;
-  -o-border-radius: 2px 2px !important;
-  border-radius: 2px 2px !important;
-}
-
-.br__4px {
-  -webkit-border-radius: 4px 4px !important;
-  -moz-border-radius: 4px 4px !important;
-  -ms-border-radius: 4px 4px !important;
-  -o-border-radius: 4px 4px !important;
-  border-radius: 4px 4px !important;
-}
-
-.br__6px {
-  -webkit-border-radius: 6px 6px !important;
-  -moz-border-radius: 6px 6px !important;
-  -ms-border-radius: 6px 6px !important;
-  -o-border-radius: 6px 6px !important;
-  border-radius: 6px 6px !important;
-}
-
-.br__8px {
-  -webkit-border-radius: 8px 8px !important;
-  -moz-border-radius: 8px 8px !important;
-  -ms-border-radius: 8px 8px !important;
-  -o-border-radius: 8px 8px !important;
-  border-radius: 8px 8px !important;
-}
-
-.br__10px {
-  -webkit-border-radius: 10px 10px !important;
-  -moz-border-radius: 10px 10px !important;
-  -ms-border-radius: 10px 10px !important;
-  -o-border-radius: 10px 10px !important;
-  border-radius: 10px 10px !important;
-}
-
 .ov-x__auto {
   overflow-x: auto;
 }
@@ -8416,155 +8368,147 @@ input[type=range]::-ms-thumb {
 }
 
 .w-0 {
-  width: 0 !important;
+  width: 0;
 }
 
 .w-25 {
-  width: 25% !important;
+  width: 25%;
 }
 
 .w-50 {
-  width: 50% !important;
+  width: 50%;
 }
 
 .w-75 {
-  width: 75% !important;
+  width: 75%;
 }
 
 .w-100 {
-  width: 100% !important;
+  width: 100%;
 }
 
 .w-125 {
-  width: 125% !important;
+  width: 125%;
 }
 
 .w-150 {
-  width: 150% !important;
+  width: 150%;
 }
 
 .w-175 {
-  width: 175% !important;
+  width: 175%;
 }
 
 .w-200 {
-  width: 200% !important;
+  width: 200%;
 }
 
 .w-25px {
-  width: 25px !important;
+  width: 25px;
 }
 
 .w-50px {
-  width: 50px !important;
+  width: 50px;
 }
 
 .w-75px {
-  width: 75px !important;
+  width: 75px;
 }
 
 .w-100px {
-  width: 100px !important;
+  width: 100px;
 }
 
 .w-125px {
-  width: 125px !important;
+  width: 125px;
 }
 
 .w-150px {
-  width: 150px !important;
+  width: 150px;
 }
 
 .w-175px {
-  width: 175px !important;
+  width: 175px;
 }
 
 .w-200px {
-  width: 200px !important;
-}
-
-.w-320px {
-  width: 320px !important;
-}
-
-.w-500px {
-  width: 500px !important;
+  width: 200px;
 }
 
 .w-1em {
-  width: 1em !important;
+  width: 1em;
 }
 
 .w-2em {
-  width: 2em !important;
+  width: 2em;
 }
 
 .w-3em {
-  width: 3em !important;
+  width: 3em;
 }
 
 .w-25vh {
-  width: 25vh !important;
+  width: 25vh;
 }
 
 .w-50vh {
-  width: 50vh !important;
+  width: 50vh;
 }
 
 .w-75vh {
-  width: 75vh !important;
+  width: 75vh;
 }
 
 .w-100vh {
-  width: 100vh !important;
+  width: 100vh;
 }
 
 .w-125vh {
-  width: 125vh !important;
+  width: 125vh;
 }
 
 .w-150vh {
-  width: 150vh !important;
+  width: 150vh;
 }
 
 .w-175vh {
-  width: 175vh !important;
+  width: 175vh;
 }
 
 .w-200vh {
-  width: 200vh !important;
+  width: 200vh;
 }
 
 .w-25vmax {
-  width: 25vmax !important;
+  width: 25vmax;
 }
 
 .w-50vmax {
-  width: 50vmax !important;
+  width: 50vmax;
 }
 
 .w-75vmax {
-  width: 75vmax !important;
+  width: 75vmax;
 }
 
 .w-100vmax {
-  width: 100vmax !important;
+  width: 100vmax;
 }
 
 .w-125vmax {
-  width: 125vmax !important;
+  width: 125vmax;
 }
 
 .w-150vmax {
-  width: 150vmax !important;
+  width: 150vmax;
 }
 
 .w-175vmax {
-  width: 175vmax !important;
+  width: 175vmax;
 }
 
 .w-200vmax {
-  width: 200vmax !important;
+  width: 200vmax;
 }
 
 .f-left {
@@ -9734,21 +9678,6 @@ nav i.material-icons {
   line-height: 13px;
   hyphens: none !important;
   font-family: "Gotham-Bold";
-}
-.noti li div {
-  width: -webkit-calc(100% - 40px);
-  width: -moz-calc(100% - 40px);
-  width: calc(100% - 40px);
-}
-.noti li div p, .noti li div small {
-  width: 100%;
-  text-align: left;
-}
-.noti li div small {
-  font-size: 11px;
-  line-height: 13px;
-  hyphens: none !important;
-  font-family: "Gotham-Book";
 }
 
 .notificaciones {
@@ -11052,8 +10981,6 @@ thead th:only-child {
   -o-border-radius: 0.5em 0.5em;
   border-radius: 0.5em 0.5em;
   width: 65%;
-  max-height: 90%;
-  background: #ffffff;
 }
 
 #dinamico,
@@ -12733,10 +12660,6 @@ select.browser-default {
   margin: 0;
   margin-bottom: 10px;
   font: normal 15px/18px "Gotham-Book";
-}
-
-.dark {
-  background-color: #252525;
 }
 
 @media only screen and (max-width: 992px) {
