@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="css/cols15.css">
   <title>Mis Metas</title>
 </head>
-<body class="theme-gris">
+<body class="theme-rojo">
   <nav class="red-">
     <ul id="slide-out" class="sidenav sidenav-fixed">
       <div class="perfil">
@@ -37,7 +37,7 @@
       <li >
         <ul class="collapsible collapsible-accordion">
           <li>
-            <a class="collapsible-header active tooltipped" data-position="right" data-tooltip="Mis Metas">
+            <a class="collapsible-header active  tooltipped" data-position="right" data-tooltip="Mis Metas">
               <img src="./img/mismetas-activo/ic-mis-metas.svg" alt="" srcset="">
              <span >Mis metas</span><i class="material-icons right drop">arrow_forward_ios</i></a>
             <div class="collapsible-body">
@@ -300,15 +300,27 @@
         
       </ul>
     </ul>
+
+    
     
     <ul>
       <li class="logo"><a href="#!" class="logo-img"></a></li>
     </ul>
     <!-- <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-med-and-up-"><i class="material-icons hamburguer">menu</i></a>
   <a href="#" class="sidenav-trigger  hide-on-small-only-"><i id="sidenavToggler" class="material-icons hamburguer">lock</i></a>  -->
-    <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only "><i class="material-icons hamburguer">menu</i></a>
-   <a id="sidenavToggler" class="sidenav-trigger show-on-large hide-on-med-and-down "> <i class="material-icons hamburguer">menu</i></a>
-    <!-- SEGUNDO MENU LATERAL MOBILE <a href="#" data-target="slide-out2" class="sidenav-trigger show-on-large">2</a> -->
+    <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only mr-0 "><i class="material-icons hamburguer">menu</i></a>
+   <a id="sidenavToggler" class="sidenav-trigger show-on-large hide-on-med-and-down mr-0 "> <i class="material-icons hamburguer">menu</i></a>
+   <a href="#" data-target="slide-out2" class="sidenav-trigger hide-on-med-and-up ml-0"><i class="material-icons">more_vert</i></a>
+    <!-- SEGUNDO MENU LATERAL MOBILE -->
+    <ul id="slide-out2" class="sidenav sidenav-fixed">
+      <li><a href="./mis-datos.html"><img src="./img/ic-misdatos.svg" alt="">Mis Datos</a></li>
+        <li><a href="./cambiar-clave.html"><img src="./img/ic-cambiar_clave.svg" alt="">Cambiar Contraseña</a></li>
+        <li><a href="./agregar-dest.html"><img src="./img/ic-destinatario.svg" alt="">Agregar Destinatarios</a></li>
+        <li><a href="./centro-pref.html"><img src="./img/ic-preferencias.svg" alt="">Centro de Preferencias</a></li>
+    </ul>
+   
+
+  
   </nav>
   
   <main>
@@ -318,7 +330,7 @@
           <div class="title">Mis Metas</div>
           <p>Actualizado al viernes 16 de Abril de 2020</p>
         </div>
-        <div class="row m-0">
+        <div class="row">
           <div class="col s15 l6 m6 cards-principal">
             <div class="card hoverable miMeta">
               <span class="card-title">Mi Meta de Agosto</span>
@@ -364,22 +376,22 @@
                 </div>
               </div>
               <div class="card-stacked dos h-100 card-reveal-">
-               <!--  <div class="card-title">
+                <div class="card-title">
                   Mi Tienda Mes Pasado
-                </div>  -->
+                </div> 
                 <hr>
                 <div class="card-content d-flex justify-content-center align-items-center">
-                  
+                  <!--  // EN CASO DE CAMBIO DE CLIENTE A GROS, DORADO O NEGRO//
                   <ul>
-                    <li class="item"><img src="./img/ic-respeto.svg" alt=""><p><b>Respeto</b><br>del enfriador</p></li><div class="divider my-01"></div>
-                    <li class="item"><img src="./img/ic-comunicacion.svg" alt=""><p><b>Comunicación</b><br>de precios</p></li><div class="divider my-01"></div>
-                    <li class="item"><img src="./img/ic-materiales.svg" alt=""><p><b>Materiales</b><br>Promocionales</p></li><div class="divider my-01"></div>
-                    <li class="item"><img src="./img/ic-llenado.svg" alt=""><p><b>Llenado</b><br>del enfriador</p></li>
-                  </ul> 
+                    <li class="item"><img src="./img/cocina.png" alt=""><p><b>Respeto</b><br>del enfriador</p></li>
+                    <li class="item"><img src="./img/cocina.png" alt=""><p><b>Comunicación</b><br>de precios</p></li>
+                    <li class="item"><img src="./img/cocina.png" alt=""><p><b>Materiales</b><br>Promocionales</p></li>
+                    <li class="item"><img src="./img/cocina.png" alt=""><p><b>Llenado</b><br>del enfriador</p></li>
+                  </ul> -->
 
 
               
-                <!--  // EN CASO DE CAMBIO DE CLIENTE A GROS, DORADO O NEGRO//
+                
                   <div class="botella">
                     <svg xmlns="http://www.w3.org/2000/svg" class="botella" width="55.937" height="154.001"
                       viewBox="0 0 55.937 154.001">
@@ -401,8 +413,6 @@
                     <img src="./img/mismetas-activo/comunic-precios-bco.svg" alt="">
                     <p>Portafolio<br>Imperdonables</p>
                   </div>
-
-                -->
                 </div>
               </div>
             </div>
@@ -413,11 +423,12 @@
               <div class="card-content">
                 <ul>
                   <li>
-                    <img src="./img/mismetas-activo/Noti-Conoce tu meta.svg" alt="" srcset="">
+                    <img src="./img/notificaciones/noti-meta.svg" alt="" srcset="">
                     <p>Conoce tu meta del mes y multiplica tus puntos.</p>
                   </li>
+                  
                   <li>
-                    <img src="./img/mismetas-activo/Noti-Ganado.svg" alt="" srcset="">
+                    <img src="./img/notificaciones/noti-ganado.svg" alt="" srcset="">
                     <p>Descubre cuánto has ganado</p>
                   </li>
                   <li>
@@ -425,16 +436,27 @@
                     <p>Gana 200 puntos al responder esta breve encuesta</p>
                   </li>
                   <li>
-                    <img src="./img/mismetas-activo/Noti-Conoce tu meta.svg" alt="" srcset="">
-                    <p>Conoce tu meta del mes y multiplica tus puntos.</p>
+                    <img src="./img/notificaciones/noti-buenviaje.svg" alt="" srcset="">
+                    <p>Líderes Coca-Cola te desea un buen viaje.</p>
                   </li>
                   <li>
-                    <img src="./img/mismetas-activo/Noti-Ganado.svg" alt="" srcset="">
-                    <p>Descubre cuánto has ganado</p>
+                    <img src="./img/notificaciones/noti-premio.svg" alt="" srcset="">
+                    <p>¡Tenemos este premio especial por temporada!</p>
                   </li>
                   <li>
-                    <img src="./img/mismetas-activo/Noti-Gana puntos.svg" alt="" srcset="">
-                    <p>Gana 200 puntos al responder esta breve encuesta</p>
+                    <img src="./img/notificaciones/noti-catalogo.svg" alt="" srcset="">
+                    <p>Explora nuestro catálogo para canjes.</p>
+                  </li>
+                  <li>
+                    <img src="./img/notificaciones/noti-objetivo.svg" alt="" srcset="">
+                    <p>Ya estás cerca de los puntos que requieres para poder canjear…</p>
+                  </li>
+                  <li>
+                    <img src="./img/notificaciones/noti-lograste.svg" alt="" srcset="">
+                    <div>
+                      <p>¡Lo lograste!</p>
+                    <small>Ya tienes los puntos necesarios para…</small>
+                    </div>
                   </li>
                   
                   
@@ -494,77 +516,101 @@
                     <div class="divider"></div>
                     <div class="meses">
                       <div class="cajaMeses">
+                        <a href="tienda-anio.html">
                         <div class="mes green">
                           <i class="icon-tienda-1"></i>
                         </div>
                         <p>NOV</p>
+                      </a>
                       </div>
                       <div class="cajaMeses">
+                        <a href="tienda-anio.html">
                         <div class="mes yellow">
                           <i class="icon-tienda-1"></i>
                         </div>
                         <p>DIC</p>
+                      </a>
                       </div>
                       <div class="cajaMeses">
+                        <a href="tienda-anio.html">
                         <div class="mes red darken-1">
                           <i class="icon-tienda-1"></i>
                         </div>
                         <p>ENE</p>
+                      </a>
                       </div>
                       <div class="cajaMeses">
+                        <a href="tienda-anio.html">
                         <div class="mes green">
                           <i class="icon-tienda-1"></i>
                         </div>
                         <p>FEB</p>
+                      </a>
                       </div>
                       <div class="cajaMeses">
+                        <a href="tienda-anio.html">
                         <div class="mes green">
                           <i class="icon-tienda-1"></i>
                         </div>
                         <p>MAR</p>
+                      </a>
                       </div>
                       <div class="cajaMeses">
+                        <a href="tienda-anio.html">
                         <div class="mes">
                           <i class="icon-tienda-1"></i>
                         </div>
                         <p>ABR</p>
+                      </a>
                       </div>
                       <div class="cajaMeses">
+                        <a href="tienda-anio.html">
                         <div class="mes">
                           <i class="icon-tienda-1"></i>
                         </div>
                         <p>MAY</p>
+                      </a>
                       </div>
 
                       <div class="cajaMeses">
+                        <a href="tienda-anio.html">
                         <div class="mes">
                           <i class="icon-tienda-1"></i>
                         </div>
                         <p>JUN</p>
+                      </a>
                       </div>
                       <div class="cajaMeses">
+                        <a href="tienda-anio.html">
                         <div class="mes">
                           <i class="icon-tienda-1"></i>
                         </div>
                         <p>JUL</p>
+                      </a>
                       </div>
                       <div class="cajaMeses">
+                        <a href="tienda-anio.html">
                         <div class="mes">
                           <i class="icon-tienda-1"></i>
                         </div>
                         <p>AGO</p>
+                      </a>
                       </div>
                       <div class="cajaMeses">
+                        <a href="tienda-anio.html">
                         <div class="mes">
                           <i class="icon-tienda-1"></i>
                         </div>
                         <p>SEP</p>
+                      </a>
                       </div>
                       <div class="cajaMeses">
+                        <a href="tienda-anio.html">
                         <div class="mes">
                           <i class="icon-tienda-1"></i>
                         </div>
                         <p>OCT</p>
+                      </a>
                       </div>
                       
 
@@ -572,7 +618,10 @@
                     </div>
                   </div>
                 </div>
-                <s></s>
+                
+                  <small class="mt-n4"><a href="cambio-nivel.html" ">Ver detalle</a></small>
+                
+               
               </div>
 
             </div>
@@ -712,15 +761,21 @@
     M.AutoInit();
     
   </script>
+
+
   
 
   <script>
-       var elem = document.querySelector('.sidenav');
+    var instances = M.Sidenav.init();
+       var elem = document.querySelector('#slide-out');
         var instance = new M.Sidenav(elem, {edge: 'left'});
-       var elem = document.querySelector('.sidenav2');
+       var elem = document.querySelector('#slide-out2');
         var instance = new M.Sidenav(elem, {edge: 'right'});
+
+       
     // instance.show();
   </script>
+  
 
 
 <script>
@@ -737,6 +792,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 
 <script src="./js/main.js"></script>
+
+
+
 
 </body>
 
