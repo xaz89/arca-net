@@ -9649,7 +9649,7 @@ nav i.material-icons {
 }
 .miMeta .card-content small {
   position: absolute;
-  top: 50%;
+  top: 53%;
   margin: auto;
   left: 0;
   right: 0;
@@ -10242,7 +10242,7 @@ nav ul.controls i.material-icons {
 
 .sidenav .collapsible-body li a,
 .sidenav.fixed .collapsible-body li a {
-  padding: 0 23.5px 0 31px;
+  padding: 0 0 0 52px;
   font-family: "Gotham-Book", sans-serif;
   font-size: 0.8em;
 }
