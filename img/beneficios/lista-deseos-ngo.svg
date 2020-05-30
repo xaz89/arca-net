@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #1d1d1b;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="lista-deseos-ngo" transform="translate(-443.674 -410.661)">
+    <rect id="Rectángulo_2428" data-name="Rectángulo 2428" class="cls-1" width="30" height="30" transform="translate(443.674 410.661)"/>
+    <g id="Lista_deseos_red" data-name="Lista deseos red" transform="translate(449.747 414.09)">
+      <path id="Trazado_7517" data-name="Trazado 7517" class="cls-2" d="M466.087,429.191V416.211a1.537,1.537,0,0,0-1.524-1.55H452.284a1.536,1.536,0,0,0-1.525,1.548v18.606a1.536,1.536,0,0,0,1.524,1.549h8.276" transform="translate(-450.759 -414.661)"/>
+      <line id="Rectángulo_2060" data-name="Rectángulo 2060" class="cls-2" x1="10.219" transform="translate(2.554 4.899)"/>
+      <line id="Rectángulo_2061" data-name="Rectángulo 2061" class="cls-2" x1="10.219" transform="translate(2.554 7.999)"/>
+      <line id="Rectángulo_2062" data-name="Rectángulo 2062" class="cls-2" x1="10.219" transform="translate(2.554 11.089)"/>
+      <line id="Rectángulo_2063" data-name="Rectángulo 2063" class="cls-2" x1="10.219" transform="translate(2.554 14.178)"/>
+      <path id="Trazado_7518" data-name="Trazado 7518" class="cls-2" d="M453.739,434.807h5.531" transform="translate(-451.185 -417.539)"/>
+      <g id="Grupo_6777" data-name="Grupo 6777" transform="translate(9.3 15.716)">
+        <path id="Trazado_7519" data-name="Trazado 7519" class="cls-2" d="M463.434,433a1.789,1.789,0,0,0-1.531.741,2.026,2.026,0,0,0-.274.855,3.5,3.5,0,0,0-.02.368,5.342,5.342,0,0,0,.171,1.259,3.838,3.838,0,0,0,.822,1.457,9.643,9.643,0,0,0,.961.993,18.384,18.384,0,0,0,2.321,1.753c1.8-1.149,3.762-2.814,4.1-4.2a5.387,5.387,0,0,0,.171-1.259,1.973,1.973,0,0,0-.55-1.528h0a1.883,1.883,0,0,0-1.274-.434,2.661,2.661,0,0,0-.605.07,2.248,2.248,0,0,0-.862.393,1.337,1.337,0,0,0-.3.314l-.342.521a.407.407,0,0,1-.564.12.4.4,0,0,1-.12-.12l-.342-.521A2.18,2.18,0,0,0,463.434,433Z" transform="translate(-461.609 -432.996)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,95 @@
+.hasDatepicker{
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+.ui-datepicker th{
+    font-weight: normal;
+}
+
+.ui-widget.ui-widget-content {
+    border: none;
+}
+
+.ui-datepicker-calendar thead{
+    background-color: white;
+    color: black;
+}
+
+.ui-datepicker-title{
+    font-weight: 800;
+}
+
+.ui-widget-header{
+    font-family: "Montserrat", sans-serif;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+    border: none;
+    background: white;
+    font-weight: normal;
+}
+
+.ui-state-default.ui-state-hover{
+    /* text-align: right; */
+    /* float: right; */
+    width: 1.8em;
+    height: 1.8em;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 50% 50%;
+    -webkit-border-radius: 50% 50%;
+    -moz-border-radius: 50% 50%;
+    -ms-border-radius: 50% 50%;
+    -o-border-radius: 50% 50%;
+}
+
+.ui-state-default.ui-state-active{
+    /* text-align: right; */
+    /* float: right; */
+    width: 1.8em;
+    height: 1.8em;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50% 50%;
+    -webkit-border-radius: 50% 50%;
+    -moz-border-radius: 50% 50%;
+    -ms-border-radius: 50% 50%;
+    -o-border-radius: 50% 50%;
+}
+
+.ui-widget-header {
+    border: none;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    background: white;
+    color: #333333;
+    font-weight: bold;
+}
+
+.ui-state-hover{
+    background-color: blue;
+}
+
+.ui-datepicker-inline{
+    width: 100%;
+}
+
+.ui-datepicker td {
+    height: 3.6em;
+    font-size: 1em;
+}
+.ui-datepicker tr {
+    border: none;
+}
+
+.ui-datepicker td span, .ui-datepicker td a {
+    display: block;
+    /* padding: .2em; */
+    text-align: right;
+    text-decoration: none;
+    width: 1.8em;
+    height: 1.8em;
+}

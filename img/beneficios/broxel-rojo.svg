@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #f40000;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="broxel-rojo" transform="translate(-519.511 -409.904)">
+    <rect id="Rectángulo_2433" data-name="Rectángulo 2433" class="cls-1" width="30" height="30" transform="translate(519.511 409.904)"/>
+    <g id="Grupo_7987" data-name="Grupo 7987" transform="translate(522.94 417.292)">
+      <path id="Trazado_7657" data-name="Trazado 7657" class="cls-2" d="M538.424,424.37a.5.5,0,0,1,.389.189,2.109,2.109,0,1,0,0-2.6.494.494,0,0,1-.693.084.486.486,0,0,1-.084-.084,2.109,2.109,0,1,0,0,2.6.5.5,0,0,1,.389-.189Zm5.961,9.376H525.78a2.271,2.271,0,0,1-2.269-2.268V420.791a2.271,2.271,0,0,1,2.269-2.268h18.606a2.269,2.269,0,0,1,2.268,2.268v10.688A2.269,2.269,0,0,1,544.386,433.747Z" transform="translate(-523.511 -418.523)"/>
+      <g id="Grupo_7986" data-name="Grupo 7986" transform="translate(2.97 10.308)">
+        <line id="Línea_193" data-name="Línea 193" class="cls-2" x2="3.091"/>
+        <line id="Línea_194" data-name="Línea 194" class="cls-2" x2="3.091" transform="translate(4.704)"/>
+        <line id="Línea_195" data-name="Línea 195" class="cls-2" x2="3.091" transform="translate(9.408)"/>
+        <line id="Línea_196" data-name="Línea 196" class="cls-2" x2="3.091" transform="translate(14.112)"/>
+      </g>
+      <line id="Línea_197" data-name="Línea 197" class="cls-2" y1="0.123" x2="7.414" transform="translate(3.143 12.401)"/>
+    </g>
+  </g>
+</svg>

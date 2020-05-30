@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #404041;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="outlet-premios-gris" transform="translate(-227.178 -408.041)">
+    <rect id="Rectángulo_2431" data-name="Rectángulo 2431" class="cls-1" width="30" height="30" transform="translate(227.178 408.041)"/>
+    <g id="Grupo_7971" data-name="Grupo 7971" transform="translate(230.785 411.47)">
+      <path id="Trazado_7845" data-name="Trazado 7845" class="cls-2" d="M239.067,415.238a18.011,18.011,0,0,1,3.963-1.746m-3.623,3.615,8.114-4.11c1.617.082,4.469.621,5.247,1.717a.665.665,0,0,1-.051.782c-.429.508-1.633,1.273-4.9.645a8.079,8.079,0,0,1-3.712-1.41.489.489,0,0,0-.187-.151l-.861-1.1a11.843,11.843,0,0,1,4.465-.474Z" transform="translate(-232.483 -412.172)"/>
+      <path id="Trazado_7846" data-name="Trazado 7846" class="cls-2" d="M243.048,432.2l8.246-8.486m-12.2-6.357a2.492,2.492,0,1,1-2.491-2.529,2.492,2.492,0,0,1,2.491,2.529Zm14.936,8.811-8.705-8.841-3.32-3.374-1.742-1.771a.468.468,0,0,0-.335-.141h-5.7a.471.471,0,0,0-.336.141l-2.373,2.412a.481.481,0,0,0-.139.339v5.787a.483.483,0,0,0,.139.34l13.768,13.983a.47.47,0,0,0,.663.008l.008-.008,8.071-8.2a.483.483,0,0,0,0-.678" transform="translate(-231.386 -412.041)"/>
+      <path id="Trazado_7847" data-name="Trazado 7847" class="cls-2" d="M248.715,424.553" transform="translate(-233.862 -413.828)"/>
+      <path id="Trazado_7848" data-name="Trazado 7848" class="cls-2" d="M244.194,429.383l.006-.006,4.273-4.34" transform="translate(-233.216 -413.898)"/>
+      <path id="Trazado_7849" data-name="Trazado 7849" class="cls-2" d="M242.845,428.006l.006-.006,4.273-4.34" transform="translate(-233.023 -413.701)"/>
+      <path id="Trazado_7850" data-name="Trazado 7850" class="cls-2" d="M241.6,426.733l.006-.006,4.273-4.34" transform="translate(-232.845 -413.519)"/>
+      <path id="Trazado_7851" data-name="Trazado 7851" class="cls-2" d="M245.392,421.176" transform="translate(-233.387 -413.346)"/>
+    </g>
+  </g>
+</svg>

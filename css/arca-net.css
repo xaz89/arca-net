@@ -159,6 +159,86 @@
   color: #3a2d1d !important;
 }
 
+.gray {
+  background-color: #6f6f6f !important;
+}
+
+.gray-text {
+  color: #6f6f6f !important;
+}
+
+.gray.lighten-5 {
+  background-color: #e3e3e3 !important;
+}
+
+.gray-text.text-lighten-5 {
+  color: #e3e3e3 !important;
+}
+
+.gray.lighten-4 {
+  background-color: #bfbfbf !important;
+}
+
+.gray-text.text-lighten-4 {
+  color: #bfbfbf !important;
+}
+
+.gray.lighten-3 {
+  background-color: #9d9d9d !important;
+}
+
+.gray-text.text-lighten-3 {
+  color: #9d9d9d !important;
+}
+
+.gray.lighten-2 {
+  background-color: #8e8c8c !important;
+}
+
+.gray-text.text-lighten-2 {
+  color: #8e8c8c !important;
+}
+
+.gray.lighten-1 {
+  background-color: #787878 !important;
+}
+
+.gray-text.text-lighten-1 {
+  color: #787878 !important;
+}
+
+.gray.darken-1 {
+  background-color: #5b5b5b !important;
+}
+
+.gray-text.text-darken-1 {
+  color: #5b5b5b !important;
+}
+
+.gray.darken-2 {
+  background-color: #525252 !important;
+}
+
+.gray-text.text-darken-2 {
+  color: #525252 !important;
+}
+
+.gray.darken-3 {
+  background-color: #464646 !important;
+}
+
+.gray-text.text-darken-3 {
+  color: #464646 !important;
+}
+
+.gray.darken-4 {
+  background-color: #373737 !important;
+}
+
+.gray-text.text-darken-4 {
+  color: #373737 !important;
+}
+
 .red {
   background-color: #F40000 !important;
 }
@@ -10498,6 +10578,13 @@ nav ul.controls i.material-icons {
 .horizontal .dos .item p {
   font-size: 0.8rem;
 }
+.horizontal .dos .item.disabled img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+.horizontal .dos .item.disabled p {
+  opacity: 0.7;
+}
 .horizontal .dos .botella {
   text-align: left;
   -webkit-transition: all 0.5s;
@@ -10818,6 +10905,7 @@ thead th:only-child {
 .cardsGanados {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: auto;
   padding-left: 5px;
   padding-right: 5px;
@@ -10998,6 +11086,10 @@ thead th:only-child {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: space-between;
+  justify-content: space-between;
 }
 
 .beneficiosCard {
@@ -11075,11 +11167,11 @@ thead th:only-child {
   text-align: center;
   background-color: #f40000;
   color: #ffffff;
-  padding: 0.5em;
+  padding: 0.55em;
   margin-right: 0.5em;
   line-height: 0;
-  width: 1.5em;
-  height: 1.5em;
+  width: 1.75em;
+  height: 1.75em;
   -webkit-border-radius: 50% 50%;
   -moz-border-radius: 50% 50%;
   -ms-border-radius: 50% 50%;
@@ -11110,6 +11202,26 @@ thead th:only-child {
 }
 #dinamico .modal-content i {
   color: #99774c;
+}
+
+#experto .modal-title {
+  border-bottom: 2px solid #6f6f6f;
+}
+#experto .modal-title h5 b {
+  background-color: #6f6f6f;
+}
+#experto .modal-content i {
+  color: #6f6f6f;
+}
+
+#profesional .modal-title {
+  border-bottom: 2px solid #000000;
+}
+#profesional .modal-title h5 b {
+  background-color: #000000;
+}
+#profesional .modal-content i {
+  color: #000000;
 }
 
 .premiosPremios {
@@ -12746,6 +12858,10 @@ select.browser-default {
 .text-gray {
   color: #d3d3d3;
   cursor: pointer;
+}
+
+.modal-title {
+  padding-left: 0em !important;
 }
 
 @media only screen and (max-width: 992px) {

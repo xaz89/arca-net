@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-4, .cls-7 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: rgba(255,255,255,0);
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        stroke: #000;
+      }
+
+      .cls-3, .cls-7 {
+        stroke-linecap: round;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-7 {
+        stroke-miterlimit: 10;
+        stroke-width: 0.85px;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: #1d1d1b;
+      }
+
+      .cls-7 {
+        stroke: #1d1d1b;
+      }
+    </style>
+  </defs>
+  <g id="puntos-novencen-ngo" transform="translate(-282.5 -409.73)">
+    <rect id="Rectángulo_2426" data-name="Rectángulo 2426" class="cls-1" width="30" height="30" transform="translate(282.5 409.73)"/>
+    <g id="Grupo_7963" data-name="Grupo 7963" transform="translate(285.5 412.73)">
+      <path id="Trazado_7828" data-name="Trazado 7828" class="cls-2" d="M286,413.23h24v24H286Z" transform="translate(-286 -413.23)"/>
+      <g id="Grupo_7962" data-name="Grupo 7962" transform="translate(0.432 0.429)">
+        <path id="Trazado_7814" data-name="Trazado 7814" class="cls-3" d="M297.751,425.951h0a5.776,5.776,0,1,0,1.611,1.613" transform="translate(-286.825 -415.337)"/>
+        <path id="Trazado_7815" data-name="Trazado 7815" class="cls-3" d="M290.026,436.565a7.641,7.641,0,0,0,4.7,1.593,7.714,7.714,0,0,0,0-15.429" transform="translate(-287.007 -415.016)"/>
+        <path id="Trazado_7816" data-name="Trazado 7816" class="cls-4" d="M303.379,431.73" transform="translate(-288.915 -416.301)"/>
+        <path id="Trazado_7817" data-name="Trazado 7817" class="cls-3" d="M294.218,422.73a7.724,7.724,0,0,0-7.714,7.714,7.634,7.634,0,0,0,1.593,4.7" transform="translate(-286.504 -415.016)"/>
+        <path id="Trazado_7818" data-name="Trazado 7818" class="cls-3" d="M307.711,416.955h0a5.758,5.758,0,0,0-3.213-.975" transform="translate(-289.075 -414.051)"/>
+        <path id="Trazado_7819" data-name="Trazado 7819" class="cls-5" d="M298.412,422.169" transform="translate(-288.205 -414.936)"/>
+        <path id="Trazado_7820" data-name="Trazado 7820" class="cls-4" d="M303.55,415.98a5.786,5.786,0,0,0-5.689,4.735" transform="translate(-288.126 -414.051)"/>
+        <path id="Trazado_7821" data-name="Trazado 7821" class="cls-4" d="M305.517,428.262" transform="translate(-289.22 -415.806)"/>
+        <path id="Trazado_7822" data-name="Trazado 7822" class="cls-3" d="M305.62,427.9a.489.489,0,0,0,.087-.008A5.787,5.787,0,0,0,309.478,419" transform="translate(-289.235 -414.483)"/>
+        <g id="Grupo_7957" data-name="Grupo 7957" transform="translate(7.778)">
+          <path id="Trazado_7823" data-name="Trazado 7823" class="cls-3" d="M305.462,429.093a.386.386,0,0,0,.063,0q.258-.035.513-.086A7.717,7.717,0,0,0,304.5,413.73" transform="translate(-296.852 -413.73)"/>
+          <path id="Trazado_7824" data-name="Trazado 7824" class="cls-4" d="M303.224,413.73a7.737,7.737,0,0,0-7.56,6.171c-.033.169-.063.342-.086.514" transform="translate(-295.578 -413.73)"/>
+        </g>
+        <g id="Grupo_7959" data-name="Grupo 7959" transform="translate(5.042 12.807)">
+          <path id="Trazado_7825" data-name="Trazado 7825" class="cls-6" d="M294.751,429.746a1.043,1.043,0,1,0-1.042,1.075,1.059,1.059,0,0,0,1.042-1.075" transform="translate(-292.426 -428.672)"/>
+          <path id="Trazado_7826" data-name="Trazado 7826" class="cls-6" d="M297.994,429.746a1.043,1.043,0,1,0-1.042,1.075,1.059,1.059,0,0,0,1.042-1.075" transform="translate(-292.889 -428.672)"/>
+          <g id="Grupo_7958" data-name="Grupo 7958" transform="translate(0 2.943)">
+            <path id="Trazado_7827" data-name="Trazado 7827" class="cls-7" d="M292.386,432.817a2.717,2.717,0,0,0,2.673,1.686" transform="translate(-292.386 -432.208)"/>
+            <path id="Trazado_7828-2" data-name="Trazado 7828" class="cls-7" d="M292.694,432.106" transform="translate(-292.43 -432.106)"/>
+            <path id="Trazado_7829" data-name="Trazado 7829" class="cls-7" d="M297.651,432.4" transform="translate(-293.138 -432.148)"/>
+            <path id="Trazado_7830" data-name="Trazado 7830" class="cls-7" d="M295.5,434.5a2.718,2.718,0,0,0,2.673-1.686" transform="translate(-292.831 -432.208)"/>
+          </g>
+        </g>
+        <g id="Grupo_7960" data-name="Grupo 7960" transform="translate(16.263 16.141)">
+          <line id="Línea_187" data-name="Línea 187" class="cls-7" x1="2.627" y1="1.225" transform="translate(2.768)"/>
+          <line id="Línea_188" data-name="Línea 188" class="cls-7" x1="2.05" y1="2.05" transform="translate(1.384 1.384)"/>
+          <line id="Línea_189" data-name="Línea 189" class="cls-7" x1="1.225" y1="2.627" transform="translate(0 2.768)"/>
+        </g>
+        <g id="Grupo_7961" data-name="Grupo 7961" transform="translate(1.467 1.889)">
+          <line id="Línea_190" data-name="Línea 190" class="cls-7" x2="2.627" y2="1.225" transform="translate(0 4.17)"/>
+          <line id="Línea_191" data-name="Línea 191" class="cls-7" x2="2.05" y2="2.05" transform="translate(1.961 1.961)"/>
+          <line id="Línea_192" data-name="Línea 192" class="cls-7" x2="1.225" y2="2.627" transform="translate(4.17)"/>
+        </g>
+        <path id="Trazado_7831" data-name="Trazado 7831" class="cls-4" d="M304.359,419.066l.6,1.21a.3.3,0,0,0,.225.164l1.336.194a.3.3,0,0,1,.166.512l-.967.941a.3.3,0,0,0-.087.266l.227,1.329a.3.3,0,0,1-.435.315l-1.2-.627a.3.3,0,0,0-.28,0l-1.195.627a.3.3,0,0,1-.435-.315l.228-1.329a.3.3,0,0,0-.087-.266l-.967-.941a.3.3,0,0,1,.166-.512l1.335-.194a.3.3,0,0,0,.226-.164l.6-1.21a.3.3,0,0,1,.4-.14A.291.291,0,0,1,304.359,419.066Z" transform="translate(-288.632 -414.468)"/>
+      </g>
+    </g>
+  </g>
+</svg>

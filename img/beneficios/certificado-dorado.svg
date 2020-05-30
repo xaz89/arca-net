@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #916b3e;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 22.926;
+      }
+
+      .cls-3 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="certificado-dorado" transform="translate(-544 -316)">
+    <rect id="Rectángulo_2426" data-name="Rectángulo 2426" class="cls-1" width="30" height="30" transform="translate(544 316)"/>
+    <g id="ic_tiendadigital" data-name="ic tiendadigital" transform="translate(548 319)">
+      <path id="Trazado_954" data-name="Trazado 954" class="cls-2" d="M222.314,418.625h17.619a.947.947,0,0,1,.922.921l.922,16.554a.917.917,0,0,1-.91.922H221.391a.913.913,0,0,1-.922-.9V436.1l.922-16.554A.944.944,0,0,1,222.314,418.625Z" transform="translate(-220.469 -413.88)"/>
+      <path id="Trazado_955" data-name="Trazado 955" class="cls-3" d="M228.044,420.93a1.14,1.14,0,1,1-1.14,1.14h0A1.14,1.14,0,0,1,228.044,420.93Zm8,0a1.14,1.14,0,1,1-1.14,1.14h0A1.141,1.141,0,0,1,236.04,420.93Z" transform="translate(-221.388 -414.209)"/>
+      <path id="Trazado_956" data-name="Trazado 956" class="cls-2" d="M236.132,420.367v-3.4a3.891,3.891,0,0,0-3.879-3.879h0a3.89,3.89,0,0,0-3.879,3.879v3.4" transform="translate(-221.598 -413.089)"/>
+    </g>
+  </g>
+</svg>
