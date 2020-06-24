@@ -2882,24 +2882,6 @@ video.responsive-video {
   float: none;
 }
 
-
-#chart {
-  height: 150px!important;
-  overflow: hidden;
-  min-height: 150px!important;
-}
-
-#chart .apexcharts-canvas {
-  height: 150px!important;
-  overflow: hidden;
-  min-height: 150px!important;
-}
-
-.miMeta .card-content small{
-  position: unset!important;
-    top: unset!important;
-}
-
 @media only screen and (max-width : 992px) {
   .pagination {
     width: 100%;
@@ -10080,6 +10062,10 @@ main .dropdown-content li span {
 .sidenav li > a:hover, .sidenav li > a.active {
   background-color: #f72525;
 }
+.sidenav.menu2 .collapsible, .sidenav.menu2 .no-collapsible {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .sidenav .collapsible-header,
 .sidenav .no-collapsible {
   font-family: "Gotham-Book", sans-serif;
@@ -12880,6 +12866,23 @@ select.browser-default {
 
 .modal-title {
   padding-left: 0em !important;
+}
+
+#chart {
+  height: 150px !important;
+  overflow: hidden;
+  min-height: 150px !important;
+}
+
+#chart .apexcharts-canvas {
+  height: 150px !important;
+  overflow: hidden;
+  min-height: 150px !important;
+}
+
+.miMeta .card-content small {
+  position: unset !important;
+  top: unset !important;
 }
 
 @media only screen and (max-width: 992px) {

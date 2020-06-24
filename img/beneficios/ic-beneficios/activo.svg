@@ -1,0 +1,45 @@
+<svg id="activo" xmlns="http://www.w3.org/2000/svg" width="130" height="130" viewBox="0 0 130 130">
+  <rect id="Rectángulo_2425" data-name="Rectángulo 2425" width="130" height="130" fill="none"/>
+  <g id="Grupo_7954" data-name="Grupo 7954" transform="translate(19.551 16.713)">
+    <g id="Grupo_7943" data-name="Grupo 7943" transform="translate(0 59.644)">
+      <g id="Grupo_7941" data-name="Grupo 7941">
+        <path id="Trazado_7810" data-name="Trazado 7810" d="M125.234,679.26c14.482,2.169,23.478,7.273,23.478,13.323,0,8.179-16.28,14.348-37.867,14.348s-37.871-6.169-37.871-14.348c0-5.969,8.825-11.046,23.029-13.256" transform="translate(-65.757 -679.26)" fill="none" stroke="#252525" stroke-linejoin="round" stroke-width="2"/>
+        <g id="Grupo_7939" data-name="Grupo 7939" transform="translate(0 13.836)">
+          <line id="Línea_181" data-name="Línea 181" x2="18.791" fill="none" stroke="#252525" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Grupo_7940" data-name="Grupo 7940" transform="translate(72.106 13.836)">
+          <line id="Línea_182" data-name="Línea 182" x2="18.791" fill="none" stroke="#252525" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Grupo_7942" data-name="Grupo 7942" transform="translate(45.449 18.137)">
+        <line id="Línea_183" data-name="Línea 183" y1="18.792" fill="none" stroke="#252525" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+    <g id="Grupo_7953" data-name="Grupo 7953" transform="translate(29.978)">
+      <g id="Grupo_7944" data-name="Grupo 7944" transform="translate(6.727)">
+        <path id="Trazado_7811" data-name="Trazado 7811" d="M89.549,663.2a8.639,8.639,0,1,0,8.639,8.639A8.649,8.649,0,0,0,89.549,663.2Z" transform="translate(-80.913 -663.202)" fill="none" stroke="#252525" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Grupo_7951" data-name="Grupo 7951" transform="translate(0 21.888)">
+        <g id="Grupo_7947" data-name="Grupo 7947" transform="translate(15.362)">
+          <g id="Grupo_7945" data-name="Grupo 7945" transform="translate(9.959 13.589)">
+            <line id="Línea_184" data-name="Línea 184" y2="30.713" fill="none" stroke="#252525" stroke-linejoin="round" stroke-width="2"/>
+          </g>
+          <g id="Grupo_7946" data-name="Grupo 7946">
+            <path id="Trazado_7812" data-name="Trazado 7812" d="M83.238,669.1H91.38a7.228,7.228,0,0,1,7.221,7.22v17.8c0,3.982-1.363,7.221-5.345,7.221" transform="translate(-83.238 -669.095)" fill="none" stroke="#252525" stroke-linejoin="round" stroke-width="2"/>
+          </g>
+        </g>
+        <g id="Grupo_7950" data-name="Grupo 7950">
+          <g id="Grupo_7948" data-name="Grupo 7948" transform="translate(5.406 13.589)">
+            <line id="Línea_185" data-name="Línea 185" y2="30.713" fill="none" stroke="#252525" stroke-linejoin="round" stroke-width="2"/>
+          </g>
+          <g id="Grupo_7949" data-name="Grupo 7949">
+            <path id="Trazado_7813" data-name="Trazado 7813" d="M94.464,669.1H86.326a7.232,7.232,0,0,0-7.224,7.22v17.8c0,3.982,1.367,7.221,5.349,7.221" transform="translate(-79.102 -669.095)" fill="none" stroke="#252525" stroke-linejoin="round" stroke-width="2"/>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_7952" data-name="Grupo 7952" transform="translate(15.286 48.479)">
+        <line id="Línea_186" data-name="Línea 186" x1="0.154" y1="17.724" fill="none" stroke="#252525" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

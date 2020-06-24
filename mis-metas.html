@@ -20,7 +20,8 @@
 </head>
 <body class="theme-rojo">
   <nav class="red-">
-    <ul id="slide-out" class="sidenav sidenav-fixed">
+   
+    <ul id="slide-out" class="sidenav sidenav-fixed menu1">
       <div class="perfil">
         <p class="nombre">¡Hola Luis!</p>
         <p class="nivel">Activo</p>
@@ -94,6 +95,83 @@
           </li>
         </ul>
       </li>
+      <div class="d-md-none d-block">
+        <div class="divider"></div>
+        <li>
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header text-center"><img src="./img/profile.jpg" class="circle profile left"
+                  style="margin-top: 5px;" alt=""> Luis Felipe<i class="material-icons right drop">arrow_forward_ios</i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="./mis-datos.html"><i class="demo-icon icon-misdatos"></i>Mis Datos</a></li>
+                  <li><a href="./cambiar-clave.html"><i class="demo-icon icon-cambiarcontra"></i>Cambiar Contraseña</a></li>
+                  <li><a href="./agregar-dest.html"><i class="demo-icon icon-agregardest"></i>Agregar Destinatarios</a>
+                  </li>
+                  <li><a href="./centro-pref.html"><i class="demo-icon icon-preferencias"></i>Centro de Preferencias</a>
+                  </li>
+                  <li><a href="!#"><i class="demo-icon icon-regalo"></i>Regalo de Bienvenida</a></li>
+                  <li class="active-"><a href="premios.html"><i class="material-icons">power_settings_new</i>Salir</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <div class="divider"></div>
+        <li>
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header"><i class="material-icons">favorite_border</i>Favoritos<i
+                  class="material-icons right drop">arrow_forward_ios</i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li class="active-"><a href="premios.html"><i class="demo-icon icon-premios"></i>Bocina portatil</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header"><i class="material-icons">shopping_cart</i>Carrito de canje<i
+                  class="material-icons right drop">arrow_forward_ios</i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li class="active-"><a href="premios.html"><i class="demo-icon icon-premios"></i>Bocina portatil</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header"><i class="material-icons">notifications_none</i>Notificaciones<i
+                  class="material-icons right drop">arrow_forward_ios</i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li class="active-"><a href="premios.html"><i class="demo-icon icon-premios"></i>Bocina portatil</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <div class="divider"></div>
+      </div>
+      <li>
+        <a class="no-collapsible tooltipped" data-position="right" data-tooltip="Salir">
+          <img src="./img/mismetas-activo/ic-sal.svg" alt="" srcset="">
+       <span>Salir</span></a>
+      </li>
+    </ul>
+    <ul id="slide-out2" class="sidenav sidenav-fixed menu2 hide-on-large-only">
+      
+
       <div class="d-md-none d-block">
         <div class="divider"></div>
         <li>
@@ -308,7 +386,8 @@
   <a href="#" class="sidenav-trigger  hide-on-small-only-"><i id="sidenavToggler" class="material-icons hamburguer">lock</i></a>  -->
     <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only "><i class="material-icons hamburguer">menu</i></a>
    <a id="sidenavToggler" class="sidenav-trigger show-on-large hide-on-med-and-down "> <i class="material-icons hamburguer">menu</i></a>
-    <!-- SEGUNDO MENU LATERAL MOBILE <a href="#" data-target="slide-out2" class="sidenav-trigger show-on-large">2</a> -->
+    <!-- SEGUNDO MENU LATERAL MOBILE -->
+    <a href="#" data-target="slide-out2" class="sidenav-trigger hide-on-large-only"><i class="material-icons hamburguer">keyboard_arrow_down</i></a>
   </nav>
   
   <main>
@@ -755,9 +834,9 @@
 
   <script>
     
-       var elem = document.querySelector('.sidenav');
+       var elem = document.querySelector('.sidenav.menu1');
         var instance = new M.Sidenav(elem, {edge: 'left'});
-       var elem = document.querySelector('.sidenav2');
+       var elem = document.querySelector('.sidenav.menu2');
         var instance = new M.Sidenav(elem, {edge: 'right'});
         
     // instance.show();
