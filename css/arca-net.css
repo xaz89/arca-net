@@ -10522,6 +10522,8 @@ nav ul.controls i.material-icons {
   background-color: #252525;
   color: #ffffff;
   margin-left: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -ms-transition: all 0.2s;
@@ -10566,8 +10568,8 @@ nav ul.controls i.material-icons {
 .horizontal .dos .item {
   width: 100%;
   display: flex;
-  padding-top: 0.4em;
-  padding-bottom: 0.4em;
+  padding-top: 3px;
+  padding-bottom: 3px;
   align-items: center;
   border-bottom: 1px solid #252525;
 }
